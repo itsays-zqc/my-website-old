@@ -9,9 +9,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 const FeatureList = [
   {
-    title:'FAQ',
+    title:'Frequently Asked Questions',
    
-    Svg: require('@site/static/img/FAQ.svg').default,
+    Svg: require('@site/static/img/book.svg').default,
     
     description: (
       <>
@@ -46,7 +46,7 @@ const FeatureList = [
   },
   {
     title: 'Tutorials',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/hat.svg').default,
     description: (
       <>
               {/* <hr /> */}
@@ -86,7 +86,7 @@ const FeatureList = [
   
   {
     title: 'Example Library',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/document.svg').default,
     description: (
       <>
        {/* <hr /> */}
@@ -106,25 +106,25 @@ const FeatureList = [
         <hr style={{ margin: '0.25rem 0' }}/>
 
         <div style={{ textAlign: 'left' }}>
-        <a href="/my-website/docs/tutorial/material">4.PD(by GUI)</a>
+        <a href="/my-website/docs/tutorial/material">4.PD</a>
         </div>
         <hr style={{ margin: '0.25rem 0' }}/>
 
-        <div style={{ textAlign: 'left' }}>
+        {/* <div style={{ textAlign: 'left' }}>
         <a href="/my-website/docs/tutorial/t1">5.PD(by SDK)</a>
+        </div> */}
+        {/* <hr style={{ margin: '0.25rem 0' }}/> */}
+
+        <div style={{ textAlign: 'left' }}>
+        <a href="/my-website/docs/tutorial/mode/eme">6.MOD</a>
         </div>
         <hr style={{ margin: '0.25rem 0' }}/>
 
-        <div style={{ textAlign: 'left' }}>
-        <a href="/my-website/docs/tutorial/mode/eme">6.MOD(by GUI)</a>
-        </div>
-        <hr style={{ margin: '0.25rem 0' }}/>
 
-
-        <div style={{ textAlign: 'left' }}>
+        {/* <div style={{ textAlign: 'left' }}>
         <a href="/my-website/docs/tutorial/material">7.MOD(by SDK)</a>
         </div>
-        <hr style={{ margin: '0.25rem 0' }}/>
+        <hr style={{ margin: '0.25rem 0' }}/> */}
 
 
         <div style={{ textAlign: 'left' }}>
@@ -145,7 +145,7 @@ const FeatureList = [
 
   {
     title: 'How do I',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/tool.svg').default,
     description: (
       <>
          {/* <hr /> */}
@@ -179,20 +179,28 @@ const FeatureList = [
 
 ];
 
-function Feature({Svg, title, description}) {
+
+function Feature({ Svg, title, description }) {
   return (
     <div className={clsx('col col--6 ')}>
-      <div className="text--left">
-        <Svg className={styles.featureSvg} role="img" />
+      <div className='title'>
+        <div className="text--left">
+          <Svg className={styles.featureSvg} role="img" />
+        </div>
+        <div className="feature-content">
+          <h3 style={{fontSize:25,marginBottom: '1rem'}}>{title}</h3>
+        </div>
       </div>
+      
       <div className="text--left padding-horiz--md">
-        {/* <h3>{title}</h3> */}
-        <h3 style={{ backgroundColor: '#6da6d2',fontSize:30,marginBottom: '1rem'}}>{title}</h3>
         <p>{description}</p>
       </div>
     </div>
   );
 }
+
+
+
 
 export default function HomepageFeatures() {
   return (
@@ -207,3 +215,5 @@ export default function HomepageFeatures() {
     </section>
   );
 }
+
+

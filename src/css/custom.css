@@ -33,7 +33,7 @@
   --ifm-color-primary: #3a83bb;
   --ifm-color-primary-dark: #3476a8;
   --ifm-color-primary-darker: #316f9f;
-  --ifm-color-primary-darkest: #295c83;
+  --ifm-color-primary-darkest: #80c2f4;
   --ifm-color-primary-light: #478fc6;
   --ifm-color-primary-lighter: #5195c9;
   --ifm-color-primary-lightest: #6da6d2;
@@ -43,5 +43,21 @@
 .text-justify {
   text-align: justify;
   text-justify: inter-word;
+}
+
+.feature-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.title {
+  display: flex;
+  background-color:'#6da6d2';
+}
+.feature-content {
+  display: flex;
+  align-items: center;
 }
 
