@@ -29,13 +29,13 @@ const FeatureList = [
 
         <hr />
         <div style={{ textAlign: 'left' }}>
-          <a href="/my-website/docs/faq/">    1.What is Max-Optics? </a>
+          <a href="/my-website/docs/faq/faq2">    3.How to obtain a license? </a>
         </div>
 
 
         <hr />
         <div style={{ textAlign: 'left' }}>
-          <a href="/my-website/docs/faq/">    1.What is Max-Optics? </a>
+          <a href="/my-website/docs/faq/faq3">    4.How to obtain technical service support? </a>
         </div>
 
        
