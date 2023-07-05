@@ -10,11 +10,11 @@
 
 The standard material database includes two parts, one is material list, and another is material property plot. The material list includes a number of common materials, when creating a new simulation, the standard database will be loaded. And the materials in the standard material database can be imported into “User” and “Project” material database. The default materials cannot be edited directly
 
-![material1](material1.PNG )
+![material1](../../static/img/tutorial/material/material1.PNG )
 
 ### Material List:
 
-![material2](material2.PNG )
+![material2](../../static/img/tutorial/material/material2.PNG )
 
 1) ***ID:*** ID
    
@@ -88,7 +88,7 @@ The following materials are included in the standard material database.
 
 ###  Material Properties:
 
-![material3](material3.PNG )
+![material3](../../static/img/tutorial/material/material3.PNG )
 
 ***Plot:*** User can view each material property in this plot area via clicking a certain material in material list, also can view properties they are interested in via two options in the bottom of plot. Material properties include “Color”, “Name”, “Mesh Order”, “Wavelength”, “Frequency”, “n,k”-Re(refractive index)&Im(refractive index), “εr′,εr″”-Re(relative permittivity)&Im(relative permittivity), ε’,σ-Re(relative permittivity)&conductivity
 
@@ -97,7 +97,7 @@ Material Data tab: User can view each material property in this list via double 
 
 ***Material Data :***
 
-![material4](material4.PNG )
+![material4](../../static/img/tutorial/material/material4.PNG )
 
 ***Model Fitting:*** (Currently, the model fitting feature is not available and is still in the
 development process.)
@@ -105,7 +105,7 @@ development process.)
  ## User Material Database
  The User material database, a database that stores materials defined by user. The user material database includes two parts, one is material list, and another is material property plot. User can copy or delete a selected material, The materials in the “User” material database can be imported to the “Project” material database. And users also can export materials according to their needs.
 
-![material5](material5.PNG )
+![material5](../../static/img/tutorial/material/material5.PNG )
 
  ### Material List:
 1) ***ID:*** ID
@@ -133,7 +133,7 @@ follows.
 
 ### Material Properties:
 
-![material6](material6.PNG )
+![material6](../../static/img/tutorial/material/material6.PNG )
 
 ***Plot:*** User can view each material property in this plot area via clicking a certain material in material list, also can view properties they are interested in via two options in the bottom of plot. Material properties include “Color”, “Name”, “Mesh Order”, “Wavelength”, “Frequency”, “n,k”-Re(refractive index)&Im(refractive index), “εr′,εr″”-Re(relative permittivity)&Im(relative permittivity)，ε’,σ-Re(relative permittivity)&conductivity.
 
@@ -148,17 +148,17 @@ option is checked, user can create FDTD, FDE, or EME anisotropic optical materia
 &rarr;  ***Solver physics:*** Anisotropic materials react to eletric field with directional dependent electric
 displacement. Permitivity can be represented by a 9 element tensor εij
 
-![material7](material7.PNG )
+![material7](../../static/img/tutorial/material/material7.PNG )
 
 In general, this tensor can be diagnonalized by a proper choice of coordinate system, e.g. in
 principle dielectric axes. So it is simplified to
 
-![material8](material8.PNG )
+![material8](../../static/img/tutorial/material/material8.PNG )
 
 &rarr;  ***Diagonal anisotropic materials:*** To define an anisotropic material, set the Anisotropy field in
 the material database to Diagonal and assign the parameters for each diagonal component.
 
-![material9](material9.PNG )
+![material9](../../static/img/tutorial/material/material9.PNG )
 
 ### Model Fitting: (Under development.)
 
