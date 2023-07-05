@@ -144,12 +144,7 @@ const config = {
             position: 'left',
             label: 'Example Library',
           },
-          {
-            type: 'docSidebar',
-            sidebarId: 'moreSidebar',
-            position: 'left',
-            label: 'More',
-          },
+
 
           // {
           //   to:'/docs/faq',
