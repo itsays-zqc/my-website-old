@@ -5,7 +5,7 @@ sidebar_position: 3
 
 __Features Description: Add or Edit Structures.__
 
-1. 	Structures 
+1. Structures 
 
 ![](../../static/img/tutorial/structures/structures.png)
 
