@@ -26,7 +26,17 @@ const FeatureList = [
           <a href="/my-website/docs/faq/faq1">    2.How to install Max-Optics?</a>
         </div>
 
+
         <hr />
+        <div style={{ textAlign: 'left' }}>
+          <a href="/my-website/docs/faq/">    1.What is Max-Optics? </a>
+        </div>
+
+
+        <hr />
+        <div style={{ textAlign: 'left' }}>
+          <a href="/my-website/docs/faq/">    1.What is Max-Optics? </a>
+        </div>
 
        
       </>
