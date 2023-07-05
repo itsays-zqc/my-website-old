@@ -117,7 +117,7 @@ const config = {
             sidebarId: 'faqSidebar',
             position: 'left',
             label: 'FAQ',
-            items: [{ label: 'faq1', to:'faq'} ,],
+            // items: [{ label: 'faq1', to:'faq'} ,],
 
 
 
