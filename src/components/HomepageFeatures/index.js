@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 
-var base = 'my-website';
+// var base = 'my-website';
 // const fullLink = useBaseUrl(link);
 
 const FeatureList = [
@@ -27,10 +27,7 @@ const FeatureList = [
         </div>
 
         <hr />
-        <div style={{ textAlign: 'left' }}>
-          <a href="/my-website/docs/faq/faq1">test</a>
-        </div>
-        <hr />
+
        
       </>
     ),
@@ -45,18 +42,18 @@ const FeatureList = [
               <hr />
 
         <div style={{ textAlign: 'left' }}>
-          <a href="/my-website/docs/tutorial/mode/fde">1.what is FDE?</a>
+          <a href="/my-website/docs/tutorial/simulation/fde">1.what is FDE?</a>
         </div>
         <hr />
 
   
         <div style={{ textAlign: 'left' }}>
-        <a href="/my-website/docs/tutorial/mode/fdtd">2.what is FDTD?</a>
+        <a href="/my-website/docs/tutorial/simulation/fdtd">2.what is FDTD?</a>
         </div>
         <hr />
 
         <div style={{ textAlign: 'left' }}>
-        <a href="/my-website/docs/tutorial/mode/eme">3.what is EME?</a>
+        <a href="/my-website/docs/tutorial/simulation/eme">3.what is EME?</a>
         </div>
         <hr />
 
@@ -67,7 +64,7 @@ const FeatureList = [
         <hr />
 
         <div style={{ textAlign: 'left' }}>
-        <a href="/my-website/docs/tutorial/t1">5.how to simulation?</a>
+        <a href="/my-website/docs/category/simulation">5.how to simulation?</a>
         </div>
         <hr />
 
