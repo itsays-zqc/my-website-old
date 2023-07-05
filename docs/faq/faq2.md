@@ -2,5 +2,4 @@
 sidebar_position: 3
 ---
 
-# How to obtain a license？
-
+# 如何获取许可证？
