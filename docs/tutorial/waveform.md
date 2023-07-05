@@ -9,14 +9,14 @@ sidebar_position: 2
 
 Features Description: Global waveforms settings include two parts, one is standard waveform list, and another is project waveform list. There are three default materials in the standard waveform list, includes Waveform_1550, Waveform_1310 and Visible_Light. The default waveforms in the standard waveform list cannot be edited directly, user can add, or copy one of waveforms from the standard waveform list. User only can delete newly added or copied waveforms in the standard waveform list. The waveforms in the project waveform list inherit form projects built by user, user can add new waveform or delete selected waveforms in the project waveform list.
 
-![](../../static/img/tutorial/waveform/waveforms.png)
+<!-- ![](../../static/img/tutorial/waveform/waveforms.png) -->
 
 1. Select one Waveform (e.g., Waveform1) in Waveform list, then edit the selected waveform in the left-down Waveforms window, at the same time, signal vs time image will display in the right-down window.
 
 2. Signal Vs Time: The range of time can be zoom in via dragging the two ends of bottom bar.
 
 
-![](../../static/img/tutorial/waveform/signalVsTime.png)
+<!-- ![](../../static/img/tutorial/waveform/signalVsTime.png) -->
 
 1. You can add, delete, or copy a certain waveform in the list.
 2. 	You can set Frequency/wavelength or Time domain in the drop-down menu, at the same time, signal and time image will be changed as well.
