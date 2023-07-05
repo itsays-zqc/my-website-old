@@ -15,28 +15,28 @@ const FeatureList = [
     
     description: (
       <>
-         <hr />
         <div style={{ textAlign: 'left' }}>
           <a href="/my-website/docs/faq/">    1.What is Max-Optics? </a>
         </div>
 
-        <hr />
+        <hr style={{ margin: '0.25rem 0' }}/>
 
         <div style={{ textAlign: 'left' }}>
           <a href="/my-website/docs/faq/faq1">    2.How to install Max-Optics?</a>
         </div>
 
 
-        <hr />
+        <hr style={{ margin: '0.25rem 0' }}/>
         <div style={{ textAlign: 'left' }}>
           <a href="/my-website/docs/faq/faq2">    3.How to obtain a license? </a>
         </div>
 
 
-        <hr />
+        <hr style={{ margin: '0.25rem 0' }}/>
         <div style={{ textAlign: 'left' }}>
           <a href="/my-website/docs/faq/faq3">    4.How to obtain technical service support? </a>
         </div>
+        <hr style={{ margin: '0.25rem 0' }}/>
 
        
       </>
@@ -49,34 +49,34 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-              <hr />
+              {/* <hr /> */}
 
         <div style={{ textAlign: 'left' }}>
           <a href="/my-website/docs/tutorial/simulation/fde">1.what is FDE?</a>
         </div>
-        <hr />
+        <hr style={{ margin: '0.25rem 0' }}/>
 
   
         <div style={{ textAlign: 'left' }}>
         <a href="/my-website/docs/tutorial/simulation/fdtd">2.what is FDTD?</a>
         </div>
-        <hr />
+        <hr style={{ margin: '0.25rem 0' }}/>
 
         <div style={{ textAlign: 'left' }}>
         <a href="/my-website/docs/tutorial/simulation/eme">3.what is EME?</a>
         </div>
-        <hr />
+        <hr style={{ margin: '0.25rem 0' }}/>
 
 
         <div style={{ textAlign: 'left' }}>
         <a href="/my-website/docs/tutorial/material">4.how to set material?</a>
         </div>
-        <hr />
+        <hr style={{ margin: '0.25rem 0' }}/>
 
         <div style={{ textAlign: 'left' }}>
         <a href="/my-website/docs/category/simulation">5.how to simulation?</a>
         </div>
-        <hr />
+        <hr style={{ margin: '0.25rem 0' }}/>
 
        
         
@@ -85,31 +85,90 @@ const FeatureList = [
   },
   
   {
+    title: 'Example Library',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+       {/* <hr /> */}
+        <div style={{ textAlign: 'left' }}>
+          <a href="/my-website/docs/category/pic">1.PIC</a>
+        </div>
+        <hr style={{ margin: '0.25rem 0' }}/>
+  
+        <div style={{ textAlign: 'left' }}>
+        <a href="/my-website/docs/tutorial/mode/fdtd">2.Grating</a>
+        </div>
+        <hr style={{ margin: '0.25rem 0' }}/>
+
+        <div style={{ textAlign: 'left' }}>
+        <a href="/my-website/docs/tutorial/mode/eme">3.Metamaterial</a>
+        </div>
+        <hr style={{ margin: '0.25rem 0' }}/>
+
+        <div style={{ textAlign: 'left' }}>
+        <a href="/my-website/docs/tutorial/material">4.PD(by GUI)</a>
+        </div>
+        <hr style={{ margin: '0.25rem 0' }}/>
+
+        <div style={{ textAlign: 'left' }}>
+        <a href="/my-website/docs/tutorial/t1">5.PD(by SDK)</a>
+        </div>
+        <hr style={{ margin: '0.25rem 0' }}/>
+
+        <div style={{ textAlign: 'left' }}>
+        <a href="/my-website/docs/tutorial/mode/eme">6.MOD(by GUI)</a>
+        </div>
+        <hr style={{ margin: '0.25rem 0' }}/>
+
+
+        <div style={{ textAlign: 'left' }}>
+        <a href="/my-website/docs/tutorial/material">7.MOD(by SDK)</a>
+        </div>
+        <hr style={{ margin: '0.25rem 0' }}/>
+
+
+        <div style={{ textAlign: 'left' }}>
+        <a href="/my-website/docs/tutorial/t1">8.Lasers</a>
+        </div>
+        <hr style={{ margin: '0.25rem 0' }}/>
+
+        
+        <div style={{ textAlign: 'left' }}>
+        <a href="/my-website/docs/tutorial/t1">9.Optical scattering and far-field radiation</a>
+        </div>
+        <hr style={{ margin: '0.25rem 0' }}/>
+       
+      </>
+    ),
+  },
+
+
+  {
     title: 'How do I',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-         <hr />
+         {/* <hr /> */}
         <div style={{ textAlign: 'left' }}>
           <a href="/my-website/docs/tutorial/mode/fde">1.如何调出所用命令？（待）</a>
         </div>
-        <hr />
+        <hr style={{ margin: '0.25rem 0' }}/>
   
         <div style={{ textAlign: 'left' }}>
         <a href="/my-website/docs/tutorial/mode/fdtd">2.做一个例子,从mo.sdk.doc到knowledge base的item?（待）</a>
         </div>
-        <hr />
+        <hr style={{ margin: '0.25rem 0' }}/>
 
 
         <div style={{ textAlign: 'left' }}>
         <a href="/my-website/docs/tutorial/mode/eme">3.用GUI创建?（待）</a>
         </div>
-        <hr />
+        <hr style={{ margin: '0.25rem 0' }}/>
 
         <div style={{ textAlign: 'left' }}>
         <a href="/my-website/docs/tutorial/material">4.用SDK创建?（待）</a>
         </div>
-        <hr />
+        <hr style={{ margin: '0.25rem 0' }}/>
         
        
         
@@ -118,80 +177,11 @@ const FeatureList = [
     ),
   },
 
-  {
-    title: 'Example Library',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-       <hr />
-        <div style={{ textAlign: 'left' }}>
-          <a href="/my-website/docs/category/pic">1.PIC</a>
-        </div>
-        <hr />
-  
-        <div style={{ textAlign: 'left' }}>
-        <a href="/my-website/docs/tutorial/mode/fdtd">2.Grating</a>
-        </div>
-        <hr />
-
-        <div style={{ textAlign: 'left' }}>
-        <a href="/my-website/docs/tutorial/mode/eme">3.Metamaterial</a>
-        </div>
-        <hr />
-
-        <div style={{ textAlign: 'left' }}>
-        <a href="/my-website/docs/tutorial/material">4.PD(by GUI)</a>
-        </div>
-        <hr />
-
-        <div style={{ textAlign: 'left' }}>
-        <a href="/my-website/docs/tutorial/t1">5.PD(by SDK)</a>
-        </div>
-        <hr />
-
-        <div style={{ textAlign: 'left' }}>
-        <a href="/my-website/docs/tutorial/mode/eme">6.MOD(by GUI)</a>
-        </div>
-        <hr />
-
-
-        <div style={{ textAlign: 'left' }}>
-        <a href="/my-website/docs/tutorial/material">7.MOD(by SDK)</a>
-        </div>
-        <hr />
-
-
-        <div style={{ textAlign: 'left' }}>
-        <a href="/my-website/docs/tutorial/t1">8.Lasers</a>
-        </div>
-        <hr />
-
-        
-        <div style={{ textAlign: 'left' }}>
-        <a href="/my-website/docs/tutorial/t1">9.Optical scattering and far-field radiation</a>
-        </div>
-        <hr />
-       
-      </>
-    ),
-  },
-
-  {
-    title: 'More',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-      {/* <u>This text is underlined.</u> 添加下划线 */}
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
-  },
 ];
 
 function Feature({Svg, title, description}) {
   return (
-    <div className={clsx('col col--4 ')}>
+    <div className={clsx('col col--6 ')}>
       <div className="text--left">
         <Svg className={styles.featureSvg} role="img" />
       </div>
