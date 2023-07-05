@@ -39,3 +39,9 @@
   --ifm-color-primary-lightest: #6da6d2;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.text-justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
