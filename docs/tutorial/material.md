@@ -38,8 +38,11 @@ The standard material database includes two parts, one is material list, and ano
 7. __Import__: Import materials to user or project database.
 8. __Export__: Export materials according to user needs.
 
+
 ### Materials in the Standard Material Database
 The following materials are included in the standard material database.
+
+<code>
 ID	Name	Mesh Order	Type
 1	Air	2	Lossless Material 
 2	Al (Aluminium) - Palik	2	List Data
@@ -82,6 +85,8 @@ ID	Name	Mesh Order	Type
 39	Ni (Nickel) - Palik	2	List Data
 40	Rh (Rhodium) - Palik	2	List Data
 41	Ag (Silver) - Palik (0-2um)	2	List Data
+</code>
+
 
 ### Material Properties:
 
@@ -90,5 +95,22 @@ ID	Name	Mesh Order	Type
 
 __Plot__ : User can view each material property in this plot area via clicking a certain material in material list, also can view properties they are interested in via two options in the bottom of plot. Material properties include “Color”, “Name”, “Mesh Order”, “Wavelength”, “Frequency”, “n,k”-Re(refractive index)&Im(refractive index), “εr′,εr″”-Re(relative permittivity)&Im(relative permittivity), ε’,σ-Re(relative permittivity)&Im(relative permittivity).
 
-### 
+### 1)	Material Data & Model Fitting
+
+Material Data tab: User can view each material property in this list via double clicking a certain material in material list. Material properties include “Color”, “Name”, “Mesh Order”, “Wavelength”, “Frequency”, “n,k”-Re(refractive index)&Im(refractive index), and “εr′,εr″”-Re(relative permittivity)&Im(relative permittivity).
+
+1. 
+![](../../static/img/tutorial/material/materialdataAndModelFitting.png)
+
+2. Model Fitting: (Currently, the model fitting feature is not available and is still in the development process.)
+
+
+
+## User Material Database
+
+The User material database, a database that stores materials used by user. The user material database includes two parts, one is material list, and another is material property plot. User can copy or delete a selected material, The materials in the “User” material database can be imported to the “Project” material database. And users also can export materials according to their needs.
+
+
+![](../../static/img/tutorial/material/userDataBase.png)
+
 
