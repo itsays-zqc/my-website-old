@@ -6,6 +6,25 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
+  plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
+
+  // or, if you want to specify options:
+
+  // ...
+  plugins: [
+    [
+      require.resolve("@cmfcmf/docusaurus-search-local"),
+      {
+        // Options here
+      },
+    ],
+  ],
+
+
+
+
+
+  
   title: 'Knowledge Base',
   // tagline: 'Dinosaurs are cool',
   favicon: 'img/mo_logo.png',
