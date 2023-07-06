@@ -21,9 +21,10 @@ const config = {
   // ],
   plugins: [
     require.resolve('docusaurus-lunr-search') ,
+  // {
+  //   position: 'left',
+  // },
  ],
-
- 
 
 
 

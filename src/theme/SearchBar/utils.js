@@ -22,7 +22,6 @@ const utils = {
   * @return {Object}
   * @throws Error when key is not an attribute of Object or is not an object itself
   */
-
   mergeKeyWithParent(object, property) {
     if (object[property] === undefined) {
       return object;
@@ -34,7 +33,6 @@ const utils = {
     delete newObject[property];
     return newObject;
   },
-  
   /*
   * Group all objects of a collection by the value of the specified attribute
   * If the attribute is a string, use the lowercase form.

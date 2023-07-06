@@ -5,10 +5,6 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import SearchBar from '@theme/SearchBar';
-import SearchResults from '@theme/SearchBar';
-
-
-
 
 
 import styles from './index.module.css';
@@ -21,19 +17,14 @@ function HomepageHeader() {
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          {/* <Link
+          <Link
             className="button button--secondary button--lg"
             to="/my-website/docs/intro">
             Get Start !
             
-          </Link> */}
-
+          </Link>
           {/* <SearchBar /> */}
-          <SearchResults />
-
-          
         </div>
-
       </div>
     </header>
   );
