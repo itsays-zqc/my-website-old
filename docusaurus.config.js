@@ -27,8 +27,6 @@ const config = {
  ],
 
 
-
-
   
   title: 'Knowledge Base',
   // tagline: 'Dinosaurs are cool',
@@ -86,7 +84,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/mo_logo.jpg',
 
       customCss: [require.resolve('./src/css/custom.css')],
 
@@ -141,14 +139,7 @@ const config = {
             sidebarId: 'faqSidebar',
             position: 'left',
             label: 'FAQ',
-            // items: [{ label: 'faq1', to:'faq'} ,],
-
-
-
-
-
-
-            
+            // items: [{ label: 'faq1', to:'faq'} ,],  
           },
           {
             type: 'docSidebar',
@@ -170,48 +161,12 @@ const config = {
           },
 
 
-          // {
-          //   to:'/docs/faq',
-          //   label:'test',
-          //   position:'right',
-          //   items:[ {  label:'hello', to:'/docs/ '} ,] ,
-          // },
-          
-
-
-
-
-          // {to: '/blog', label: 'Blog', position: 'left'},
-          // {to: 'faq', label: 'faq', position: 'left'},
-
-          // {to: 'tutorial', label: 'tutorial', position: 'left'},
-
-
-          // {to: 'examples', label: 'examples', position: 'left'},
-
-
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'examplesSidebar',
-          //   position: 'left',
-          //   label: 'examples',
-          // },
-          // {to: '/docs/test' ,label:'test' , position:'left'},
-
           {
             href: 'https://max-optics.com/?lang=zh-cn',
             label: 'support',
             position: 'right',
           },
           
-
-          
-
-          // {
-          //   href: 'https://github.com/facebook/docusaurus',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
         ],
       },
 
@@ -280,7 +235,7 @@ const config = {
       },
       prism: {
         theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        darkTheme: undefined,
       },
 
     }),

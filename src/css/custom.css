@@ -28,17 +28,16 @@
   --ifm-color-primary-lightest: #6da6d2;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
+For readability concerns, you should choose a lighter palette in dark mode.
+/* [data-theme='dark'] {
   --ifm-color-primary: #3a83bb;
   --ifm-color-primary-dark: #3476a8;
   --ifm-color-primary-darker: #316f9f;
-  --ifm-color-primary-darkest: #80c2f4;
+  --ifm-color-primary-darkest: #295c83;
   --ifm-color-primary-light: #478fc6;
   --ifm-color-primary-lighter: #5195c9;
   --ifm-color-primary-lightest: #6da6d2;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-}
+} */
 
 .text-justify {
   text-align: justify;
@@ -59,5 +58,11 @@
 .feature-content {
   display: flex;
   align-items: center;
+}
+
+.custom-table {
+  width: 50%;
+  margin: 0 auto;
+  /* 其他样式属性 */
 }
 
