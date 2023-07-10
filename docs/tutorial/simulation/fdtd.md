@@ -24,8 +24,10 @@ __Notes :__ When FDTD solver is selected, user cannot add FDE solver and EME sol
 4.	__Simulation Time:__ The maximum duration of the simulation to be performed. The actual simulation may be shorter if the auto-shutoff criteria are satisfied before this maximum simulation time is exceeded. The default set is 1000 fs.
 5.	__Background Material:__ The combo box allows user to set the background material from drop down menu. “Project”, “Object Defined Dielectric”, and “Go to Material Library” can be operated.
 6.	__Project:__ The “Background Material” can be selected from the “Project” sublist in the “Material Database” based upon the needs.
-7.	__Object Defined Dielectric:__ The object-defined dielectric material, a default setting if user forgets to set background material, is defined for the current object background material setting, and once the user chooses this option, he does not need to set any material from the standard, user, or project material database. And the object-defined dielectric will not be loaded into any material database.
+7.	__Object Defined Dielectric:__ The object-defined dielectric material, a default setting if user forgets to set background material, is defined for the current object background material setting, and once the user chooses this option, he does not need to set any material from the standard, user, or project material database. And the object-defined dielectric will not be loaded into any material database.  
+ 
     __Go to Material Library:__ If selected, user can go to standard material database to set background material according to needs. And the selected material relative property from standard material database will be displayed in the material data list.
+
 8.	__Index:__ The refractive index of the surrounding, background medium in the simulation region.（Default: 1)
 
 
@@ -54,8 +56,10 @@ __Uniform__
 2.	__Mesh Accuracy:__ Sets cells per wavelength. The default set is 15.
 3.	__Minimum Mesh Step Settings:__ Set the absolute minimum mesh size for the entire solver region. 
 4. __Mesh Refinement:__ Mesh refinement can give sub-cell accuracy for a simulation.
-__1.Staircase:__ The material at each position of the Yee cell is evaluated to determine which material it is in, and the E field at that location uses only that single material property. The resulting discretized structure is unable to account for structure variations that occur within any single Yee cell, resulting in a "staircase" permittivity mesh that coincides with the Cartesian mesh furthermore, any layers are effectively moved to the nearest E field position on the Yee cell, meaning that layer thickness cannot be resolved to better than dx.
-__2. Curve Mesh:__ Effective permittivities are derived using a contour path approach that accounts for the boundary conditions of the electromagnetic field at dielectric interfaces.
+   
+    1. __Staircase:__ The material at each position of the Yee cell is evaluated to determine which material it is in, and the E field at that location uses only that single material property. The resulting discretized structure is unable to account for structure variations that occur within any single Yee cell, resulting in a "staircase" permittivity mesh that coincides with the Cartesian mesh furthermore, any layers are effectively moved to the nearest E field position on the Yee cell, meaning that layer thickness cannot be resolved to better than dx.
+
+    2. __Curve Mesh:__ Effective permittivities are derived using a contour path approach that accounts for the boundary conditions of the electromagnetic field at dielectric interfaces.
 5.	__Grading:__ Grading factor, determines the maximum ratio of the neighboring spatial steps.
 
 
@@ -75,11 +79,11 @@ __2. Curve Mesh:__ Effective permittivities are derived using a contour path app
 1.	__Auto Shutoff :__ Stops the simulation when the energy in the simulation goes below the “Auto Shutoff Min” when the “Use Early Shutoff ” state is on , you can set min auto shutoff (Default: 1e-4) and down sample time (Default: 200)
 2.	__Down sample time:__ The time step down sampling. (It is default: 200, and 10 <= it <= 1000)
 3.	__Live Slice Field Display Settings__
-__Show Field:__ Real-time filed slice display switch. (Default: on)
-Select Field Section: Combo box allows you to choose from a list of 2D planes normal to the axes for field display. ( 2D Z Normal by default）
-　__Select Component__：Combo box allows you to choose from a list of the existing field components ( Ex by default)
-　__Time Interval:__ The time step down sampling (200 fs by default)
-　__Position:__ The position of slice (0 μm by default)
+    1. __Show Field:__ Real-time filed slice display switch. (Default: on)
+    2. __Select Field Section:__ Combo box allows you to choose from a list of 2D planes normal to the axes for field display. ( 2D Z Normal by default）
+    3. __Select Component__：Combo box allows you to choose from a list of the existing field components ( Ex by default)
+    4. __Time Interval:__ The time step down sampling (200 fs by default)
+    5. __Position:__ The position of slice (0 μm by default)
 
 
 
