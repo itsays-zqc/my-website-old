@@ -61,8 +61,11 @@ For readability concerns, you should choose a lighter palette in dark mode.
 }
 
 .custom-table {
-  width: 50%;
+  width: 300%;
   margin: 0 auto;
   /* 其他样式属性 */
 }
 
+.typeface{
+  font-weight: 700;
+}
