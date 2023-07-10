@@ -160,6 +160,13 @@ const config = {
             label: 'Example Library',
           },
 
+          {
+            type: 'docSidebar',
+            sidebarId: 'sdkSidebar',
+            position: 'left',
+            label: 'sdk',
+          },
+
 
           {
             href: 'https://max-optics.com/?lang=zh-cn',
