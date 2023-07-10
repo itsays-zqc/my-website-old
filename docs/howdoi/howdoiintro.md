@@ -10,8 +10,8 @@
     <td>material name</td>
   </tr>
   <tr>
-    <td>data </td>
-    <td style={{width: '40rem'}}>Material data. Format is [(wavelength, xx index real, xx index imag, yy index real, yy index imag, zz index real, zz index imag), …] or [(wavelength, xx index real, xx index imag, xy index real, xy index imag, …), …].
+    <td>data</td>
+    <td style={{width: '50rem'}}>Material data. Format is [(wavelength, xx index real, xx index imag, yy index real, yy index imag, zz index real, zz index imag), …] or [(wavelength, xx index real, xx index imag, xy index real, xy index imag, …), …].
     </td>
   </tr>
   <tr>
