@@ -1,4 +1,4 @@
-# MaterialInterface
+# interface
 
 # maxoptics_sdk.core.material.interface module
 

@@ -1,8 +1,8 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 ---
-# PostProcessModeExpansion
-
+# post_process_mode_expansion_typing
+<!-- # maxoptics_sdk.core.monitors.post_process_mode_expansion_typing -->
 
 ## PostProcessModeExpansion
 

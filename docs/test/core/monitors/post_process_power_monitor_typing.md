@@ -1,5 +1,6 @@
-# PostProcessPowerMonitor
+# post_process_power_monitor_typing
 
+<!-- # maxoptics_sdk.core.monitors.post_process_power_monitor_typing -->
 ## PostProcessPowerMonitor
 
 ```py

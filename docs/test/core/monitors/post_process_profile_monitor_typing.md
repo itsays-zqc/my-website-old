@@ -1,4 +1,4 @@
-# maxoptics_sdk.core.monitors.post_process_profile_monitor_typing module
+# post_process_profile_monitor_typing
 
 ## PostProcessProfileMonitor
 
