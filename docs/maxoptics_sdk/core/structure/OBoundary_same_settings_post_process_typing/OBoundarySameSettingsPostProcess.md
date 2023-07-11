@@ -1,5 +1,14 @@
-<ul>
-  <li><code>boundary</code>: OBoundarySameSettingsPostProcessBoundary</li>
-  <li><code>general_pml</code>: OBoundarySameSettingsPostProcessGeneralPml</li>
-  <li><code>geometry</code>: OBoundarySameSettingsPostProcessGeometry</li>
-</ul>
+<table>
+  <tr>
+    <th>boundary</th>
+    <td>OBoundarySameSettingsPostProcessBoundary</td>
+  </tr>
+  <tr>
+    <th>general_pml</th>
+    <td>OBoundarySameSettingsPostProcessGeneralPml</td>
+  </tr>
+  <tr>
+    <th>geometry</th>
+    <td>OBoundarySameSettingsPostProcessGeometry</td>
+  </tr>
+</table>
