@@ -1,0 +1,14 @@
+<table>
+  <tr>
+    <th>boundary</th>
+    <td>OBoundarySameSettingsPostProcessBoundary</td>
+  </tr>
+  <tr>
+    <th>general_pml</th>
+    <td>OBoundarySameSettingsPostProcessGeneralPml</td>
+  </tr>
+  <tr>
+    <th>geometry</th>
+    <td>OBoundarySameSettingsPostProcessGeometry</td>
+  </tr>
+</table>

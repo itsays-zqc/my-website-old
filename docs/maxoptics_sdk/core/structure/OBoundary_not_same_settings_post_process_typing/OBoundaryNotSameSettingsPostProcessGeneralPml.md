@@ -1,0 +1,30 @@
+<table>
+  <tr>
+    <th>pml_same_settings</th>
+    <td>bool  <!-- default: true --></td>
+  </tr>
+  <tr>
+    <th>x_max_bc</th>
+    <td>OBoundaryNotSameSettingsPostProcessGeneralPmlMaxBc</td>
+  </tr>
+  <tr>
+    <th>x_min_bc</th>
+    <td>OBoundaryNotSameSettingsPostProcessGeneralPmlMinBc</td>
+  </tr>
+  <tr>
+    <th>y_max_bc</th>
+    <td>OBoundaryNotSameSettingsPostProcessGeneralPmlMaxBc</td>
+  </tr>
+  <tr>
+    <th>y_min_bc</th>
+    <td>OBoundaryNotSameSettingsPostProcessGeneralPmlMinBc</td>
+  </tr>
+  <tr>
+    <th>z_max_bc</th>
+    <td>OBoundaryNotSameSettingsPostProcessGeneralPmlMaxBc</td>
+  </tr>
+  <tr>
+    <th>z_min_bc</th>
+    <td>OBoundaryNotSameSettingsPostProcessGeneralPmlMinBc</td>
+  </tr>
+</table>

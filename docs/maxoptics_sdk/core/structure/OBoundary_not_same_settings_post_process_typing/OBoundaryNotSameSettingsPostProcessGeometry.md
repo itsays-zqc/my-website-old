@@ -1,16 +1,54 @@
-<p>
-
-- x: Union[float, int, FloatParameter, FloatParameterExpression]
-- x_max: Union[float, int, FloatParameter, FloatParameterExpression]
-- x_min: Union[float, int, FloatParameter, FloatParameterExpression]
-- x_span: Union[float, int, FloatParameter, FloatParameterExpression]
-- y: Union[float, int, FloatParameter, FloatParameterExpression]
-- y_max: Union[float, int, FloatParameter, FloatParameterExpression]
-- y_min: Union[float, int, FloatParameter, FloatParameterExpression]
-- y_span: Union[float, int, FloatParameter, FloatParameterExpression]
-- z: Union[float, int, FloatParameter, FloatParameterExpression]
-- z_max: Union[float, int, FloatParameter, FloatParameterExpression]
-- z_min: Union[float, int, FloatParameter, FloatParameterExpression]
-- z_span: Union[float, int, FloatParameter, FloatParameterExpression]
-
-</p>
+<table>
+  <tr>
+    <th>Class</th>
+    <td>OBoundaryNotSameSettingsPostProcessGeometry</td>
+  </tr>
+  <tr>
+    <th>x</th>
+    <td>Union[float, int, FloatParameter, FloatParameterExpression]  <!-- MUST be filled --></td>
+  </tr>
+  <tr>
+    <th>x_max</th>
+    <td>Union[float, int, FloatParameter, FloatParameterExpression]</td>
+  </tr>
+  <tr>
+    <th>x_min</th>
+    <td>Union[float, int, FloatParameter, FloatParameterExpression]</td>
+  </tr>
+  <tr>
+    <th>x_span</th>
+    <td>Union[float, int, FloatParameter, FloatParameterExpression]  <!-- MUST be filled, check: >=0 --></td>
+  </tr>
+  <tr>
+    <th>y</th>
+    <td>Union[float, int, FloatParameter, FloatParameterExpression]  <!-- MUST be filled --></td>
+  </tr>
+  <tr>
+    <th>y_max</th>
+    <td>Union[float, int, FloatParameter, FloatParameterExpression]</td>
+  </tr>
+  <tr>
+    <th>y_min</th>
+    <td>Union[float, int, FloatParameter, FloatParameterExpression]</td>
+  </tr>
+  <tr>
+    <th>y_span</th>
+    <td>Union[float, int, FloatParameter, FloatParameterExpression]  <!-- MUST be filled, check: >=0 --></td>
+  </tr>
+  <tr>
+    <th>z</th>
+    <td>Union[float, int, FloatParameter, FloatParameterExpression]  <!-- MUST be filled --></td>
+  </tr>
+  <tr>
+    <th>z_max</th>
+    <td>Union[float, int, FloatParameter, FloatParameterExpression]</td>
+  </tr>
+  <tr>
+    <th>z_min</th>
+    <td>Union[float, int, FloatParameter, FloatParameterExpression]</td>
+  </tr>
+  <tr>
+    <th>z_span</th>
+    <td>Union[float, int, FloatParameter, FloatParameterExpression]  <!-- MUST be filled, check: >=0 --></td>
+  </tr>
+</table>

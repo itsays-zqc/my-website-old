@@ -1,0 +1,10 @@
+<table>
+  <tr>
+    <th>geometry</th>
+    <td>GeometryDict</td>
+  </tr>
+  <tr>
+    <th>boundary</th>
+    <td>BoundaryDict</td>
+  </tr>
+</table>
