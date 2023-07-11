@@ -9,7 +9,7 @@ maxoptics_sdk.core.monitors.interface.MonitorInterface(*args, **kwargs)
 
 - Bases: **Protocol**
   
-## 1. add_anisotropy
+## 1. add a monitor
 
 ### Syntax
 
@@ -60,8 +60,8 @@ abstract add(*, `type`: Literal['mode_expansion'], `name`: str, `property`: Post
 <br/>
 <table class="custom-table">
   <tr>
-    <td class="typeface">Returns:&nbsp &nbsp;&nbsp;&nbsp;</td>
-    <td class="typeface">No return.</td>
+    <td class="third-column">Returns:</td>
+    <td class="fourth-column">No return.</td>
   </tr>
 </table>
 
