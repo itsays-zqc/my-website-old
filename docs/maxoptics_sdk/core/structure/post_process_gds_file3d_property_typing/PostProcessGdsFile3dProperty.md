@@ -1,0 +1,18 @@
+<table>
+    <tr>
+        <th>Property</th>
+        <th>Value</th>
+    </tr>
+    <tr>
+        <td>general</td>
+        <td>PostProcessGdsFile3dPropertyGeneral</td>
+    </tr>
+    <tr>
+        <td>geometry</td>
+        <td>PostProcessGdsFile3dPropertyGeometry</td>
+    </tr>
+    <tr>
+        <td>material</td>
+        <td>PostProcessGdsFile3dPropertyMaterial</td>
+    </tr>
+</table>
