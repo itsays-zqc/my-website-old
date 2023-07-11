@@ -1,13 +1,38 @@
-<p>
-
-- pml_alpha: Union[float, int, FloatParameter, FloatParameterExpression]
-- pml_alpha_polynomial: int
-- pml_kappa: Union[float, int, FloatParameter, FloatParameterExpression]
-- pml_layer: int
-- pml_max_layers: int
-- pml_min_layers: int
-- pml_polynomial: int
-- pml_profile: str (default: standard)
-- pml_sigma: Union[float, int, FloatParameter, FloatParameterExpression]
-
-</p>
+<table>
+  <tr>
+    <th>pml_alpha</th>
+    <td>Union[float, int, FloatParameter, FloatParameterExpression]</td>
+  </tr>
+  <tr>
+    <th>pml_alpha_polynomial</th>
+    <td>int</td>
+  </tr>
+  <tr>
+    <th>pml_kappa</th>
+    <td>Union[float, int, FloatParameter, FloatParameterExpression]</td>
+  </tr>
+  <tr>
+    <th>pml_layer</th>
+    <td>int</td>
+  </tr>
+  <tr>
+    <th>pml_max_layers</th>
+    <td>int</td>
+  </tr>
+  <tr>
+    <th>pml_min_layers</th>
+    <td>int</td>
+  </tr>
+  <tr>
+    <th>pml_polynomial</th>
+    <td>int</td>
+  </tr>
+  <tr>
+    <th>pml_profile</th>
+    <td>str</td>
+  </tr>
+  <tr>
+    <th>pml_sigma</th>
+    <td>Union[float, int, FloatParameter, FloatParameterExpression]</td>
+  </tr>
+</table>
