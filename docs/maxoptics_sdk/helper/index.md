@@ -18,6 +18,11 @@ Add timer prints for wrapped function.
   </tr>
 </table>
 
+
+
+
+
+
     @timed
     def f():
         import time
