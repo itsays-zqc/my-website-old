@@ -61,11 +61,27 @@
 }
 
 .custom-table {
-  width: 300%;
+  width: 750px;
   margin: 0 auto;
   /* 其他样式属性 */
   margin-left:4%;
 }
+.first-column{
+  width: 10%;
+}
+.second-column{
+  width: 90%;
+}
+.third-column{
+  width: 115px;
+  font-weight: 700;
+  height: 60px;
+}
+.fourth-column{
+  width: 635px;
+  height:60px;
+}
+
 
 .typeface{
   font-weight: 700;
