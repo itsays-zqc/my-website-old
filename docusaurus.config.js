@@ -160,18 +160,18 @@ const config = {
             label: 'Example Library',
           },
 
-          {
-            type: 'docSidebar',
-            sidebarId: 'sdkSidebar',
-            position: 'left',
-            label: 'sdk',
-          },
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'sdkSidebar',
+          //   position: 'left',
+          //   label: 'sdk',
+          // },
 
           {
             type: 'docSidebar',
             sidebarId: 'testSidebar',
             position: 'left',
-            label: 'test',
+            label: 'sdk',
           },
 
           {
