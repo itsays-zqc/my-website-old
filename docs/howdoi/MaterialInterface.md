@@ -31,7 +31,7 @@ abstract add_anisotropy(*, `name`: str, `data`: List[Tuple[float, float, float, 
   </tr>
   <tr>
     <td>data</td>
-    <td style={{width: '50rem'}}>Material data. Format is [(wavelength, xx index real, xx index imag, yy index real, yy index imag, zz index real, zz index imag), …] or [(wavelength, xx index real, xx index imag, xy index real, xy index imag, …), …].
+    <td>Material data. Format is [(wavelength, xx index real, xx index imag, yy index real, yy index imag, zz index real, zz index imag), …] or [(wavelength, xx index real, xx index imag, xy index real, xy index imag, …), …].
     </td>
   </tr>
   <tr>
@@ -46,11 +46,15 @@ abstract add_anisotropy(*, `name`: str, `data`: List[Tuple[float, float, float, 
     <td>order</td>
     <td>Material mesh order.</td>
   </tr>
+  <tr>
+    <td class="typeface">Returns: &nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td class="typeface">No return.</td>
+  </tr>
 </table>
 
 <table class="custom-table">
   <tr>
-    <td class="typeface">Returns:&nbsp &nbsp;&nbsp;&nbsp;</td>
+    <td class="typeface">Returns:</td>
     <td class="typeface">No return.</td>
   </tr>
 </table>
