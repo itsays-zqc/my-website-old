@@ -57,8 +57,8 @@ abstract add_anisotropy(*, `name`: str, `data`: List[Tuple[float, float, float, 
 
 <table class="custom-table">
   <tr>
-    <td class="typeface">Returns:</td>
-    <td class="typeface">No return.</td>
+    <td class="third-column">Returns:</td>
+    <td class="fourth-column">No return.</td>
   </tr>
 </table>
 
