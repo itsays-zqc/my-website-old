@@ -1,0 +1,14 @@
+<table>
+    <tr>
+        <th>Property</th>
+        <th>Type</th>
+    </tr>
+    <tr>
+        <td>geometry</td>
+        <td>PostProcessPyramidPropertyGeometry</td>
+    </tr>
+    <tr>
+        <td>material</td>
+        <td>PostProcessPyramidPropertyMaterial</td>
+    </tr>
+</table>
