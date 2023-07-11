@@ -1,8 +1,8 @@
 {
-  "label": "Max_Optics SDK",
+  "label": "maxoptics_sdk.core",
   "position": 1,
   "link": {
     "type": "generated-index",
-    "description": "This is maxopticsSDK."
+    "description": "Package"
   }
 }
