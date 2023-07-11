@@ -167,6 +167,12 @@ const config = {
             label: 'sdk',
           },
 
+          {
+            type: 'docSidebar',
+            sidebarId: 'testSidebar',
+            position: 'left',
+            label: 'test',
+          },
 
           {
             href: 'https://max-optics.com/?lang=zh-cn',

@@ -5,6 +5,9 @@ sidebar_position: 1
 
 
 ## PostProcessModeExpansion
+
+<span id='PostProcessModeExpansion'>PostProcessModeExpansion</span>
+
 ```py
 class
 maxoptics_sdk.core.monitors.post_process_mode_expansion_typing.PostProcessModeExpansion(*args, **kwargs)
@@ -89,6 +92,8 @@ maxoptics_sdk.core.monitors.post_process_mode_expansion_typing.PostProcessModeEx
   </tr>
 </table>
 <br/>
+
+
 
 ## PostProcessModeExpansionGeometryRotateSettings
 
