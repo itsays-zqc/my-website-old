@@ -1,7 +1,8 @@
 # maxoptics_sdk.core.monitors.interface module
 
 ```py
-class maxoptics_sdk.core.monitors.interface.MonitorInterface(*args, **kwargs)
+class 
+maxoptics_sdk.core.monitors.interface.MonitorInterface(*args, **kwargs)
 ```
 
 - Bases: **Protocol**

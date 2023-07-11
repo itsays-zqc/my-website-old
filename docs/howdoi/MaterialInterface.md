@@ -1,7 +1,8 @@
 # maxoptics_sdk.core.material.interface module
 
 ```py
-class maxoptics_sdk.core.material.interface.MaterialInterface(*args, **kwargs)
+class 
+maxoptics_sdk.core.material.interface.MaterialInterface(*args, **kwargs)
 ```
 
 - Bases: **Protocol**
