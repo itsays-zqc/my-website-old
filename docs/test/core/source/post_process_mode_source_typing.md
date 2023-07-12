@@ -16,7 +16,7 @@ __Bases__: dict
 <table class="custom-table">
   <tr>
     <td class="typeface">Parameter</td>
-    <td class="typeface">Type</td>
+    <td class="typeface">Explanation</td>
   </tr>
   <tr>
     <td>bent_waveguide</td>
@@ -47,7 +47,7 @@ __Bases__: dict
 <table class="custom-table">
   <tr>
     <td class="typeface">Parameter</td>
-    <td class="typeface">Type</td>
+    <td class="typeface">Explanation</td>
   </tr>
   <tr>
     <td>bent_waveguide</td>
@@ -81,7 +81,7 @@ __Bases__: dict
 <table class="custom-table">
   <tr>
     <td class="typeface">Parameter</td>
-    <td class="typeface">Type</td>
+    <td class="typeface">Explanation</td>
   </tr>
   <tr>
     <td>amplitude</td>
@@ -147,7 +147,7 @@ __Bases__: dict
 <table class="custom-table">
   <tr>
     <td class="typeface">Parameter</td>
-    <td class="typeface">Type</td>
+    <td class="typeface">Explanation</td>
   </tr>
   <tr>
     <td>phi</td>
@@ -177,7 +177,7 @@ __Bases__: dict
 <table class="custom-table">
   <tr>
     <td class="typeface">Parameter</td>
-    <td class="typeface">Type</td>
+    <td class="typeface">Explanation</td>
   </tr>
   <tr>
     <td>waveform_id_select</td>
@@ -200,7 +200,7 @@ __Bases__: dict
 <table class="custom-table">
   <tr>
     <td class="typeface">Parameter</td>
-    <td class="typeface">Type</td>
+    <td class="typeface">Explanation</td>
   </tr>
   <tr>
     <td>x</td>

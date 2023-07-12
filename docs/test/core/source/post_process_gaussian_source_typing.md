@@ -33,7 +33,7 @@ __Bases__: dict
 <table class="custom-table">
   <tr>
     <td class="typeface">Parameter</td>
-    <td class="typeface">Type</td>
+    <td class="typeface">Explanation</td>
   </tr>
   <tr>
     <td>amplitude</td>
@@ -92,7 +92,7 @@ __Bases__: dict
 <table class="custom-table">
   <tr>
     <td class="typeface">Parameter</td>
-    <td class="typeface">Type</td>
+    <td class="typeface">Explanation</td>
   </tr>
   <tr>
     <td>beam_parameters</td>
@@ -159,7 +159,7 @@ __Bases__: dict
 <table class="custom-table">
   <tr>
     <td class="typeface">Parameter</td>
-    <td class="typeface">Type</td>
+    <td class="typeface">Explanation</td>
   </tr>
   <tr>
     <td>x</td>
