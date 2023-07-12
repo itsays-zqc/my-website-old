@@ -224,8 +224,4 @@ mo.sdk init -n examples
 
 ## 10) MaxOptics License Instruction
 
-授权设置手册(中文) Local_SDK_License_Instructions.pdf
-
-授权设置手册(英文) Local_SDK_License_Instructions_en.pdf
-
 授权设置终端 MaxOptics SDK__SetLocalServer.exe
