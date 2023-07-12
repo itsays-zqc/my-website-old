@@ -25,15 +25,14 @@ Add timer prints for wrapped function.
 
 
 
-
-
-    @timed
-    def f():
-        import time
-        time.sleep(1)
-    f()
-    [Finished in 0.02 mins]
-
+```py
+@timed
+def f():
+    import time
+    time.sleep(1)
+f()
+[Finished in 0.02 mins]
+```
 
 ## maxoptics_sdk.helper.with_path(f: Callable[..., R]) → Callable[..., R]
 
@@ -50,7 +49,9 @@ Add path input path keyword-argument for wrapped function. Value is file’s dir
   </tr>
 </table>
 
-    @with_path
-    def f(*, path):
-        return path
-    f()
+```py
+@with_path
+def f(*, path):
+    return path
+f()
+```
