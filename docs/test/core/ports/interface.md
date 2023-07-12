@@ -1,8 +1,7 @@
 # PortInterface
 
 ```py
-class 
-maxoptics_sdk.core.ports.interface.PortInterface(*args, **kwargs)
+class maxoptics_sdk.core.ports.interface.PortInterface(*args, **kwargs)
 ```
 
 - Bases: **Protocol**
