@@ -5,7 +5,10 @@
 
 ## PostProcessModeSource
 
-    class maxoptics_sdk.core.source.post_process_mode_source_typing.PostProcessModeSource(*args, **kwargs)
+```py
+class maxoptics_sdk.core.source.post_process_mode_source_typing.PostProcessModeSource(*args, **kwargs)
+```
+
 __Bases__: dict
 
 
@@ -21,7 +24,10 @@ __Bases__: dict
 
 ## PostProcessModeSourceBentWaveguide
 
-    class maxoptics_sdk.core.source.post_process_mode_source_typing.PostProcessModeSourceBentWaveguide(*args, **kwargs)
+```py
+class maxoptics_sdk.core.source.post_process_mode_source_typing.PostProcessModeSourceBentWaveguide(*args, **kwargs)
+```
+
 __Bases__: dict
 
 
@@ -36,7 +42,11 @@ __Bases__: dict
 <span id='PostProcessModeSourceGeneral'></span>
 
 ## PostProcessModeSourceGeneral
-    class maxoptics_sdk.core.source.post_process_mode_source_typing.PostProcessModeSourceGeneral(*args, **kwargs)
+
+```py
+class maxoptics_sdk.core.source.post_process_mode_source_typing.PostProcessModeSourceGeneral(*args, **kwargs)
+```
+
 __Bases__: dict
 
 | Parameter         | Type                                                               |
@@ -57,7 +67,11 @@ __Bases__: dict
 <span id='PostProcessModeSourceGeneralModeRemoval'></span>
 
 ## PostProcessModeSourceGeneralModeRemoval
-    class maxoptics_sdk.core.source.post_process_mode_source_typing.PostProcessModeSourceGeneralModeRemoval(*args, **kwargs)¶
+
+```py
+class maxoptics_sdk.core.source.post_process_mode_source_typing.PostProcessModeSourceGeneralModeRemoval(*args, **kwargs)¶
+```
+
 __Bases__: dict
 
 | Parameter         | Type                                                               |
@@ -70,7 +84,11 @@ __Bases__: dict
 <span id='PostProcessModeSourceGeneralWaveform'></span>
 
 ## PostProcessModeSourceGeneralWaveform
-    class maxoptics_sdk.core.source.post_process_mode_source_typing.PostProcessModeSourceGeneralWaveform(*args, **kwargs)
+
+```py
+class maxoptics_sdk.core.source.post_process_mode_source_typing.PostProcessModeSourceGeneralWaveform(*args, **kwargs)
+```
+
 __Bases__: dict
 
 | Parameter           | Type  |
@@ -81,7 +99,11 @@ __Bases__: dict
 <span id='PostProcessModeSourceGeometry'></span>
 
 ## PostProcessModeSourceGeometry
-    class maxoptics_sdk.core.source.post_process_mode_source_typing.PostProcessModeSourceGeometry(*args, **kwargs)
+
+```py
+class maxoptics_sdk.core.source.post_process_mode_source_typing.PostProcessModeSourceGeometry(*args, **kwargs)
+```
+
 __Bases__: dict
 
 
