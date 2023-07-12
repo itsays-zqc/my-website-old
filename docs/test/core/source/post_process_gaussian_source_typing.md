@@ -7,7 +7,7 @@
 class maxoptics_sdk.core.source.post_process_gaussian_source_typing.PostProcessGaussianSource(*args, **kwargs)
 ```
 
-__Bases__: dict
+- Bases: **dict**
 
 
 general: [PostProcessGaussianSourceGeneral](#PostProcessGaussianSourceGeneral)
@@ -27,13 +27,13 @@ geometry: [PostProcessGaussianSourceGeometry](#PostProcessGaussianSourceGeometry
 class maxoptics_sdk.core.source.post_process_gaussian_source_typing.PostProcessGaussianSourceGeneral(*args, **kwargs)
 ```
 
-__Bases__: dict
+- Bases: **dict**
 
 
 <table class="custom-table">
   <tr>
     <td class="typeface">Parameter</td>
-    <td class="typeface">Explanation</td>
+    <td class="typeface">Type</td>
   </tr>
   <tr>
     <td>amplitude</td>
@@ -87,12 +87,12 @@ __Bases__: dict
 class maxoptics_sdk.core.source.post_process_gaussian_source_typing.PostProcessGaussianSourceGeneralBeamSettings(*args, **kwargs)
 ```
 
-__Bases__: dict
+- Bases: **dict**
 
 <table class="custom-table">
   <tr>
     <td class="typeface">Parameter</td>
-    <td class="typeface">Explanation</td>
+    <td class="typeface">Type</td>
   </tr>
   <tr>
     <td>beam_parameters</td>
@@ -129,7 +129,7 @@ __Bases__: dict
 class maxoptics_sdk.core.source.post_process_gaussian_source_typing.PostProcessGaussianSourceGeneralWaveform(*args, **kwargs)
 ```
 
-__Bases__: dict
+- Bases: **dict**
 
 
 <table class="custom-table">
@@ -152,14 +152,14 @@ __Bases__: dict
 class maxoptics_sdk.core.source.post_process_gaussian_source_typing.PostProcessGaussianSourceGeometry(*args, **kwargs)
 ```
 
-__Bases__: dict
+- Bases: **dict**
 
 
 
 <table class="custom-table">
   <tr>
     <td class="typeface">Parameter</td>
-    <td class="typeface">Explanation</td>
+    <td class="typeface">Type</td>
   </tr>
   <tr>
     <td>x</td>
