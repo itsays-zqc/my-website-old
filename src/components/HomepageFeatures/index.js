@@ -150,23 +150,23 @@ const FeatureList = [
       <>
          {/* <hr /> */}
         <div style={{ textAlign: 'left' }}>
-          <a href="/my-website/docs/tutorial/mode/fde">1.如何调出所用命令？（待）</a>
+          <a href="/my-website/docs/test/core/material/interface#1-add_anisotropy">1.How can I add an anisotropic material with SDK?</a>
         </div>
         <hr style={{ margin: '0.25rem 0' }}/>
   
         <div style={{ textAlign: 'left' }}>
-        <a href="/my-website/docs/tutorial/mode/fdtd">2.做一个例子,从mo.sdk.doc到knowledge base的item?（待）</a>
+        <a href="/my-website/docs/test/core/monitors/interface#1-add-a-monitor">2.How can I add a monitor with SDK?</a>
         </div>
         <hr style={{ margin: '0.25rem 0' }}/>
 
 
         <div style={{ textAlign: 'left' }}>
-        <a href="/my-website/docs/tutorial/mode/eme">3.用GUI创建?（待）</a>
+        <a href="/my-website/docs/test/core/simulation/simu_res#1-add">3.How can I create a simulation with SDK?</a>
         </div>
         <hr style={{ margin: '0.25rem 0' }}/>
 
         <div style={{ textAlign: 'left' }}>
-        <a href="/my-website/docs/tutorial/material">4.用SDK创建?（待）</a>
+        <a href="/my-website/docs/test/core/structure/interface">4.How can I adjust the structure with SDK?</a>
         </div>
         <hr style={{ margin: '0.25rem 0' }}/>
         
