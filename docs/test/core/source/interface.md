@@ -5,16 +5,16 @@
 class maxoptics_sdk.core.source.interface.SourceInterface(*args, **kwargs)
 ```
 
-- Bases: __Protocol__
+Bases: __Protocol__
 
----
+### Syntax
 abstract __add__(*, type: Literal['mode_source'], name: str, axis: Literal['x_forward', 'y_forward', 'z_forward', 'x_backward', 'y_backward', 'z_backward'], property: PostProcessModeSource)
 
 abstract __add__(*, type: Literal['gaussian_source'], name: str, axis: Literal['x_forward', 'y_forward', 'z_forward', 'x_backward', 'y_backward', 'z_backward'], property: PostProcessGaussianSource)
 
----
+### Usage
 
-__Add a source to current project.__
+`Add a source to current project`
 
 <!-- Here's the representation of the given parameters as a Markdown table: -->
 
@@ -24,8 +24,8 @@ __Add a source to current project.__
     <td class="typeface">Explanation</td>
   </tr>
   <tr>
-    <td>name</td>
-    <td>Source name</td>
+    <td class="first-column">name</td>
+    <td class="second-column">Source name</td>
   </tr>
   <tr>
     <td>type</td>

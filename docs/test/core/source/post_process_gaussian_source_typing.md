@@ -7,7 +7,7 @@
 class maxoptics_sdk.core.source.post_process_gaussian_source_typing.PostProcessGaussianSource(*args, **kwargs)
 ```
 
-- Bases: **dict**
+Bases: **dict**
 
 
 general: [PostProcessGaussianSourceGeneral](#PostProcessGaussianSourceGeneral)
@@ -36,8 +36,8 @@ class maxoptics_sdk.core.source.post_process_gaussian_source_typing.PostProcessG
     <td class="typeface">Type</td>
   </tr>
   <tr>
-    <td>amplitude</td>
-    <td>float | int | FloatParameter | FloatParameterExpression</td>
+    <td class="first-column">amplitude</td>
+    <td class="second-column">float | int | FloatParameter | FloatParameterExpression</td>
   </tr>
   <tr>
     <td>angle_phi</td>
@@ -95,8 +95,8 @@ class maxoptics_sdk.core.source.post_process_gaussian_source_typing.PostProcessG
     <td class="typeface">Type</td>
   </tr>
   <tr>
-    <td>beam_parameters</td>
-    <td>Literal['waist_size_and_position', 'beam_size_and_divergence']</td>
+    <td class="first-column">beam_parameters</td>
+    <td class="second-column">Literal['waist_size_and_position', 'beam_size_and_divergence']</td>
   </tr>
   <tr>
     <td>beam_radius</td>
@@ -138,8 +138,8 @@ class maxoptics_sdk.core.source.post_process_gaussian_source_typing.PostProcessG
     <td class="typeface">Explanation</td>
   </tr>
   <tr>
-    <td>waveform_id_select</td>
-    <td>Waveform</td>
+    <td class="first-column">waveform_id_select</td>
+    <td class="second-column">Waveform</td>
   </tr>
 </table>
 
@@ -162,8 +162,8 @@ class maxoptics_sdk.core.source.post_process_gaussian_source_typing.PostProcessG
     <td class="typeface">Type</td>
   </tr>
   <tr>
-    <td>x</td>
-    <td>float | int | FloatParameter | FloatParameterExpression</td>
+    <td class="first-column">x</td>
+    <td class="second-column">float | int | FloatParameter | FloatParameterExpression</td>
   </tr>
   <tr>
     <td>x_max</td>

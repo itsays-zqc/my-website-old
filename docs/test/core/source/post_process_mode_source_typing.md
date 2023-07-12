@@ -9,7 +9,7 @@
 class maxoptics_sdk.core.source.post_process_mode_source_typing.PostProcessModeSource(*args, **kwargs)
 ```
 
-- Bases: **dict**
+Bases: **dict**
 
 
 
@@ -19,8 +19,8 @@ class maxoptics_sdk.core.source.post_process_mode_source_typing.PostProcessModeS
     <td class="typeface">Type</td>
   </tr>
   <tr>
-    <td>bent_waveguide</td>
-    <td><a href='#PostProcessModeSourceBentWaveguide'>PostProcessModeSourceBentWaveguide</a></td>
+    <td class="first-column">bent_waveguide</td>
+    <td class="second-column"><a href='#PostProcessModeSourceBentWaveguide'>PostProcessModeSourceBentWaveguide</a></td>
   </tr>
   <tr>
     <td>general</td>
@@ -41,7 +41,7 @@ class maxoptics_sdk.core.source.post_process_mode_source_typing.PostProcessModeS
 class maxoptics_sdk.core.source.post_process_mode_source_typing.PostProcessModeSourceBentWaveguide(*args, **kwargs)
 ```
 
-- Bases: **dict**
+Bases: **dict**
 
 
 <table class="custom-table">
@@ -50,8 +50,8 @@ class maxoptics_sdk.core.source.post_process_mode_source_typing.PostProcessModeS
     <td class="typeface">Type</td>
   </tr>
   <tr>
-    <td>bent_waveguide</td>
-    <td>bool</td>
+    <td class="first-column">bent_waveguide</td>
+    <td class="second-column">bool</td>
   </tr>
   <tr>
     <td>location</td>
@@ -76,7 +76,7 @@ class maxoptics_sdk.core.source.post_process_mode_source_typing.PostProcessModeS
 class maxoptics_sdk.core.source.post_process_mode_source_typing.PostProcessModeSourceGeneral(*args, **kwargs)
 ```
 
-- Bases: **dict**
+Bases: **dict**
 
 <table class="custom-table">
   <tr>
@@ -84,8 +84,8 @@ class maxoptics_sdk.core.source.post_process_mode_source_typing.PostProcessModeS
     <td class="typeface">Type</td>
   </tr>
   <tr>
-    <td>amplitude</td>
-    <td>float | int | FloatParameter | FloatParameterExpression</td>
+    <td class="first-column">amplitude</td>
+    <td class="second-column">float | int | FloatParameter | FloatParameterExpression</td>
   </tr>
   <tr>
     <td>direction</td>
@@ -150,8 +150,8 @@ class maxoptics_sdk.core.source.post_process_mode_source_typing.PostProcessModeS
     <td class="typeface">Type</td>
   </tr>
   <tr>
-    <td>phi</td>
-    <td>float | int | FloatParameter | FloatParameterExpression</td>
+    <td class="first-column">phi</td>
+    <td class="second-column">float | int | FloatParameter | FloatParameterExpression</td>
   </tr>
   <tr>
     <td>rotation_offset</td>
@@ -172,7 +172,7 @@ class maxoptics_sdk.core.source.post_process_mode_source_typing.PostProcessModeS
 class maxoptics_sdk.core.source.post_process_mode_source_typing.PostProcessModeSourceGeneralWaveform(*args, **kwargs)
 ```
 
-- Bases: **dict**
+  Bases: **dict**
 
 <table class="custom-table">
   <tr>
@@ -180,8 +180,8 @@ class maxoptics_sdk.core.source.post_process_mode_source_typing.PostProcessModeS
     <td class="typeface">Explanation</td>
   </tr>
   <tr>
-    <td>waveform_id_select</td>
-    <td>Any</td>
+    <td class="first-column">waveform_id_select</td>
+    <td class="second-column">Any</td>
   </tr>
 </table>
 
@@ -195,7 +195,7 @@ class maxoptics_sdk.core.source.post_process_mode_source_typing.PostProcessModeS
 class maxoptics_sdk.core.source.post_process_mode_source_typing.PostProcessModeSourceGeometry(*args, **kwargs)
 ```
 
-- Bases: **dict**
+Bases: **dict**
 
 <table class="custom-table">
   <tr>
@@ -203,8 +203,8 @@ class maxoptics_sdk.core.source.post_process_mode_source_typing.PostProcessModeS
     <td class="typeface">Type</td>
   </tr>
   <tr>
-    <td>x</td>
-    <td>float | int | FloatParameter | FloatParameterExpression</td>
+    <td class="first-column">x</td>
+    <td class="second-column">float | int | FloatParameter | FloatParameterExpression</td>
   </tr>
   <tr>
     <td>x_max</td>
