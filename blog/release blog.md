@@ -1,4 +1,5 @@
 # Release Log
+![mo-logo](../static/img/mo_logo.jpg)
 ## V2.3.0.4
 Release Date: 2023/06/30
 ### Dependent Software
