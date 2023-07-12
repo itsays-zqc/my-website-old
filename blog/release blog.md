@@ -1,7 +1,7 @@
 # Release Log
-# V2.3.0.4
+## V2.3.0.4
 Release Date: 2023/06/30
-## Dependent Software
+### Dependent Software
 - Passive
 	 - meshgen: 1.1.0614.1839
 
@@ -30,14 +30,14 @@ Release Date: 2023/06/30
 
 	 - OEDevice: 20230324
 
-## New Feature
+### New Feature
 - Passive
 	 - None.
 
 - Active
 	 - None.
 
-## Fixed Bugs
+### Fixed Bugs
 - Passive
 	 - Added exception catch for eme_propagate:facet_data.
 
@@ -46,14 +46,14 @@ Release Date: 2023/06/30
 - Active
 	 - None.
 
-## Unrealized/Planning Functions
+### Unrealized/Planning Functions
 - Passive
 	 - ModeSource/FDTDPort/EMEPort support UserImport.
 
 - Active
 	 - Setting the surface recombination velocity of Ge/Si.
 
-## Remained Bugs
+### Remained Bugs
 - Passive
 	 - When the installation path is too deep or the project file name is too long, the simulation fails due to the limit of the longest path to Windows (260 characters).
 
@@ -62,9 +62,9 @@ Release Date: 2023/06/30
 - Active
 	 - None.
 
-# V2.3.0.3
+## V2.3.0.3
 Release Date: 2023/06/21
-## Dependent Software
+### Dependent Software
 - Passive
 	 - meshgen: 1.1.0614.1839
 
@@ -93,14 +93,14 @@ Release Date: 2023/06/21
 
 	 - OEDevice: 20230324
 
-## New Feature
+### New Feature
 - Passive
 	 - None.
 
 - Active
 	 - None.
 
-## Fixed Bugs
+### Fixed Bugs
 - Passive
 	 - Fixed the boundary condition processing logic problem in the mode_selection:user_select method, and the logic after the fix was:
 
@@ -111,14 +111,14 @@ Release Date: 2023/06/21
 - Active
 	 - None.
 
-## Unrealized/Planning Functions
+### Unrealized/Planning Functions
 - Passive
 	 - ModeSource/FDTDPort/EMEPort support UserImport.
 
 - Active
 	 - Setting the surface recombination velocity of Ge/Si.
 
-## Remained Bugs
+### Remained Bugs
 - Passive
 	 - When the installation path is too deep or the project file name is too long, the simulation fails due to the limit of the longest path to Windows (260 characters).
 
@@ -127,9 +127,9 @@ Release Date: 2023/06/21
 - Active
 	 - None.
 
-# V2.3.0.2
+## V2.3.0.2
 Release Date: 2023/06/21
-## Dependent Software
+### Dependent Software
 - Passive
 	 - meshgen: 1.1.0614.1839
 
@@ -158,14 +158,14 @@ Release Date: 2023/06/21
 
 	 - OEDevice: 20230324
 
-## New Feature
+### New Feature
 - Passive
 	 - None.
 
 - Active
 	 - None.
 
-## Fixed Bugs
+### Fixed Bugs
 - Passive
 	 - When the relevant parameters of demodulation in the mode_selection:user_select method are not set, the default value is wrong. -> fast_EME.py
 
@@ -176,14 +176,14 @@ Release Date: 2023/06/21
 - Active
 	 - None.
 
-## Unrealized/Planning Functions
+### Unrealized/Planning Functions
 - Passive
 	 - ModeSource/FDTDPort/EMEPort support UserImport.
 
 - Active
 	 - Setting the surface recombination velocity of Ge/Si.
 
-## Remained Bugs
+### Remained Bugs
 - Passive
 	 - When the installation path is too deep or the project file name is too long, the simulation fails due to the limit of the longest path to Windows (260 characters).
 
@@ -192,9 +192,9 @@ Release Date: 2023/06/21
 - Active
 	 - None.
 
-# V2.3.0.1
+## V2.3.0.1
 Release Date: 2023/06/19
-## Dependent Software
+### Dependent Software
 - Passive
 	 - meshgen: 1.1.0614.1839
 
@@ -223,28 +223,28 @@ Release Date: 2023/06/19
 
 	 - OEDevice: 20230324
 
-## New Feature
+### New Feature
 - Passive
 	 - None.
 
 - Active
 	 - None.
 
-## Fixed Bugs
+### Fixed Bugs
 - Passive
 	 - The Source/Port setting is not overridden by the parameters related to demodulation in the mode_selection:user_select method. -> fast_EME.py
 
 - Active
 	 - Solve the problem that OEDevice does not support long paths through temporary folders.
 
-## Unrealized/Planning Functions
+### Unrealized/Planning Functions
 - Passive
 	 - ModeSource/FDTDPort/EMEPort support UserImport.
 
 - Active
 	 - Setting the surface recombination velocity of Ge/Si.
 
-## Remained Bugs
+### Remained Bugs
 - Passive
 	 - When the installation path is too deep or the project file name is too long, the simulation fails due to the limit of the longest path to Windows (260 characters).
 
@@ -253,9 +253,9 @@ Release Date: 2023/06/19
 - Active
 	 - None.
 
-# V2.3.0.0
+## V2.3.0.0
 Release Date: 2023/06/15
-## Dependent Software
+### Dependent Software
 - Passive
 	 - meshgen: 1.1.0614.1839
 
@@ -284,7 +284,7 @@ Release Date: 2023/06/15
 
 	 - OEDevice: 20230324
 
-## New Feature
+### New Feature
 - Passive
 	 - Modified the PML model and parameters for FDE.
 
@@ -305,7 +305,7 @@ Release Date: 2023/06/15
 
 	 - OEDevice Solver is included by default and requires no additional installation.
 
-## Fixed Bugs
+### Fixed Bugs
 - Passive
 	 - passive file after SDK FDE simulation, white screen when opened with LocalGUI.
 
@@ -314,14 +314,14 @@ Release Date: 2023/06/15
 - Active
 	 - None.
 
-## Unrealized/Planning Functions
+### Unrealized/Planning Functions
 - Passive
 	 - ModeSource/FDTDPort/EMEPort support UserImport.
 
 - Active
 	 - Setting the surface recombination velocity of Ge/Si.
 
-## Remained Bugs
+### Remained Bugs
 - Passive
 	 - When the installation path is too deep or the project file name is too long, the simulation fails due to the limit of the longest path to Windows (260 characters).
 
@@ -330,9 +330,9 @@ Release Date: 2023/06/15
 - Active
 	 - None.
 
-# V2.2.3.0
+## V2.2.3.0
 Release Date: 2023/05/31
-## Dependent Software
+### Dependent Software
 - Passive
 	 - meshgen: 1.1.0505.1842
 
@@ -361,7 +361,7 @@ Release Date: 2023/05/31
 
 	 - OEDevice: 20230324
 
-## New Feature
+### New Feature
 - Passive
 	 - AnalyticalWaveguide type in Structure, supporting tilt_angle and location.
 
@@ -378,7 +378,7 @@ Release Date: 2023/05/31
 
 	 - Optimize extraction of photo induced carrier generation rate.
 
-## Fixed Bugs
+### Fixed Bugs
 - Passive
 	 - FDTD extracts the ModeProfile coordinate value offset.
 
@@ -387,7 +387,7 @@ Release Date: 2023/05/31
 - Active
 	 - Fix extraction of electric field intensity for electric monitor.
 
-## Unrealized/Planning Functions
+### Unrealized/Planning Functions
 - Passive
 	 - Periodic Group Definition function in EME.
 
@@ -396,7 +396,7 @@ Release Date: 2023/05/31
 - Active
 	 - Setting the surface recombination velocity of Ge/Si.
 
-## Remained Bugs
+### Remained Bugs
 - Passive
 	 - When the installation path is too deep or the project file name is too long, the simulation fails due to the limit of the longest path to Windows (260 characters).
 
@@ -405,9 +405,9 @@ Release Date: 2023/05/31
 - Active
 	 - None.
 
-# V2.2.2.0
+## V2.2.2.0
 Release Date: 2023/04/28
-## Dependent Software
+### Dependent Software
 - Passive
 	 - meshgen: 1.1.0320.1930
 
@@ -432,7 +432,7 @@ Release Date: 2023/04/28
 
 	 - OEDevice: 20230324
 
-## New Feature
+### New Feature
 - Passive
 	 - Add PASSIVE_FDTD_GPU authorization limit.
 
@@ -447,14 +447,14 @@ Release Date: 2023/04/28
 - Active
 	 - None.
 
-## Fixed Bugs
+### Fixed Bugs
 - Passive
 	 - FDE/FDTD simulation results are offset under the Symmetric/Anti-Symmetric boundary conditions.
 
 - Active
 	 - None.
 
-## Unrealized/Planning Functions
+### Unrealized/Planning Functions
 - Passive
 	 - Periodic Group Definition function in EME.
 
@@ -463,7 +463,7 @@ Release Date: 2023/04/28
 - Active
 	 - None.
 
-## Remained Bugs
+### Remained Bugs
 - Passive
 	 - FDTD does not support ModeExpansion in the case of Gaussian source excitation.
 
@@ -474,9 +474,9 @@ Release Date: 2023/04/28
 - Active
 	 - None.
 
-# V2.2.1.2
+## V2.2.1.2
 Release Date: 2023/04/14
-## Dependent Software
+### Dependent Software
 - Passive
 	 - meshgen: 1.1.0320.1930
 
@@ -501,7 +501,7 @@ Release Date: 2023/04/14
 
 	 - OEDevice: 20230324
 
-## New Feature
+### New Feature
 - Passive
 	 - Added the ability to specify the passive file path for simulation, preparing for third-party schedulers -> mo.sdk run.
 
@@ -514,30 +514,30 @@ Release Date: 2023/04/14
 
 	 - Support for adding electrical local mesh along a line.
 
-## Fixed Bugs
+### Fixed Bugs
 - Passive
 	 - None.
 
 - Active
 	 - None.
 
-## Unrealized/Planning Functions
+### Unrealized/Planning Functions
 - Passive
 	 - None.
 
 - Active
 	 - None.
 
-## Remained Bugs
+### Remained Bugs
 - Passive
 	 - None.
 
 - Active
 	 - None.
 
-# V2.2.1.0
+## V2.2.1.0
 Release Date: 2023/03/31
-## Dependent Software
+### Dependent Software
 - Passive
 	 - meshgen: 1.1.0320.1930
 
@@ -560,7 +560,7 @@ Release Date: 2023/03/31
 
 	 - OEDevice: 20230324
 
-## New Feature
+### New Feature
 - Passive
 	 - Add FarField calculation for PowerMonitor in FDTD. -> FDTD_Far_Field.py
 
@@ -573,7 +573,7 @@ Release Date: 2023/03/31
 
 	 - add_doping supports selected areas or specified material lists.
 
-## Fixed Bugs
+### Fixed Bugs
 - Passive
 	 - None.
 
@@ -584,23 +584,23 @@ Release Date: 2023/03/31
 
 	 - run_index does not support LocalMesh.
 
-## Unrealized/Planning Functions
+### Unrealized/Planning Functions
 - Passive
 	 - None.
 
 - Active
 	 - None.
 
-## Remained Bugs
+### Remained Bugs
 - Passive
 	 - None.
 
 - Active
 	 - None.
 
-# V2.2.0.0
+## V2.2.0.0
 Release Date: 2023/03/15
-## Dependent Software
+### Dependent Software
 - Passive
 	 - meshgen: 1.1.0213.1427
 
@@ -623,7 +623,7 @@ Release Date: 2023/03/15
 
 	 - OEDevice: 20221220
 
-## New Feature
+### New Feature
 - Passive
 	 - Enable new authorization controls.
 
@@ -638,7 +638,7 @@ Release Date: 2023/03/15
 
 	 - When importing DOP doping files, additional Gaussian doping is supported.
 
-## Fixed Bugs
+### Fixed Bugs
 - Passive
 	 - None.
 
@@ -647,14 +647,14 @@ Release Date: 2023/03/15
 
 	 - The code comments of some new functions are not completed, such as add_doping, etc.
 
-## Unrealized/Planning Functions
+### Unrealized/Planning Functions
 - Passive
 	 - None.
 
 - Active
 	 - None.
 
-## Remained Bugs
+### Remained Bugs
 - Passive
 	 - The parameters of Boundary and PMLlack of default values in the Oboundary -> V2.2.1.0 by 2023/3/31
 
@@ -675,9 +675,9 @@ Release Date: 2023/03/15
 - Active
 	 - None.
 
-# V2.1.1.0
+## V2.1.1.0
 Release Date: 2023/02/28
-## Dependent Software
+### Dependent Software
 - Passive
 	 - meshgen: 1.1.0213.1427
 
@@ -700,7 +700,7 @@ Release Date: 2023/02/28
 
 	 - OEDevice: 20221220
 
-## New Feature
+### New Feature
 - Passive
 	 - Adjust FDTD ModeExpansion as a submodule of PowerMonitor, which can inherit the geometric parameters of PowerMonitor in SDK/LocalGUI/CloudGUI simulation process. -> fast_FDTD.py
 
@@ -711,7 +711,7 @@ Release Date: 2023/02/28
 
 	 - Doping import supports pure doping data files, and at this time also supports setting uniform doping in SDK. -> MOD00_doping_import_DOP.py
 
-## Fixed Bugs
+### Fixed Bugs
 - Passive
 	 - When the simulation results of SDK are run and viewed in LocalGUI, an error is reported when viewing the results of ModeSource in FDTD, the results in FDE Parameter Sweep are not imported, and the intensity graph of SMatrix in EME Parameter Sweep cannot view.
 
@@ -728,14 +728,14 @@ Release Date: 2023/02/28
 
 	 - SDK electrical Solver version check fails.
 
-## Unrealized/Planning Functions
+### Unrealized/Planning Functions
 - Passive
 	 - SDK script supports the extraction of historical simulation results. -> V2.2.1.0 by 2023/3/31
 
 - Active
 	 - None
 
-## Remained Bugs
+### Remained Bugs
 - Passive
 	 - The parameters of Boundary and PMLlack of default values in the Oboundary -> V2.2.0.0 by 2023/3/15
 
@@ -758,9 +758,9 @@ Release Date: 2023/02/28
 
 	 - The code comments of some new functions are not completed, such as add_doping, etc.
 
-# V2.1.0.0
+## V2.1.0.0
 Release Date: 2023/02/10
-## Dependent Software
+### Dependent Software
 - Passive
 	 - meshgen: 1.0.1206.1835
 
@@ -783,7 +783,7 @@ Release Date: 2023/02/10
 
 	 - OEDevice: 20221220
 
-## New Feature
+### New Feature
 - Passive
 	 - Provide FDTD Parameter Sweep/EME Parameter Sweep/FDE Parameter Sweep -> DC_FDTD_ParameterSweep.py/wg_FDE_ParameterSweep.py/DC_EME_ParameterSweep.py
 
@@ -798,7 +798,7 @@ Release Date: 2023/02/10
 
 	 - [42] OEDevice license support remote desktop.
 
-## Fixed Bugs
+### Fixed Bugs
 - Passive
 	 - None
 
@@ -813,14 +813,14 @@ Release Date: 2023/02/10
 
 	 - norm_length doesn’t support floating numbers.
 
-## Unrealized/Planning Functions
+### Unrealized/Planning Functions
 - Passive
 	 - Adjust FDTD ModeExpansion as a submodule of PowerMonitor, which can inherit the geometric parameters of PowerMonitor in SDK/LocalGUI/CloudGUI simulation process. -> V2.1.0.1 by 2023/2/28
 
 - Active
 	 - None
 
-## Remained Bugs
+### Remained Bugs
 - Passive
 	 - Thestart_frequency of FDE Frequency Sweep does not work -> The FDE Frequency Sweep function is hidden temporarily, to be fixed.
 
@@ -847,9 +847,9 @@ Release Date: 2023/02/10
 
 	 - The Mode Calculate of Modulator just support max_index, not support near_n -> V2.1.0.1 by 2023/2/28
 
-# V2.0.1.0
+## V2.0.1.0
 Release Date: 2023/01/12
-## Dependent Software
+### Dependent Software
 - Passive
 	 - meshgen: 1.0.1206.1835
 
@@ -872,14 +872,14 @@ Release Date: 2023/01/12
 
 	 - OEDevice: 20221102
 
-## New Feature
+### New Feature
 - Passive
 	 - None
 
 - Active
 	 - None
 
-## Fixed Bugs
+### Fixed Bugs
 - Passive
 	 - mesh_factor parameter did not add input parameter range check, modified to [1.05,1.6]. -> fast_FDE.py
 
@@ -892,7 +892,7 @@ Release Date: 2023/01/12
 
 	 - Active doping file import run result extraction error.
 
-## Unrealized/Planning Functions
+### Unrealized/Planning Functions
 - Passive
 	 - AIO features include FDTD Parameter Sweep/FDE Parameter Sweep/EME Parameter Sweep-> V2.1.0.0 by 2023/2/10
 
@@ -905,7 +905,7 @@ Release Date: 2023/01/12
 - Active
 	 - None
 
-## Remained Bugs
+### Remained Bugs
 - Passive
 	 - Thestart_frequency of FDE Frequency Sweep does not work -> The FDE Frequency Sweep function is hidden temporarily, to be fixed.
 
@@ -930,9 +930,9 @@ Release Date: 2023/01/12
 
 	 - The output current results sometimes have redundant negative signs. -> by 2023/2/28
 
-# V2.0.0.1
+## V2.0.0.1
 Release Date: 2023/01/10
-## Dependent Software
+### Dependent Software
 - Passive
 	 - meshgen: 1.0.1206.1835
 
@@ -955,7 +955,7 @@ Release Date: 2023/01/10
 
 	 - OEDevice: 20221102
 
-## New Feature
+### New Feature
 - Passive
 	 - FDE Far Field -> FDE_Far_Field.py
 
@@ -968,7 +968,7 @@ Release Date: 2023/01/10
 - Active
 	 - None
 
-## Fixed Bugs
+### Fixed Bugs
 - Passive
 	 - The run_index result is incorrect when setting GDS as the bottom to perform trapezoidal extend. (The trapezoidal section imported by GDS currently only supports the real trapezoidal structure) -> LN_anisotropy_BENT_FDTD_GDS.py
 
@@ -979,7 +979,7 @@ Release Date: 2023/01/10
 - Active
 	 - The title name of Doping Concentration[cm^-3] has been changed to Net Doping[cm^-3] in the run_doping plot.
 
-## Unrealized/Planning Functions
+### Unrealized/Planning Functions
 - Passive
 	 - AIO features include FDTD Parameter Sweep/FDE Parameter Sweep/EME Parameter Sweep-> by 2023/2/10
 
@@ -992,7 +992,7 @@ Release Date: 2023/01/10
 - Active
 	 - None
 
-## Remained Bugs
+### Remained Bugs
 - Passive
 	 - Thestart_frequency of FDE Frequency Sweep does not work -> The FDE Frequency Sweep function is hidden temporarily, to be fixed.
 
@@ -1015,9 +1015,9 @@ Release Date: 2023/01/10
 - Active
 	 - The structure edge of the carrier concentration intensity exists sawtooth-shaped edges in the result image. -> by 2023/2/28
 
-# V2.0.0.0
+## V2.0.0.0
 Release Date: 2023/01/05
-## Dependent Software
+### Dependent Software
 - Passive
 	 - meshgen: 1.0.1206.1835
 
@@ -1040,7 +1040,7 @@ Release Date: 2023/01/05
 
 	 - OEDevice: 20221102
 
-## New Feature
+### New Feature
 - Passive
 	 - None
 
@@ -1053,7 +1053,7 @@ Release Date: 2023/01/05
 
 	 - Adjust the authorization method and cancel the old authorization and local configuration file
 
-## Fixed Bugs
+### Fixed Bugs
 - Passive
 	 - When ModeSource run fde only , the mesh is 3D Mesh but not 2D Mesh -> fast_FDTD.py
 
@@ -1080,14 +1080,14 @@ Release Date: 2023/01/05
 
 	 - The scale and title font of the axis is small in the result image.
 
-## Unrealized/Planning Functions
+### Unrealized/Planning Functions
 - Active
 	 - Supports run_doping method. -> V2.0.0.2 by 2023/2/10
 
 - Active
 	 - Modulator Analysis supports optical simulation in designated mode. -> V2.0.0.2 by 2023/2/10
 
-## Remained Bugs
+### Remained Bugs
 - Passive
 	 - Thestart_frequency of FDE Frequency Sweep does not work -> The FDE Frequency Sweep function is hidden temporarily, to be fixed.
 
@@ -1102,9 +1102,9 @@ Release Date: 2023/01/05
 - Active
 	 - The structure edge of the carrier concentration intensity exists sawtooth-shaped edges in the result image. -> V2.0.0.2 by 2023/2/10
 
-# V1.9.1.1
+## V1.9.1.1
 Release Date: 2022/12/27
-## Dependent Software
+### Dependent Software
 - Passive
 	 - meshgen: 1.0.1206.1835
 
@@ -1127,14 +1127,14 @@ Release Date: 2022/12/27
 
 	 - OEDevice: 20221102
 
-## New Feature
+### New Feature
 - Passive
 	 - supports script run in cloud mode -> fast_FDE.py/fast_FDTD.py/fast_EME.py
 
 - Active
 	 - supports run_index(The type of Terraceneeds changing into Pyramid)
 
-## Fixed Bugs
+### Fixed Bugs
 - Passive
 	 - The order does not start from 0 in the FDE result. -> fast_FDE.py
 
@@ -1171,7 +1171,7 @@ Release Date: 2022/12/27
 
 	 - Run run_doping directly, while no doping is imported, the electric simulation will be executed.
 
-## Unrealized/Planning Functions
+### Unrealized/Planning Functions
 - Passive
 	 - Supports run_doping method. -> V1.9.1.3 by 2023/1/10
 
@@ -1182,7 +1182,7 @@ Release Date: 2022/12/27
 
 	 - The authorized integration of MY needs to be verified -> V1.9.1.2 by 2023/1/3
 
-## Remained Bugs
+### Remained Bugs
 - Passive
 	 - Thestart_frequency of FDE Frequency Sweep does not work -> The FDE Frequency Sweep function is hidden temporarily, to be fixed.
 
@@ -1215,9 +1215,9 @@ Release Date: 2022/12/27
 
 	 - add_emesh lacks of notes -> V1.9.1.2 by 2023/1/3
 
-# V1.9.1.0
+## V1.9.1.0
 Release Date: 2022/12/19 is
-## Dependent Software
+### Dependent Software
 - Passive
 	 - meshgen: 1.0.1206.1835
 
@@ -1240,7 +1240,7 @@ Release Date: 2022/12/19 is
 
 	 - OEDevice: 20221102
 
-## New Feature
+### New Feature
 - Passive
 	 - Modifies the default logic of structure material, and supports simulation even mt without Air material. -> fast_FDE.py
 
@@ -1270,7 +1270,7 @@ Release Date: 2022/12/19 is
 	 - Fixed Bug
 	 - None
 
-## Unrealized/Planning Functions
+### Unrealized/Planning Functions
 - Passive
 	 - None
 
@@ -1285,7 +1285,7 @@ Release Date: 2022/12/19 is
 
 	 - The authorized integration of MY needs to be verified -> V2.0.0.0 by 2022/12/31
 
-## Remained Bugs
+### Remained Bugs
 - Passive
 	 - Thestart_frequency of FDE Frequency Sweep does not work -> The FDE Frequency Sweep function is hidden temporarily, to be fixed.
 
@@ -1316,9 +1316,9 @@ Release Date: 2022/12/19 is
 
 	 - The effective refractive index precision of Modulator does not meet requirements. -> V1.9.1.1 by 2022/12/26
 
-# V1.9.0.4
+## V1.9.0.4
 Release Date: 2022/12/13
-## Dependent Software
+### Dependent Software
 - meshgen: 1.0.1206.1835
 
 - FDTD: V0.94.0.1 build 1124.0823
@@ -1329,7 +1329,7 @@ Release Date: 2022/12/13
 
 - ModeExpansion: V0.82.0.0.2
 
-## New Feature
+### New Feature
 - Modifies the data format of DataFrame calling from FDE: order/TEratio/neff_real/neff_imag/ng_real/ng_imag/wavelength_nm/loss_dBpcm -> fast_FDE.py
 
 - Removes monitor_type parameter in run_index and takes span==0 as auto judgement logic -> fast_FDE.py
@@ -1348,7 +1348,7 @@ Release Date: 2022/12/13
 
 - Adds maxoptics_OEDevice_local_sdk into whl installation package for matching with Active SDK.(Active simulation is not available temporarily)-> wheels/requirements.txt
 
-## Fixed Bugs
+### Fixed Bugs
 - Fixed, coordinate offset of mode calculation result caused by incorrect transmit parameters, when setting PML of FDE. -> fast_FDE.py
 
 - Fixed the PML Region does not show in the Structure_show. -> fast_FDTD.py
@@ -1367,10 +1367,10 @@ Release Date: 2022/12/13
 
 - The output project files of structure_show are placed into simulations file, and the output files of run_index are placed into main simulation file. -> FDTD_HalfRing.py
 
-## Unrealized/Planning Functions
+### Unrealized/Planning Functions
 - Supports trapezoidal extending via GDS importing. -> V1.9.1.0 by 2022/12/16
 
-## Remained Bugs
+### Remained Bugs
 - Thestart_frequency of FDE Frequency Sweep does not work -> The FDE Frequency Sweep function is hidden temporarily, to be fixed.
 
 - The default value of stop_wavelength in FDE Frequency Sweep is less than start_wavelength . -> The logic keeps with Cloud, to be fixed.
@@ -1395,9 +1395,9 @@ Release Date: 2022/12/13
 
 - The script reports an error when using the background_material default value of Structure and there is no Air material in the mt. -> V1.9.1.0 by 2022/12/16
 
-# V1.9.0.3
+## V1.9.0.3
 Release Date: 2022/12/06
-## Dependent Software
+### Dependent Software
 - meshgen: 1.0.1110.1500
 
 - FDTD: V0.94.0.1 build 1124.0823
@@ -1408,7 +1408,7 @@ Release Date: 2022/12/06
 
 - ModeExpansion: V0.82.0.0.2
 
-## New Feature
+### New Feature
 - Moves run_index method from Structure to Simulation.
 
 - Removes local sdk and whale version information output, only ALL-In-One version information is left.
@@ -1425,7 +1425,7 @@ Release Date: 2022/12/06
 
 - Adds show3d function in the Simulation.
 
-## Fixed Bugs
+### Fixed Bugs
 - Fixed,propagation_sweep and wavelength_sweep parameters of EME are processed incorrectly.
 
 - Modified the inappropriate name of material_name in the script.
@@ -1436,14 +1436,14 @@ Release Date: 2022/12/06
 
 - The parameter transmit is incorrect in theglobal_mesh_uniform_grid of FDE.
 
-## Unrealized/Planning Functions
+### Unrealized/Planning Functions
 - Supports 3DStructure_show . (The 3d Structure_show function has been developed, and plan to release on December 13th of V1.9.0.4)
 
 - Supports trapezoidal extending via GDS importing (The function is in progress, and plan to release on December 20th of V 1.9.0.4 )
 
 - FDTD/FDE/EME Parameter Sweep (TBD)
 
-## Remained Bugs
+### Remained Bugs
 - Thestart_frequency of FDE Frequency Sweep does not work
 
 - The default value of stop_wavelength in FDE Frequency Sweep is less than start_wavelength
@@ -1478,9 +1478,9 @@ Release Date: 2022/12/06
 
 - The dispersion material does not work, which is caused by theng parameter transmitting incorrectly.
 
-# V1.9.0.2
+## V1.9.0.2
 Release Date: 2022/11/28
-## Dependent Software
+### Dependent Software
 - meshgen: 1.0.1110.1500
 
 - FDTD: V0.94.0.1 build 1124.0823
@@ -1491,7 +1491,7 @@ Release Date: 2022/11/28
 
 - ModeExpansion: V0.82.0.0.2
 
-## New Feature
+### New Feature
 - The transmit parameters of pj.Structure with mesh_type/mesh_factor/background_material have been modified as elective options.
 
 - The maximum_mesh_step_settings name has been changed to global_mesh_uniform_grid.
@@ -1508,7 +1508,7 @@ Release Date: 2022/11/28
 
 - Modified the propagation_sweep in the EME and changed the calculation logic of propagation_sweep as an inner calculation in Slover.
 
-## Fixed Bugs
+### Fixed Bugs
 - An error will occur, when Jupyter imports maxoptics_sdk.all.
 
 - IF x_min is not set in the Simulation, an error will occur, even the simu region of OBoundary has been set in the EME.
@@ -1519,14 +1519,14 @@ Release Date: 2022/11/28
 
 - Fixed, set the detailed_dispersion_calculation default value to False in the FDE.
 
-## Unrealized/Planning Functions
+### Unrealized/Planning Functions
 - 3D structure_show.
 
 - Supports trapezoidal extending via GDS importing
 
 - FDTD/FDE/EME Parameter Sweep
 
-## Remained Bugs
+### Remained Bugs
 - The start_frequency function in the FDE Frequency Sweep does not work yet.
 
 - The detailed_dispersion_calculation in the FDE Frequency Sweep does not work in the Cloud mode.
@@ -1543,9 +1543,9 @@ Release Date: 2022/11/28
 
 - The name of the FDE output file has been modified but Cloud Server does not synchronize with it .
 
-# V1.9.0.1
+## V1.9.0.1
 Release Date: 2022/11/22
-## Dependent Software
+### Dependent Software
 - meshgen: 1.0.1110.1500
 
 - FDTD: Version: 0.93.0.1 Build 1106.1945
@@ -1556,7 +1556,7 @@ Release Date: 2022/11/22
 
 - ModeExpansion: V0.82.0.0.2
 
-## New Feature
+### New Feature
 - Supports hover function with input parameters, whether the property parameter is checked, and the property default value .
 
 - The parameter default values have been updated.
@@ -1569,7 +1569,7 @@ Release Date: 2022/11/22
 
 - Notes: Compared with AIO V1.9.0.0 features, the V1.9.0.1 has added five new features.
 
-## Fixed Bugs
+### Fixed Bugs
 - Fixed, Jupyrer notebook failed to import maxoptics_sdk.all .
 
 - Fixed, the maximum_mesh_step_settings in the FDE does not transmit correctly.
@@ -1598,7 +1598,7 @@ Release Date: 2022/11/22
 
 - 3D model structure parameter transmit is incorrect.
 
-## Unrealized/Planning Functions
+### Unrealized/Planning Functions
 - FDTD S-Matrix
 
 - FDE/EME/FDTD parameter sweep
@@ -1609,7 +1609,7 @@ Release Date: 2022/11/22
 
 - SDK material database does not synchronize with Cloud ‘s material database with Standard, User and Project .
 
-## Remained Bugs
+### Remained Bugs
 - The structure_show does not work, when there has a pyramid or ArcWaveguide3D structure in the modeling script.
 
 - The anisotropy results of EME and FDTD are incorrect casing by the worng parameter transmit of LN materials.
@@ -1658,9 +1658,9 @@ Release Date: 2022/11/22
 
 - The Release Log and Install Doc have not been translated into English completely.
 
-# V1.9.0.0
+## V1.9.0.0
 Release Date: 2022/11/15
-## Dependent Software
+### Dependent Software
 - meshgen: 1.0.1110.1500
 
 - FDTD: Version: 0.93.0.1 Build 1106.1945
@@ -1671,7 +1671,7 @@ Release Date: 2022/11/15
 
 - ModeExpansion: V0.82.0.0.2
 
-## New Feature
+### New Feature
 - Supports FDE Frequency Sweep;
 
 - Supports EME Wavelength Sweep;
@@ -1684,7 +1684,7 @@ Release Date: 2022/11/15
 
 - Notes: Compared with MOL V1.3.9 features, the V1.9.0.0 has added five new features.
 
-## Fixed Bugs
+### Fixed Bugs
 - fast_FDE.py
 - Fixed, there are a lot of useless {} that have been output, in the cloud mode.
 
@@ -1844,7 +1844,7 @@ Release Date: 2022/11/15
 
 - The two ports in the fde_onely are opposite.
 
-## Unrealized/Planning Functions
+### Unrealized/Planning Functions
 - FDTD S-Matrix
 
 - FDE/EME/FDTD parameters sweep
@@ -1853,7 +1853,7 @@ Release Date: 2022/11/15
 
 - SDK material database does not synchronize with Cloud ‘s material database with Standard, User and Project
 
-## Remained Bugs
+### Remained Bugs
 - The Structure_show method does not work, when there have paramid or Arcwaveguide 3D structures in the modeling script.
 
 - The results of EME and FDTD’s anisotropy are incorrect, caused by LN material parameter wrongly transmit.
@@ -1899,3 +1899,4 @@ Release Date: 2022/11/15
 - The method of inputting wavelength_min and wavelength_max into waveform and monitor and inputting frequency method has not been verified.
 
 - The waist_radius/distance_from_waist settings in the gaussian source do not synchronize with beam_radius/divergence_angle settings.
+
