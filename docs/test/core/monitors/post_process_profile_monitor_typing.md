@@ -3,8 +3,7 @@
 ## PostProcessProfileMonitor
 
 ```py
-class 
-maxoptics_sdk.core.monitors.post_process_profile_monitor_typing.PostProcessProfileMonitor(*args, **kwargs)
+class maxoptics_sdk.core.monitors.post_process_profile_monitor_typing.PostProcessProfileMonitor(*args, **kwargs)
 ```
 Bases: **dict**
 
@@ -13,8 +12,7 @@ Bases: **dict**
 ## PostProcessProfileMonitorGeometry
 
 ```py
-class 
-maxoptics_sdk.core.monitors.post_process_profile_monitor_typing.PostProcessProfileMonitorGeometry(*args, **kwargs)
+class maxoptics_sdk.core.monitors.post_process_profile_monitor_typing.PostProcessProfileMonitorGeometry(*args, **kwargs)
 ```
 Bases: **dict**
 

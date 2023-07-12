@@ -9,11 +9,10 @@ sidebar_position: 3
 <span id='PostProcessModeExpansion'>PostProcessModeExpansion</span>
 
 ```py
-class
-maxoptics_sdk.core.monitors.post_process_mode_expansion_typing.PostProcessModeExpansion(*args, **kwargs)
+class maxoptics_sdk.core.monitors.post_process_mode_expansion_typing.PostProcessModeExpansion(*args, **kwargs)
 ```
 
-- Bases: **dict**
+Bases: **dict**
   
 **geometry:** [PostProcessModeExpansionGeometry](#jump1)
 
@@ -23,10 +22,9 @@ maxoptics_sdk.core.monitors.post_process_mode_expansion_typing.PostProcessModeEx
 
 ## PostProcessModeExpansionGeometry
 ```py
- class 
- maxoptics_sdk.core.monitors.post_process_mode_expansion_typing.PostProcessModeExpansionGeometry(*args, **kwargs)
+class maxoptics_sdk.core.monitors.post_process_mode_expansion_typing.PostProcessModeExpansionGeometry(*args, **kwargs)
 ```
-- Bases: **dict**
+Bases: **dict**
 
 <table class="custom-table">
   <tr>
@@ -35,8 +33,8 @@ maxoptics_sdk.core.monitors.post_process_mode_expansion_typing.PostProcessModeEx
   </tr>
 
   <tr>
-    <td>monitor_type</td>
-    <td>Literal['2d_x_normal', '2d_y_normal', '2d_z_normal', 'x', 'y', 'z']</td>
+    <td class="first-column">monitor_type</td>
+    <td class="second-column">Literal['2d_x_normal', '2d_y_normal', '2d_z_normal', 'x', 'y', 'z']</td>
   </tr>
   <tr>
     <td>rotate_settings</td>
@@ -98,10 +96,9 @@ maxoptics_sdk.core.monitors.post_process_mode_expansion_typing.PostProcessModeEx
 ## PostProcessModeExpansionGeometryRotateSettings
 
 ```py
-class 
-maxoptics_sdk.core.monitors.post_process_mode_expansion_typing.PostProcessModeExpansionGeometryRotateSettings(*args, **kwargs)
+class maxoptics_sdk.core.monitors.post_process_mode_expansion_typing.PostProcessModeExpansionGeometryRotateSettings(*args, **kwargs)
 ```
-- Bases: **dict**
+Bases: **dict**
 
 <table class="custom-table">
   <tr>
@@ -110,8 +107,8 @@ maxoptics_sdk.core.monitors.post_process_mode_expansion_typing.PostProcessModeEx
   </tr>
 
   <tr>
-    <td>phi</td>
-    <td>float | int | FloatParameter | FloatParameterExpression</td>
+    <td class="first-column">phi</td>
+    <td class="second-column">float | int | FloatParameter | FloatParameterExpression</td>
   </tr>
   <tr>
     <td>rotation_offset</td>
@@ -130,7 +127,7 @@ maxoptics_sdk.core.monitors.post_process_mode_expansion_typing.PostProcessModeEx
 class 
 maxoptics_sdk.core.monitors.post_process_mode_expansion_typing PostProcessModeExpansionModeExpansion(*args, **kwargs)
 ```
-Bases: **dict**
+- Bases: **dict**
 
 <table class="custom-table">
   <tr>
@@ -139,8 +136,8 @@ Bases: **dict**
   </tr>
 
   <tr>
-    <td>direction</td>
-    <td>Literal['positive', 'negative']</td>
+    <td class="first-column">direction</td>
+    <td class="second-column">Literal['positive', 'negative']</td>
   </tr>
   <tr>
     <td>mode_calculation</td>
@@ -156,8 +153,7 @@ Bases: **dict**
 ## PostProcessModeExpansionModeExpansionModeCalculation
 
 ```py
-class 
-maxoptics_sdk.core.monitors.post_process_mode_expansion_typing PostProcessModeExpansionModeExpansionModeCalculation(*args, **kwargs)
+class maxoptics_sdk.core.monitors.post_process_mode_expansion_typing PostProcessModeExpansionModeExpansionModeCalculation(*args, **kwargs)
 ```
 Bases: **dict**
 
@@ -168,8 +164,8 @@ Bases: **dict**
   </tr>
 
   <tr>
-    <td>bent_waveguide</td>
-    <td>PostProcessModeExpansionModeExpansionModeCalculationBentWaveguide</td>
+    <td class="first-column">bent_waveguide</td>
+    <td class="second-column">PostProcessModeExpansionModeExpansionModeCalculationBentWaveguide</td>
   </tr>
   <tr>
     <td>mode_index</td>
@@ -205,8 +201,7 @@ Bases: **dict**
 ## PostProcessModeExpansionModeExpansionModeCalculationBentWaveguide
 
 ```py
-class 
-maxoptics_sdk.core.monitors.post_process_mode_expansion_typing.PostProcessModeExpansionModeExpansionModeCalculationBentWaveguide(*args, **kwargs)
+class maxoptics_sdk.core.monitors.post_process_mode_expansion_typing.PostProcessModeExpansionModeExpansionModeCalculationBentWaveguide(*args, **kwargs)
 ```
 
 Bases: **dict**
@@ -218,8 +213,8 @@ Bases: **dict**
   </tr>
 
   <tr>
-    <td>bent_waveguide</td>
-    <td>bool</td>
+    <td class="first-column">bent_waveguide</td>
+    <td class="second-column">bool</td>
   </tr>
   <tr>
     <td>location</td>
@@ -239,8 +234,7 @@ Bases: **dict**
 ## PostProcessModeExpansionModeExpansionModeCalculationOverrideGlobalMonitorSetting
 
 ```py
-class 
-maxoptics_sdk.core.monitors.post_process_mode_expansion_typing.PostProcessModeExpansionModeExpansionModeCalculationOverrideGlobalMonitorSetting(*args, **kwargs)
+class maxoptics_sdk.core.monitors.post_process_mode_expansion_typing.PostProcessModeExpansionModeExpansionModeCalculationOverrideGlobalMonitorSetting(*args, **kwargs)
 ```
 Bases: **dict**
 
@@ -251,8 +245,8 @@ Bases: **dict**
   </tr>
 
   <tr>
-    <td>frequency_center</td>
-    <td>float | int | FloatParameter | FloatParameterExpression</td>
+    <td class="first-column">frequency_center</td>
+    <td class="second-column">float | int | FloatParameter | FloatParameterExpression</td>
   </tr>
   <tr>
     <td>frequency_max</td>
@@ -308,8 +302,7 @@ Bases: **dict**
 ## PostProcessModeExpansionModeExpansionmonitorsForExpansion
 
 ```py
-class 
-maxoptics_sdk.core.monitors.post_process_mode_expansion_typing.PostProcessModeExpansionModeExpansionmonitorsForExpansion(*args, **kwargs)
+class maxoptics_sdk.core.monitors.post_process_mode_expansion_typing.PostProcessModeExpansionModeExpansionmonitorsForExpansion(*args, **kwargs)
 ```
 
 Bases: **dict**
@@ -321,8 +314,8 @@ Bases: **dict**
   </tr>
 
   <tr>
-    <td>frequency_monitor</td>
-    <td>str</td>
+    <td class="first-column">frequency_monitor</td>
+    <td class="second-column">str</td>
   </tr>
   <tr>
     <td>name</td>
