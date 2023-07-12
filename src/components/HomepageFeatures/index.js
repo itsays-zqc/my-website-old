@@ -52,29 +52,29 @@ const FeatureList = [
               {/* <hr /> */}
 
         <div style={{ textAlign: 'left' }}>
-          <a href="/my-website/docs/tutorial/simulation/fde">1.what is FDE?</a>
+          <a href="/my-website/docs/tutorial/simulation/fde">1.What is FDE?</a>
         </div>
         <hr style={{ margin: '0.25rem 0' }}/>
 
   
         <div style={{ textAlign: 'left' }}>
-        <a href="/my-website/docs/tutorial/simulation/fdtd">2.what is FDTD?</a>
+        <a href="/my-website/docs/tutorial/simulation/fdtd">2.What is FDTD?</a>
         </div>
         <hr style={{ margin: '0.25rem 0' }}/>
 
         <div style={{ textAlign: 'left' }}>
-        <a href="/my-website/docs/tutorial/simulation/eme">3.what is EME?</a>
+        <a href="/my-website/docs/tutorial/simulation/eme">3.What is EME?</a>
         </div>
         <hr style={{ margin: '0.25rem 0' }}/>
 
 
         <div style={{ textAlign: 'left' }}>
-        <a href="/my-website/docs/tutorial/material">4.how to set material?</a>
+        <a href="/my-website/docs/tutorial/material">4.How to set material?</a>
         </div>
         <hr style={{ margin: '0.25rem 0' }}/>
 
         <div style={{ textAlign: 'left' }}>
-        <a href="/my-website/docs/category/simulation">5.how to simulation?</a>
+        <a href="/my-website/docs/category/simulation">5.How to simulation?</a>
         </div>
         <hr style={{ margin: '0.25rem 0' }}/>
 
