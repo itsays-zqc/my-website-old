@@ -180,9 +180,9 @@ const config = {
             position: 'right',
           },
           {
-            label:'blog',
+            label:'Release Log',
             to:'blog',
-            position:'right'
+            position:'left'
           },
           
         ],
