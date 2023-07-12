@@ -30,8 +30,8 @@ abstract add(*, `type`: Literal['fdtd_port'], `name`: str, `property`: PostProce
     <td> Port name</td>
   </tr>
   <tr>
-    <td>type</td>
-    <td style={{width: '50rem'}}>Port type.
+    <td class="first-column">type</td>
+    <td class="second-column">Port type.
     </td>
   </tr>
   <tr>

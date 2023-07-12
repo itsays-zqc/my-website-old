@@ -6,8 +6,7 @@
 
 ## PostProcessEmePort
 ```py
-class 
-maxoptics_sdk.core.ports.post_process_eme_port_typing.PostProcessEmePort(*args, **kwargs)
+class maxoptics_sdk.core.ports.post_process_eme_port_typing.PostProcessEmePort(*args, **kwargs)
 ```
 Bases: **dict**
 
@@ -20,8 +19,7 @@ Bases: **dict**
 
 ## PostProcessEmePortEmePort
 ```py 
-class 
-maxoptics_sdk.core.ports.post_process_eme_port_typing.PostProcessEmePortEmePort(*args, **kwargs)
+class maxoptics_sdk.core.ports.post_process_eme_port_typing.PostProcessEmePortEmePort(*args, **kwargs)
 ```
 Bases: **dict**
 
@@ -36,13 +34,14 @@ Bases: **dict**
 
 ## PostProcessEmePortEmePortAdvanced
 ```py
-class 
-maxoptics_sdk.core.ports.post_process_eme_port_typing.PostProcessEmePortEmePortAdvanced(*args, **kwargs)
+class maxoptics_sdk.core.ports.post_process_eme_port_typing.PostProcessEmePortEmePortAdvanced(*args, **kwargs)
 ```
 Bases: **dict**
 
 **mode_removal:** *PostProcessEmePortEmePortAdvancedModeRemoval*
+
 **number_of_trial_modes:** *int*
+
 **offset:** *float | int | FloatParameter | FloatParameterExpression*
 
 
@@ -50,8 +49,7 @@ Bases: **dict**
 
 ## PostProcessEmePortEmePortAdvancedModeRemoval
 ```py
-class 
-maxoptics_sdk.core.ports.post_process_eme_port_typing.PostProcessEmePortEmePortAdvancedModeRemoval(*args, **kwargs)
+class maxoptics_sdk.core.ports.post_process_eme_port_typing.PostProcessEmePortEmePortAdvancedModeRemoval(*args, **kwargs)
 ```
 Bases: **dict**
 
@@ -62,20 +60,19 @@ Bases: **dict**
 
 ## PostProcessEmePortEmePortBentWaveguide
 ```py
-class 
-maxoptics_sdk.core.ports.post_process_eme_port_typing.PostProcessEmePortEmePortBentWaveguide(*args, **kwargs)
+class maxoptics_sdk.core.ports.post_process_eme_port_typing.PostProcessEmePortEmePortBentWaveguide(*args, **kwargs)
 ```
 Bases: **dict**
 
 <table class="custom-table">
   <tr>
     <td class="typeface">Parameters</td>
-    <td class="typeface">Explanation</td>
+    <td class="typeface">Type</td>
   </tr>
 
   <tr>
-    <td>bent_waveguide</td>
-    <td>bool</td>
+    <td class="first-column">bent_waveguide</td>
+    <td class="second-column">bool</td>
   </tr>
   <tr>
     <td>location</td>
@@ -98,19 +95,18 @@ Bases: **dict**
 
 ## PostProcessEmePortEmePortGeneral
 ```py
-class 
-maxoptics_sdk.core.ports.post_process_eme_port_typing.PostProcessEmePortEmePortGeneral(*args, **kwargs)
+class maxoptics_sdk.core.ports.post_process_eme_port_typing.PostProcessEmePortEmePortGeneral(*args, **kwargs)
 ```
 Bases: **dict**
 
 <table class="custom-table">
   <tr>
     <td class="typeface">Parameters</td>
-    <td class="typeface">Explanation</td>
+    <td class="typeface">Type</td>
   </tr>
   <tr>
-    <td>mode_index</td>
-    <td>int</td>
+    <td class="first-column">mode_index</td>
+    <td class="second-column">int</td>
   </tr>
   <tr>
     <td>mode_selection</td>
@@ -132,20 +128,19 @@ Bases: **dict**
 
 ## PostProcessEmePortGeometry
 ``` py
-class 
-maxoptics_sdk.core.ports.post_process_eme_port_typing.PostProcessEmePortGeometry(*args, **kwargs)
+class maxoptics_sdk.core.ports.post_process_eme_port_typing.PostProcessEmePortGeometry(*args, **kwargs)
 ```
 Bases: **dict**
 
 <table class="custom-table">
   <tr>
     <td class="typeface">Parameters</td>
-    <td class="typeface">Explanation</td>
+    <td class="typeface">Type</td>
   </tr>
   
   <tr>
-    <td>port_location</td>
-    <td>Literal['left', 'right']</td>
+    <td class="first-column">port_location</td>
+    <td class="second-column">Literal['left', 'right']</td>
   </tr>
   <tr>
     <td>use_full_simulation_span</td>

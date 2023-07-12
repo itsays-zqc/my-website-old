@@ -1,10 +1,7 @@
 # maxoptics_sdk.core.simulation.simu_task.interface module
 
 ```py
-class 
-maxoptics_sdk.core.simulation.simu_task.interface.BeamResult(task_id: int | str, task_path: str, mode_area:
-
-FDEBeamResultHandler.ModeAreaResult, props: Dict[str, Any], chart: TaskFile)
+class maxoptics_sdk.core.simulation.simu_task.interface.BeamResult(task_id: int | str, task_path: str, mode_area:FDEBeamResultHandler.ModeAreaResult, props: Dict[str, Any], chart: TaskFile)
 
 ```
 
@@ -19,8 +16,8 @@ Bases: **object**
   </tr>
 
   <tr>
-    <td>chart</td>
-    <td>TaskFile</td>
+    <td class="first-column">chart</td>
+    <td class="second-column">TaskFile</td>
   </tr>
   <tr>
     <td>mode_area</td>
@@ -43,8 +40,7 @@ Bases: **object**
 
 ## SimulationTaskInterface
 ``` py
-class
-maxoptics_sdk.core.simulation.simu_task.interface.SimulationTaskInterface(*args, **kwargs)
+class maxoptics_sdk.core.simulation.simu_task.interface.SimulationTaskInterface(*args, **kwargs)
 ```
 Bases: **Protocol**
 
@@ -73,8 +69,8 @@ Run doping.
     <td class="typeface">Explanation</td>
   </tr>
   <tr>
-    <td>property</td>
-    <td>Doping preview properties. See below</td>
+    <td class="first-column">property</td>
+    <td class="second-column">Doping preview properties. See below</td>
   </tr>
   <tr>
     <td>name</td>
@@ -124,7 +120,7 @@ Run doping.
 
 ### Parameters
 
-<table>
+<table class="custom-table">
   <tr>
     <th>Default</th>
     <th>Type</th>
@@ -133,7 +129,7 @@ Run doping.
   <tr>
     <td>geometry.dimension</td>
     <td>string</td>
-    <td>Selections are ['2d_x_normal', '2d_y_normal', '2d_z_normal'].</td>
+    <td>Selections are ['2d_x_normal', '2d_y_normal', '2d_z_normal'].&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td>geometry.x</td>
@@ -214,8 +210,8 @@ abstract **run_fde_beam_and_extract**(*, property, export_csv=False, show=False,
     <td class="typeface">Explanation</td>
   </tr>
   <tr>
-    <td>property</td>
-    <td>Beam settings</td>
+    <td class="first-column">property</td>
+    <td class="second-column">Beam settings</td>
   </tr>
   <tr>
     <td>export_csv</td>
@@ -239,7 +235,7 @@ abstract **run_fde_beam_and_extract**(*, property, export_csv=False, show=False,
 
 ### Parameters
 
-<table>
+<table class="custom-table">
   <tr>
     <th>Default</th>
     <th>Type</th>
@@ -329,8 +325,8 @@ abstract **run_fde_overlap_and_extract**(*, property, savepath='a', export_csv=F
     <td class="typeface">Explanation</td>
   </tr>
   <tr>
-    <td>property</td>
-    <td>Overlap settings</td>
+    <td class="first-column">property</td>
+    <td class="second-column">Overlap settings</td>
   </tr>
   <tr>
     <td>savepath</td>
@@ -354,7 +350,7 @@ abstract **run_fde_overlap_and_extract**(*, property, savepath='a', export_csv=F
 
 ### Parameters
 
-<table>
+<table class="custom-table">
   <tr>
     <th>Default</th>
     <th>Type</th>
@@ -363,7 +359,7 @@ abstract **run_fde_overlap_and_extract**(*, property, savepath='a', export_csv=F
   <tr>
     <td>add_global_mode.task_path</td>
     <td>string</td>
-    <td></td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td>add_global_mode.mode</td>
@@ -418,8 +414,8 @@ abstract **run_index**(*, `property`: RunIndex, `name`: str, `export_csv`: bool 
     <td class="typeface">Explanation</td>
   </tr>
   <tr>
-    <td>property</td>
-    <td>Index monitor properties. See below.</td>
+    <td class="first-column">property</td>
+    <td class="second-column">Index monitor properties. See below.</td>
   </tr>
   <tr>
     <td>name</td>
@@ -460,7 +456,7 @@ abstract **run_index**(*, `property`: RunIndex, `name`: str, `export_csv`: bool 
 
 ### Parameters
 
-<table>
+<table class="custom-table">
   <tr>
     <th>Default</th>
     <th>Type</th>
@@ -469,7 +465,7 @@ abstract **run_index**(*, `property`: RunIndex, `name`: str, `export_csv`: bool 
   <tr>
     <td>geometry.monitor_type</td>
     <td>string</td>
-    <td>Selections are ['2d_x_normal', '2d_y_normal', '2d_z_normal'].</td>
+    <td>Selections are ['2d_x_normal', '2d_y_normal', '2d_z_normal'].&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td>geometry.x</td>
@@ -549,8 +545,8 @@ abstract **run_index_sweep**(*, `property`: RunIndex, `name`: str, `export_csv`:
     <td class="typeface">Explanation</td>
   </tr>
   <tr>
-    <td>property</td>
-    <td>Index monitor properties. See below.</td>
+    <td class="first-column">property</td>
+    <td class="second-column">Index monitor properties. See below.</td>
   </tr>
   <tr>
     <td>name</td>
@@ -583,7 +579,7 @@ abstract **run_index_sweep**(*, `property`: RunIndex, `name`: str, `export_csv`:
 
 ### Pamameters
 
-<table>
+<table class="custom-table">
   <tr>
     <th>Default</th>
     <th>Type</th>
@@ -592,7 +588,7 @@ abstract **run_index_sweep**(*, `property`: RunIndex, `name`: str, `export_csv`:
   <tr>
     <td>geometry.monitor_type</td>
     <td>string</td>
-    <td>Selections are ['2d_x_normal', '2d_y_normal', '2d_z_normal'].</td>
+    <td>Selections are ['2d_x_normal', '2d_y_normal', '2d_z_normal'].&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td>geometry.x</td>

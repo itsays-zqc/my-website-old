@@ -4,8 +4,7 @@
 
 ## ProjectInterface
 ```py
-class 
-maxoptics_sdk.core.project.interface.ProjectInterface(*args, **kwargs)
+class maxoptics_sdk.core.project.interface.ProjectInterface(*args, **kwargs)
 ```
 
 Bases: **Protocol**
@@ -75,8 +74,8 @@ Get structure manager for current project.
     <td> Mesh type of structures. Default as curve_mesh.</td>
   </tr>
   <tr>
-    <td>mesh_factor</td>
-    <td style={{width: '50rem'}}>Mesh factor. Default as 1.2.
+    <td class="first-column">mesh_factor</td>
+    <td class="second-column">Mesh factor. Default as 1.2.
     </td>
   </tr>
   <tr>
@@ -84,6 +83,7 @@ Get structure manager for current project.
     <td> Background material. If not filled, program will create a material with Air in lib.</td>
   </tr>
 </table>
+<br/>
 <table class="custom-table">
   <tr>
     <td class="third-column">Returns:</td>

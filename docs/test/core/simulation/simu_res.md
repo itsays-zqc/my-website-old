@@ -10,23 +10,23 @@ class maxoptics_sdk.core.simulation.interface.SimulationInterface(*args, **kwarg
 
 ### Syntax
 
-abstract add(*, `name`: str, `type`: Literal['FDE'], `property`: FdePostProcess) → SimulationTaskInterface
+abstract **add**(*, `name`: str, `type`: Literal['FDE'], `property`: FdePostProcess) → SimulationTaskInterface
 
-abstract add(*, `name`: str, `type`: Literal['AFDE'], `property`: AfdePostProcess) → SimulationTaskInterface
+abstract **add**(*, `name`: str, `type`: Literal['AFDE'], `property`: AfdePostProcess) → SimulationTaskInterface
 
-abstract add(*, `name`: str, `type`: Literal['OEDevice'], `property`: OeDevicePostProcess) → SimulationTaskInterface
+abstract **add**(*, `name`: str, `type`: Literal['OEDevice'], `property`: OeDevicePostProcess) → SimulationTaskInterface
 
-abstract add(*, `name`: str, `type`: Literal['EME'], `property`: EmePostProcess) → SimulationTaskInterface
+abstract **add***, `name`: str, `type`: Literal['EME'], `property`: EmePostProcess) → SimulationTaskInterface
 
-abstract add(*, `name`: str, `type`: Literal['FDTD'], `property`: FdtdPostProcess) → SimulationTaskInterface
+abstract **add**(*, `name`: str, `type`: Literal['FDTD'], `property`: FdtdPostProcess) → SimulationTaskInterface
 
-abstract add(*, `name`: str, `type`: Literal['FDTD:sweep', 'FDE:sweep', 'EME:sweep'], `property`: AnyParameterSweepPostProcess) → SimulationTaskInterface
+abstract **add**(*, `name`: str, `type`: Literal['FDTD:sweep', 'FDE:sweep', 'EME:sweep'], `property`: AnyParameterSweepPostProcess) → SimulationTaskInterface
 
-abstract add(*, `name`: str, `type`: Literal['AFDTD'], `property`: FdtdPostProcess) → SimulationTaskInterface
+abstract **add**(*, `name`: str, `type`: Literal['AFDTD'], `property`: FdtdPostProcess) → SimulationTaskInterface
 
-abstract add(*, `name`: str, `simulation_name`: str, `source_name`: str = '', `cell_group_index`: int = 0, `type`: Literal['mode_selection:user_select'], `property`: ModeSelectionUserSelectPostProcess) → SimulationTaskInterface
+abstract **add**(*, `name`: str, `simulation_name`: str, `source_name`: str = '', `cell_group_index`: int = 0, `type`: Literal['mode_selection:user_select'], `property`: ModeSelectionUserSelectPostProcess) → SimulationTaskInterface
 
-abstract add(*, `name`: str, `type`: Literal['FDTD:smatrix'], `property`: FdtdSmatrixPostProcess) → SimulationTaskInterface
+abstract **add**(*, `name`: str, `type`: Literal['FDTD:smatrix'], `property`: FdtdSmatrixPostProcess) → SimulationTaskInterface
 
 ### Usage
   `Add a simulation.`
@@ -76,13 +76,13 @@ None
 ```
 
 ## FDTD_SMATRIX
-<table>
+<table class="custom-table">
   <thead>
     <tr>
-      <th></th>
-      <th>Default</th>
-      <th>Type</th>
-      <th>Notes</th>
+      <td></td>
+      <td>Default</td>
+      <td>Type</td>
+      <td>Notes</td>
     </tr>
   </thead>
   <tbody>
@@ -90,7 +90,7 @@ None
       <td>simulation_name</td>
       <td></td>
       <td>string</td>
-      <td></td>
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
     </tr>
     <tr>
       <td>[]s_matrix_setup.port</td>
@@ -108,7 +108,7 @@ None
 </table>
 
 ## FDTD
-<table>
+<table class="custom-table">
   <thead>
     <tr>
       <th></th>
@@ -236,7 +236,7 @@ None
 </table>
 
 ## FDE
-<table>
+<table class="custom-table">
   <thead>
     <tr>
       <th></th>
@@ -472,7 +472,7 @@ None
 </table>
 
  ## ANY_PARAMETER_SWEEP
-<table>
+<table class="custom-table">
   <thead>
     <tr>
       <th></th>
@@ -492,7 +492,7 @@ None
       <td>sweep_type</td>
       <td>ranges</td>
       <td>string</td>
-      <td>Selections are ['ranges', 'values'].</td>
+      <td>Selections are ['ranges', 'values'].&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
     </tr>
     <tr>
       <td>[]parameters.variable</td>
@@ -547,7 +547,7 @@ None
 
 
  ## EME
-<table>
+<table class="custom-table">
   <thead>
     <tr>
       <th></th>
@@ -765,7 +765,7 @@ None
 </table>
 
 ## AFDTD
-<table>
+<table class="custom-table">
   <thead>
     <tr>
       <th></th>
@@ -893,7 +893,7 @@ None
 </table>
 
 ## AFDE
-<table>
+<table class="custom-table">
   <thead>
     <tr>
       <th></th>
@@ -1118,7 +1118,7 @@ None
 
 
 ## OEDevice
-<table>
+<table class="custom-table">
   <tr>
     <th>Parameter</th>
     <th>Default</th>
@@ -1440,4 +1440,4 @@ load_history_result(*, `result_path`: str, `simu_type`: MainSimulationTypeSelect
 ## 3. simulations
 
 ### Syntax
-simulations: Dict[str, Any]
+simulations: **Dict[str, Any]**

@@ -15,8 +15,7 @@ maxoptics_sdk.core.ports.post_process_fdtd_port_typing.PostProcessFdtdPort(*args
 
 ## PostProcessFdtdPortGeometry
 ```py
-class 
-maxoptics_sdk.core.ports.post_process_fdtd_port_typing.PostProcessFdtdPortGeometry(*args, **kwargs)
+class maxoptics_sdk.core.ports.post_process_fdtd_port_typing.PostProcessFdtdPortGeometry(*args, **kwargs)
 ```
 - Bases: **dict**
 
@@ -27,8 +26,8 @@ maxoptics_sdk.core.ports.post_process_fdtd_port_typing.PostProcessFdtdPortGeomet
   </tr>
 
   <tr>
-    <td>x</td>
-    <td>float | int | FloatParameter | FloatParameterExpression</td>
+    <td class="first-column">x</td>
+    <td class="second-column">float | int | FloatParameter | FloatParameterExpression</td>
   </tr>
   <tr>
     <td>x_max</td>
@@ -83,8 +82,7 @@ maxoptics_sdk.core.ports.post_process_fdtd_port_typing.PostProcessFdtdPortGeomet
 ## PostProcessFdtdPortModalProperties
 
 ```py
-class 
-maxoptics_sdk.core.ports.post_process_fdtd_port_typing.PostProcessFdtdPortModalProperties(*args, **kwargs)
+class maxoptics_sdk.core.ports.post_process_fdtd_port_typing.PostProcessFdtdPortModalProperties(*args, **kwargs)
 ```
 - Bases: **dict**
 
@@ -110,8 +108,7 @@ maxoptics_sdk.core.ports.post_process_fdtd_port_typing.PostProcessFdtdPortModalP
 
 ## PostProcessFdtdPortModalPropertiesBentWaveguide
 ```py
-class 
-maxoptics_sdk.core.ports.post_process_fdtd_port_typing.PostProcessFdtdPortModalPropertiesBentWaveguide(*args, **kwargs)
+class maxoptics_sdk.core.ports.post_process_fdtd_port_typing.PostProcessFdtdPortModalPropertiesBentWaveguide(*args, **kwargs)
 ```
 - Bases: **dict**
 
@@ -122,8 +119,8 @@ maxoptics_sdk.core.ports.post_process_fdtd_port_typing.PostProcessFdtdPortModalP
   </tr>
 
   <tr>
-    <td>bent_waveguide</td>
-    <td>bool</td>
+    <td class="first-column">bent_waveguide</td>
+    <td class="second-column">bool</td>
   </tr>
   <tr>
     <td>location</td>
@@ -145,8 +142,7 @@ maxoptics_sdk.core.ports.post_process_fdtd_port_typing.PostProcessFdtdPortModalP
 
 ## PostProcessFdtdPortModalPropertiesGeneral
 ```py
-class 
-maxoptics_sdk.core.ports.post_process_fdtd_port_typing.PostProcessFdtdPortModalPropertiesGeneral(*args, **kwargs)
+class maxoptics_sdk.core.ports.post_process_fdtd_port_typing.PostProcessFdtdPortModalPropertiesGeneral(*args, **kwargs)
 ```
 - Bases: **dict**
 
@@ -156,8 +152,8 @@ maxoptics_sdk.core.ports.post_process_fdtd_port_typing.PostProcessFdtdPortModalP
     <td class="typeface">Type</td>
   </tr>
   <tr>
-    <td>amplitude</td>
-    <td>float | int | FloatParameter | FloatParameterExpression</td>
+    <td class="first-column">amplitude</td>
+    <td class="second-column">float | int | FloatParameter | FloatParameterExpression</td>
   </tr>
   <tr>
     <td>direction</td>
@@ -203,8 +199,7 @@ maxoptics_sdk.core.ports.post_process_fdtd_port_typing.PostProcessFdtdPortModalP
 
 ## PostProcessFdtdPortModalPropertiesGeneralModeRemoval
 ```py
-class 
-maxoptics_sdk.core.ports.post_process_fdtd_port_typing.PostProcessFdtdPortModalPropertiesGeneralModeRemoval(*args, **kwargs)
+class maxoptics_sdk.core.ports.post_process_fdtd_port_typing.PostProcessFdtdPortModalPropertiesGeneralModeRemoval(*args, **kwargs)
 ```
 - Bases: **dict**
 
