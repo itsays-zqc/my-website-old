@@ -2,7 +2,6 @@
 
 ```py
 class maxoptics_sdk.core.simulation.simu_task.interface.BeamResult(task_id: int | str, task_path: str, mode_area:FDEBeamResultHandler.ModeAreaResult, props: Dict[str, Any], chart: TaskFile)
-
 ```
 
 Bases: **object**

@@ -171,7 +171,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'testSidebar',
             position: 'left',
-            label: 'sdk',
+            label: 'SDK',
           },
 
           {
