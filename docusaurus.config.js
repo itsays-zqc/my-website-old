@@ -147,12 +147,12 @@ const config = {
             position: 'left',
             label: 'Tutorials',
           },
-          {
-            type: 'docSidebar',
-            sidebarId: 'howdoiSidebar',
-            position: 'left',
-            label: 'How do I',
-          },
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'howdoiSidebar',
+          //   position: 'left',
+          //   label: 'How do I',
+          // },
           {
             type: 'docSidebar',
             sidebarId: 'examplesSidebar',
