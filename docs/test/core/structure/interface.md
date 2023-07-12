@@ -1,3 +1,4 @@
+
 # maxoptics_sdk.core.structure.interface module
 
 ```py
@@ -536,3 +537,4 @@ abstract structure_show(*, `mode`='XY', `show`: bool, `savepath`: str, `fig_type
 ```py
 None
 ```
+
