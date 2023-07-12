@@ -176,7 +176,7 @@ const config = {
 
           {
             href: 'https://max-optics.com/?lang=zh-cn',
-            label: 'support',
+            label: 'Support',
             position: 'right',
           },
           

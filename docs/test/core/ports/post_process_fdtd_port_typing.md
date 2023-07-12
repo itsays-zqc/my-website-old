@@ -5,23 +5,25 @@
 class 
 maxoptics_sdk.core.ports.post_process_fdtd_port_typing.PostProcessFdtdPort(*args, **kwargs)
 ```
-Bases: **dict**
+- Bases: **dict**
 
-**geometry:** *PostProcessFdtdPortGeometry*
+**geometry:** [PostProcessFdtdPortGeometry](#PostProcessFdtdPortGeometry)
 
-**modal_properties:** *PostProcessFdtdPortModalProperties*
+**modal_properties:** [PostProcessFdtdPortModalProperties](#PostProcessFdtdPortModalProperties)
+
+<span id='PostProcessFdtdPortGeometry'></span>
 
 ## PostProcessFdtdPortGeometry
 ```py
 class 
 maxoptics_sdk.core.ports.post_process_fdtd_port_typing.PostProcessFdtdPortGeometry(*args, **kwargs)
 ```
-Bases: **dict**
+- Bases: **dict**
 
 <table class="custom-table">
   <tr>
     <td class="typeface">Parameters</td>
-    <td class="typeface">Explanation</td>
+    <td class="typeface">Type</td>
   </tr>
 
   <tr>
@@ -75,29 +77,48 @@ Bases: **dict**
 </table>
 <br/>
 
+<span id='PostProcessFdtdPortModalProperties'></span>
+
+
 ## PostProcessFdtdPortModalProperties
 
 ```py
 class 
 maxoptics_sdk.core.ports.post_process_fdtd_port_typing.PostProcessFdtdPortModalProperties(*args, **kwargs)
 ```
-Bases: **dict**
+- Bases: **dict**
 
-**bent_waveguide:** *PostProcessFdtdPortModalPropertiesBentWaveguide*
+<table class="custom-table">
+  <tr>
+    <td class="typeface">Parameters</td>
+    <td class="typeface">Type</td>
+  </tr>
 
-**general:** *PostProcessFdtdPortModalPropertiesGeneral*
+  <tr>
+    <td>bent_waveguide</td>
+    <td><a href='#PostProcessFdtdPortModalPropertiesBentWaveguide'>PostProcessFdtdPortModalPropertiesBentWaveguide</a></td>
+  </tr>
+  <tr>
+    <td>general</td>
+    <td><a href='#PostProcessFdtdPortModalPropertiesGeneral'>PostProcessFdtdPortModalPropertiesGeneral</a></td>
+  </tr>
+
+</table>
+
+<span id='PostProcessFdtdPortModalPropertiesBentWaveguide'></span>
+
 
 ## PostProcessFdtdPortModalPropertiesBentWaveguide
 ```py
 class 
 maxoptics_sdk.core.ports.post_process_fdtd_port_typing.PostProcessFdtdPortModalPropertiesBentWaveguide(*args, **kwargs)
 ```
-Bases: **dict**
+- Bases: **dict**
 
 <table class="custom-table">
   <tr>
     <td class="typeface">Parameters</td>
-    <td class="typeface">Explanation</td>
+    <td class="typeface">Type</td>
   </tr>
 
   <tr>
@@ -119,19 +140,21 @@ Bases: **dict**
 </table>
 <br/>
 
+<span id='PostProcessFdtdPortModalPropertiesGeneral'></span>
+
+
 ## PostProcessFdtdPortModalPropertiesGeneral
 ```py
 class 
 maxoptics_sdk.core.ports.post_process_fdtd_port_typing.PostProcessFdtdPortModalPropertiesGeneral(*args, **kwargs)
 ```
-Bases: **dict**
+- Bases: **dict**
 
 <table class="custom-table">
   <tr>
     <td class="typeface">Parameters</td>
-    <td class="typeface">Explanation</td>
+    <td class="typeface">Type</td>
   </tr>
-
   <tr>
     <td>amplitude</td>
     <td>float | int | FloatParameter | FloatParameterExpression</td>
@@ -150,7 +173,7 @@ Bases: **dict**
   </tr>
   <tr>
     <td>mode_removal</td>
-    <td>PostProcessFdtdPortModalPropertiesGeneralModeRemoval</td>
+    <td><a href='#PostProcessFdtdPortModalPropertiesGeneralModeRemoval'>PostProcessFdtdPortModalPropertiesGeneralModeRemoval</a></td>
   </tr>
   <tr>
     <td>mode_selection</td>
@@ -175,11 +198,25 @@ Bases: **dict**
 </table>
 <br/>
 
+<span id='PostProcessFdtdPortModalPropertiesGeneralModeRemoval'></span>
+
+
 ## PostProcessFdtdPortModalPropertiesGeneralModeRemoval
 ```py
 class 
 maxoptics_sdk.core.ports.post_process_fdtd_port_typing.PostProcessFdtdPortModalPropertiesGeneralModeRemoval(*args, **kwargs)
 ```
-Bases: **dict**
+- Bases: **dict**
 
-**threshold:** *float | int | FloatParameter | FloatParameterExpression*
+<!-- **threshold:** *float | int | FloatParameter | FloatParameterExpression* -->
+
+<table class="custom-table">
+  <tr>
+    <td class="typeface">Parameters</td>
+    <td class="typeface">Type</td>
+  </tr>
+  <tr>
+    <td>threshold</td>
+    <td>float | int | FloatParameter | FloatParameterExpression</td>
+  </tr>
+</table>
