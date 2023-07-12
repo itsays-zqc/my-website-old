@@ -295,24 +295,27 @@ abstract add_geometry(*, `name`: str, `type`: str, `property`: StructureGeometry
 ### Parameters and Returns
 
 <table class="custom-table">
+
   <tr>
     <td class="typeface">Parameters</td>
     <td class="typeface">Explanation</td>
   </tr>
+
   <tr>
     <td>name</td>
     <td>Geometry name.</td>
   </tr>
+
   <tr>
     <td class="first-coluumn">type</td>
-    <td class="second-column">Geometry type.
-    </td>
+    <td class="second-column">Geometry type.</td>
   </tr>
+
   <tr>
-    <td class="first-coluumn">property</td>
-    <td class="second-column">Geometry property.
-    </td>
+    <td> property</td>
+    <td> Geometry property.</td>
   </tr>
+  
 </table>
 
 <br/> 
@@ -383,6 +386,7 @@ abstract add_mesh(*, `name`: str, `property`: PostProcessSubMesh)
   <tr>
     <td>name</td>
     <td>Mesh name.</td>
+  </tr>
   <tr>
     <td class="first-coluumn">property</td>
     <td class="second-column">Mesh property.
@@ -427,6 +431,7 @@ abstract add_surface_recombination(*, `name`: str, `property`: AddSurfaceRecombi
   <tr>
     <td>name</td>
     <td>Surface recombination name.</td>
+  </tr>
   <tr>
     <td class="first-coluumn">property</td>
     <td class="second-column">Surface recombination property.
@@ -486,6 +491,7 @@ abstract structure_show(*, `mode`='XY', `show`: bool, `savepath`: str, `fig_type
   <tr>
     <td>mode</td>
     <td>Show mode.</td>
+  </tr>
   <tr>
     <td class="first-coluumn">show</td>
     <td class="second-column">Whether to show the picture. If set to False, the picture will be saved instead.
@@ -494,27 +500,27 @@ abstract structure_show(*, `mode`='XY', `show`: bool, `savepath`: str, `fig_type
   <tr>
     <td>savepath</td>
     <td>Picture save path.</td>
-  <tr>
+  </tr>
   <tr>
     <td>fig_type</td>
     <td>Picture suffix(type).</td>
-  <tr>
+  </tr>
   <tr>
     <td>simulation_name</td>
     <td>Simulation name.</td>
-  <tr>
+  </tr>
   <tr>
     <td>disabled_components</td>
     <td>Disable components from showing.</td>
-  <tr>
+  </tr>
   <tr>
     <td>xyratio</td>
     <td>Zoom multiplier of x and y direction.</td>
-  <tr>
+  </tr>
   <tr>
     <td>celldisplay</td>
     <td>Whether to show eme cells.</td>
-  <tr>
+  </tr>
 </table>
 
 <br/> 
