@@ -49,9 +49,8 @@ abstract add_anisotropy(*, `name`: str, `data`: List[Tuple[float, float, float, 
     <td>order</td>
     <td>Material mesh order.</td>
   </tr>
-  
 </table>
-
+<br/>
 <table class="custom-table">
   <tr>
     <td class="third-column">Returns:</td>
@@ -110,6 +109,7 @@ abstract add_dispersion(*, `name`: str, `data`: List[Tuple[float, float, float]]
   </tr>
 </table>
 
+<br/>
 <table class="custom-table">
   <tr>
     <td class="third-column">Returns:</td>
@@ -173,6 +173,7 @@ abstract add_lib(*, `name`: str, `data`: Any, `override`: dict | None = None, `c
   </tr>
 </table>
 
+<br/>
 <table class="custom-table">
   <tr>
     <td class="third-column">Returns:</td>
@@ -225,7 +226,7 @@ abstract add_nondispersion(*, `name`: str, `data`: List[Tuple[float, float]], `c
     <td>Material mesh order.</td>
   </tr>
 </table>
-
+<br/>
 <table class="custom-table">
   <tr>
     <td class="third-column">Returns:</td>
