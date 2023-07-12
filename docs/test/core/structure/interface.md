@@ -29,13 +29,13 @@ class maxoptics_sdk.core.structure.interface.GdsExportTableData(*args, **kwargs)
   </tr>
 </table>
 
-- Bases: **dict**
+Bases: **dict**
   
 ```py
 class maxoptics_sdk.core.structure.interface.StructureInterface
 ```
 
-- Bases: **object**
+Bases: **object**
 
 
 
@@ -46,7 +46,7 @@ None
 ```
 
 ## STRUCTURE_PROPERTY 
-<table>
+<table class="custom-table">
   <tr>
     <th></th>
     <th>Default</th>
@@ -57,7 +57,7 @@ None
     <td>mesh_type</td>
     <td>curve_mesh</td>
     <td>string</td>
-    <td>Selections are ['curve_mesh', 'staircase'].</td>
+    <td>Selections are ['curve_mesh', 'staircase'].&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td>mesh_factor</td>
@@ -119,7 +119,7 @@ None
 ```
 
 ## OBOUNDARY_SAME_SETTINGS
-<table>
+<table class="custom-table">
   <tr>
     <th></th>
     <th>default</th>
@@ -297,7 +297,7 @@ None
 </table>
 
 ## OBOUNDARY_NOT_SAME_SETTINGS
-<table>
+<table class="custom-table">
   <tr>
     <th></th>
     <th>default</th>
@@ -748,7 +748,7 @@ None
 
 ### Syntax
 
-abstract add_doping(*, `name`: str, `type`: Literal['p', 'n', 'file'], `property`: StructureDopingPropertyDictUsingFile | StructureDopingPropertyDictUsingNP | StructureDopingPropertyDictUsingNPVolume)
+abstract **add_doping**(*, `name`: str, `type`: Literal['p', 'n', 'file'], `property`: StructureDopingPropertyDictUsingFile | StructureDopingPropertyDictUsingNP | StructureDopingPropertyDictUsingNPVolume)
 
 ### Usage
 
@@ -791,7 +791,7 @@ None
 ```
 
 ## FILE
-<table>
+<table class="custom-table">
   <tr>
     <th></th>
     <th>Default</th>
@@ -802,7 +802,7 @@ None
     <td>general.format</td>
     <td></td>
     <td>str</td>
-    <td>Selections are ['DOP']</td>
+    <td>Selections are ['DOP']&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td>general.file_path</td>
@@ -837,7 +837,7 @@ None
 </table>
 
 ## N/P
-<table>
+<table class="custom-table">
   <tr>
     <th></th>
     <th>Default</th>
@@ -988,7 +988,7 @@ None
 
 ### Syntax
 
-abstract add_electrode(*, `name`: str, `property`: StructureElectrodeProperty)
+abstract **add_electrode**(*, `name`: str, `property`: StructureElectrodeProperty)
 
 ### Usage
 
@@ -1002,8 +1002,8 @@ abstract add_electrode(*, `name`: str, `property`: StructureElectrodeProperty)
     <td class="typeface">Explanation</td>
   </tr>
   <tr>
-    <td>name</td>
-    <td>Electric boundary condition name.</td>
+    <td class="first-column">name</td>
+    <td class="second-column">Electric boundary condition name.</td>
   </tr>
   <tr>
     <td class="first-coluumn">property </td>
@@ -1027,7 +1027,7 @@ None
 ```
 
 ## STEADY_STATE
-<table>
+<table class="custom-table">
   <tr>
     <th></th>
     <th>default</th>
@@ -1121,7 +1121,7 @@ None
 </table>
 
 ## SSAC
-<table>
+<table class="custom-table">
   <tr>
     <th></th>
     <th>default</th>
@@ -1215,7 +1215,7 @@ None
 </table>
 
 ## TRANSIENT
-<table>
+<table class="custom-table">
   <tr>
     <th></th>
     <th>default</th>
@@ -1232,7 +1232,7 @@ None
     <td>bc_mode</td>
     <td></td>
     <td>string</td>
-    <td>Selections are ['transient'].</td>
+    <td>Selections are ['transient'].&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td>voltage</td>
@@ -1339,7 +1339,7 @@ None
 ```
 
 ## SUB_EMESH
-<table>
+<table class="custom-table">
   <tr>
     <th></th>
     <th>default</th>
@@ -1356,7 +1356,7 @@ None
     <td>x_span</td>
     <td></td>
     <td>float</td>
-    <td>Restrained by condition: >=0.</td>
+    <td>Restrained by condition: >=0.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td>x_min</td>
@@ -1469,7 +1469,7 @@ None
 ```
 
 ## SUB_EMESH_ALONG_LINE
-<table>
+<table class="custom-table">
   <tr>
     <th></th>
     <th>default</th>
@@ -1486,7 +1486,7 @@ None
     <td>start_y</td>
     <td>0</td>
     <td>float</td>
-    <td>Restrained by condition: >=0.</td>
+    <td>Restrained by condition: >=0.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td>start_z</td>
@@ -1571,7 +1571,7 @@ None
 ```
 
 ## GDS_FILE_PROPERTY
-<table>
+<table class="custom-table">
   <tr>
     <th></th>
     <th>Default</th>
@@ -1600,7 +1600,7 @@ None
     <td>geometry.z_span</td>
     <td></td>
     <td>float</td>
-    <td>Restrained by condition: &gt;0.</td>
+    <td>Restrained by condition: &gt;0.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td>geometry.z_min</td>
@@ -1647,7 +1647,7 @@ None
 </table>
 
 ## GDS_FILE3D_PROPERTY
-<table>
+<table class="custom-table">
   <tr>
     <th></th>
     <th>Default</th>
@@ -1777,7 +1777,7 @@ None
 </table>
 
 ## ARC_WAVEGUIDE_PROPERTY
-<table>
+<table class="custom-table">
   <tr>
     <th></th>
     <th>Default</th>
@@ -1788,7 +1788,7 @@ None
     <td>geometry.inner_radius</td>
     <td></td>
     <td>float</td>
-    <td>Restrained by condition: &gt;0.</td>
+    <td>Restrained by condition: &gt;0.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td>geometry.outer_radius</td>
@@ -1871,7 +1871,7 @@ None
 </table>
 
 ## ARC_WAVEGUIDE_3D_PROPERTY
-<table>
+<table class="custom-table">
   <tr>
     <th></th>
     <th>Default</th>
@@ -1882,7 +1882,7 @@ None
     <td>geometry.radius</td>
     <td></td>
     <td>float</td>
-    <td>Restrained by condition: &gt;0.</td>
+    <td>Restrained by condition: &gt;0.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td>geometry.angle</td>
@@ -1971,7 +1971,7 @@ None
 </table>
 
 ## BEZIER_CURVE_PROPERTY
-<table>
+<table class="custom-table">
   <tr>
     <th></th>
     <th>Default</th>
@@ -1982,7 +1982,7 @@ None
     <td>geometry.point_1_x</td>
     <td></td>
     <td>float</td>
-    <td></td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td>geometry.point_1_y</td>
@@ -2101,7 +2101,7 @@ None
 </table>
 
 ## BEZIER_CURVE_3D_PROPERTY
-<table>
+<table class="custom-table">
   <tr>
     <th></th>
     <th>Default</th>
@@ -2112,7 +2112,7 @@ None
     <td>geometry.base_height</td>
     <td></td>
     <td>float</td>
-    <td>Restrained by condition: &gt;0.</td>
+    <td>Restrained by condition: &gt;0.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td>geometry.top_width</td>
@@ -2201,7 +2201,7 @@ None
 </table>
 
 ## CIRCLE_PROPERTY
-<table>
+<table class="custom-table">
   <tr>
     <th></th>
     <th>Default</th>
@@ -2212,7 +2212,7 @@ None
     <td>geometry.radius</td>
     <td></td>
     <td>float</td>
-    <td>Restrained by condition: &gt;0.</td>
+    <td>Restrained by condition: &gt;0.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td>geometry.x</td>
@@ -2283,7 +2283,7 @@ None
 </table>
 
 ## CUSTOM_POLYGON_PROPERTY
-<table>
+<table class="custom-table">
   <tr>
     <th></th>
     <th>Default</th>
@@ -2294,7 +2294,7 @@ None
     <td>geometry.size</td>
     <td></td>
     <td>float</td>
-    <td>Restrained by condition: &gt;0.</td>
+    <td>Restrained by condition: &gt;0.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td>geometry.sides</td>
@@ -2371,7 +2371,7 @@ None
 </table>
 
 ## ELLIPSE_PROPERTY
-<table>
+<table class="custom-table">
   <tr>
     <th></th>
     <th>Default</th>
@@ -2382,7 +2382,7 @@ None
     <td>geometry.x_radius</td>
     <td></td>
     <td>float</td>
-    <td>Restrained by condition: &gt;0.</td>
+    <td>Restrained by condition: &gt;0.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td>geometry.y_radius</td>
@@ -2459,7 +2459,7 @@ None
 </table>
 
 ## LINEAR_TRAPEZOID_PROPERTY
-<table>
+<table class="custom-table">
   <tr>
     <th></th>
     <th>Default</th>
@@ -2536,7 +2536,7 @@ None
     <td>geometry.z_span</td>
     <td></td>
     <td>float</td>
-    <td>Restrained by condition: &gt;0.</td>
+    <td>Restrained by condition: &gt;0.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td>geometry.z_min</td>
@@ -2583,7 +2583,7 @@ None
 </table>
 
 ## PYRAMID_PROPERTY
-<table>
+<table class="custom-table">
   <tr>
     <th></th>
     <th>Default</th>
@@ -2594,7 +2594,7 @@ None
     <td>geometry.x_span_bottom</td>
     <td></td>
     <td>float</td>
-    <td>Restrained by condition: >=0.</td>
+    <td>Restrained by condition: >=0.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td>geometry.y_span_bottom</td>
@@ -2695,7 +2695,7 @@ None
 </table>
 
 ## ANALYTICAL_WAVEGUIDE_PROPERTY
-<table>
+<table class="custom-table">
   <tr>
     <th></th>
     <th>Default</th>
@@ -2849,7 +2849,7 @@ None
 </table>
 
 ## RECTANGLE_PROPERTY
-<table>
+<table class="custom-table">
   <tr>
     <th></th>
     <th>Default</th>
@@ -2860,7 +2860,7 @@ None
     <td>geometry.x_span</td>
     <td></td>
     <td>float</td>
-    <td>Restrained by condition: >0.</td>
+    <td>Restrained by condition: >0.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td>geometry.x_min</td>
@@ -2961,7 +2961,7 @@ None
 </table>
 
 ## RING_PROPERTY
-<table>
+<table class="custom-table">
   <tr>
     <th></th>
     <th>Default</th>
@@ -2972,7 +2972,7 @@ None
     <td>geometry.inner_radius</td>
     <td></td>
     <td>float</td>
-    <td>Restrained by condition: >0.</td>
+    <td>Restrained by condition: >0.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td>geometry.outer_radius</td>
@@ -3049,7 +3049,7 @@ None
 </table>
 
 ## SECTOR_PROPERTY
-<table>
+<table class="custom-table">
   <tr>
     <th></th>
     <th>Default</th>
@@ -3060,7 +3060,7 @@ None
     <td>geometry.radius</td>
     <td></td>
     <td>float</td>
-    <td>Restrained by condition: >0.</td>
+    <td>Restrained by condition: >0.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td>geometry.angle</td>
@@ -3137,7 +3137,7 @@ None
 </table>
 
 ## TRIANGLE_PROPERTY
-<table>
+<table class="custom-table">
   <tr>
     <th></th>
     <th>Default</th>
@@ -3202,7 +3202,7 @@ None
     <td>geometry.z_span</td>
     <td></td>
     <td>float</td>
-    <td>Restrained by condition: >0.</td>
+    <td>Restrained by condition: >0.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td>geometry.z_min</td>
@@ -3249,7 +3249,7 @@ None
 </table>
 
 ## TERRACE_PROPERTY
-<table>
+<table class="custom-table">
   <tr>
     <th></th>
     <th>default</th>
@@ -3356,7 +3356,7 @@ None
     <td>material.mesh_order</td>
     <td></td>
     <td>integer</td>
-    <td>Restrained by condition: >=0</td>
+    <td>Restrained by condition: >=0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
 </table>
 
@@ -3403,7 +3403,7 @@ None
 ```
 
 ## SUB_MESH
-<table>
+<table class="custom-table">
   <tr>
     <th></th>
     <th>default</th>
@@ -3432,7 +3432,7 @@ None
     <td>general.dx</td>
     <td></td>
     <td>float</td>
-    <td>Restrained by condition: >0.</td>
+    <td>Restrained by condition: >0.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td>general.dy</td>
@@ -3563,7 +3563,7 @@ None
 ```
 
 ## SURFACE_RECOMBINATION
-<table>
+<table class="custom-table">
   <tr>
     <th></th>
     <th>default</th>

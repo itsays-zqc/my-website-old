@@ -17,13 +17,11 @@ Add timer prints for wrapped function.
     <td class="typeface">f-Function</td>
   </tr>
   <tr>
-    <td>Returns</td>
-    <td>Wrapped function</td>
+    <td class="first-column">Returns</td>
+    <td class="second-column">Wrapped function</td>
   </tr>
 </table>
-
-
-
+<br/>
 
 ```py
 @timed
@@ -44,10 +42,11 @@ Add path input path keyword-argument for wrapped function. Value is file’s dir
     <td class="typeface">f-Function</td>
   </tr>
   <tr>
-    <td>Returns</td>
-    <td>Wrapped function</td>
+    <td class="first-column">Returns</td>
+    <td class="second-column">Wrapped function</td>
   </tr>
 </table>
+<br/>
 
 ```py
 @with_path
