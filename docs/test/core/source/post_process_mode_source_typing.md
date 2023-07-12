@@ -13,11 +13,24 @@ __Bases__: dict
 
 
 
-| Parameter       | Type                                      |
-|-----------------|-------------------------------------------|
-| bent_waveguide  | [PostProcessModeSourceBentWaveguide](#PostProcessModeSourceBentWaveguide)         |
-| general         | [PostProcessModeSourceGeneral](#PostProcessModeSourceGeneral)               |
-| geometry        | [PostProcessModeSourceGeometry](#PostProcessModeSourceGeometry)              |
+<table class="custom-table">
+  <tr>
+    <td class="typeface">Parameter</td>
+    <td class="typeface">Type</td>
+  </tr>
+  <tr>
+    <td>bent_waveguide</td>
+    <td><a href='#PostProcessModeSourceBentWaveguide'>PostProcessModeSourceBentWaveguide</a></td>
+  </tr>
+  <tr>
+    <td>general</td>
+    <td><a href='#PostProcessModeSourceGeneral'>PostProcessModeSourceGeneral</a></td>
+  </tr>
+  <tr>
+    <td>geometry</td>
+    <td><a href='#PostProcessModeSourceGeometry'>PostProcessModeSourceGeometry</a></td>
+  </tr>
+</table>
 
 
 <span id='PostProcessModeSourceBentWaveguide'></span>
@@ -31,13 +44,29 @@ class maxoptics_sdk.core.source.post_process_mode_source_typing.PostProcessModeS
 __Bases__: dict
 
 
+<table class="custom-table">
+  <tr>
+    <td class="typeface">Parameter</td>
+    <td class="typeface">Type</td>
+  </tr>
+  <tr>
+    <td>bent_waveguide</td>
+    <td>bool</td>
+  </tr>
+  <tr>
+    <td>location</td>
+    <td>Literal['simulation_center']</td>
+  </tr>
+  <tr>
+    <td>orientation</td>
+    <td>float | int | FloatParameter | FloatParameterExpression</td>
+  </tr>
+  <tr>
+    <td>radius</td>
+    <td>float | int | FloatParameter | FloatParameterExpression</td>
+  </tr>
+</table>
 
-| Parameter       | Type                                      | Notes                                             |
-|-----------------|-------------------------------------------|---------------------------------------------------|
-| bent_waveguide  | bool                                      |                                                  |
-| location        | Literal['simulation_center']               |                                                  |
-| orientation     | float \| int \| FloatParameter \| FloatParameterExpression |                                                  |
-| radius          | float \| int \| FloatParameter \| FloatParameterExpression |                                                  |
 
 <span id='PostProcessModeSourceGeneral'></span>
 
@@ -49,20 +78,61 @@ class maxoptics_sdk.core.source.post_process_mode_source_typing.PostProcessModeS
 
 __Bases__: dict
 
-| Parameter         | Type                                                               |
-|-------------------|--------------------------------------------------------------------|
-| amplitude         | float \| int \| FloatParameter \| FloatParameterExpression         |
-| direction         | Literal['forward', 'backward']                                     |
-| inject_axis       | Literal['x_axis', 'y_axis', 'z_axis', 'x', 'y', 'z']                |
-| mode_index        | int                                                                |
-| mode_removal      | [PostProcessModeSourceGeneralModeRemoval](#PostProcessModeSourceGeneralModeRemoval)                            |
-| mode_selection    | Literal['fundamental', 'fundamental_TE', 'fundamental_TM', 'fundamental_TE_and_TM', 'user_select', 'user_import'] |
-| n                 | float \| int \| FloatParameter \| FloatParameterExpression         |
-| number_of_trial_modes | int                                                       |
-| phase             | float \| int \| FloatParameter \| FloatParameterExpression         |
-| rotations         | [PostProcessModeSourceGeneralRotations](#PostProcessModeSourceGeneralRotations)                             |
-| search            | Literal['near_n', 'max_index']                                    |
-| waveform          | [PostProcessModeSourceGeneralWaveform](#PostProcessModeSourceGeneralWaveform)                              |
+<table class="custom-table">
+  <tr>
+    <td class="typeface">Parameter</td>
+    <td class="typeface">Type</td>
+  </tr>
+  <tr>
+    <td>amplitude</td>
+    <td>float | int | FloatParameter | FloatParameterExpression</td>
+  </tr>
+  <tr>
+    <td>direction</td>
+    <td>Literal['forward', 'backward']</td>
+  </tr>
+  <tr>
+    <td>inject_axis</td>
+    <td>Literal['x_axis', 'y_axis', 'z_axis', 'x', 'y', 'z']</td>
+  </tr>
+  <tr>
+    <td>mode_index</td>
+    <td>int</td>
+  </tr>
+  <tr>
+    <td>mode_removal</td>
+    <td><a href='#PostProcessModeSourceGeneralModeRemoval'>PostProcessModeSourceGeneralModeRemoval</a></td>
+  </tr>
+  <tr>
+    <td>mode_selection</td>
+    <td>Literal['fundamental', 'fundamental_TE', 'fundamental_TM', 'fundamental_TE_and_TM', 'user_select', 'user_import']</td>
+  </tr>
+  <tr>
+    <td>n</td>
+    <td>float | int | FloatParameter | FloatParameterExpression</td>
+  </tr>
+  <tr>
+    <td>number_of_trial_modes</td>
+    <td>int</td>
+  </tr>
+  <tr>
+    <td>phase</td>
+    <td>float | int | FloatParameter | FloatParameterExpression</td>
+  </tr>
+  <tr>
+    <td>rotations</td>
+    <td><a href='#PostProcessModeSourceGeneralRotations'>PostProcessModeSourceGeneralRotations</a></td>
+  </tr>
+  <tr>
+    <td>search</td>
+    <td>Literal['near_n', 'max_index']</td>
+  </tr>
+  <tr>
+    <td>waveform</td>
+    <td><a href='#PostProcessModeSourceGeneralWaveform'>PostProcessModeSourceGeneralWaveform</a></td>
+  </tr>
+</table>
+                             
 
 <span id='PostProcessModeSourceGeneralModeRemoval'></span>
 
@@ -74,12 +144,25 @@ class maxoptics_sdk.core.source.post_process_mode_source_typing.PostProcessModeS
 
 __Bases__: dict
 
-| Parameter         | Type                                                               |
-|-------------------|--------------------------------------------------------------------|
-| threshold         | float \| int \| FloatParameter \| FloatParameterExpression         |
-| phi               | float \| int \| FloatParameter \| FloatParameterExpression         |
-| rotation_offset   | float \| int \| FloatParameter \| FloatParameterExpression         |
-| theta             | float \| int \| FloatParameter \| FloatParameterExpression         |
+<table class="custom-table">
+  <tr>
+    <td class="typeface">Parameter</td>
+    <td class="typeface">Type</td>
+  </tr>
+  <tr>
+    <td>phi</td>
+    <td>float | int | FloatParameter | FloatParameterExpression</td>
+  </tr>
+  <tr>
+    <td>rotation_offset</td>
+    <td>float | int | FloatParameter | FloatParameterExpression</td>
+  </tr>
+  <tr>
+    <td>theta</td>
+    <td>float | int | FloatParameter | FloatParameterExpression</td>
+  </tr>
+</table>
+
 
 <span id='PostProcessModeSourceGeneralWaveform'></span>
 
@@ -91,9 +174,17 @@ class maxoptics_sdk.core.source.post_process_mode_source_typing.PostProcessModeS
 
 __Bases__: dict
 
-| Parameter           | Type  |
-|---------------------|-------|
-| waveform_id_select  | Any   |
+<table class="custom-table">
+  <tr>
+    <td class="typeface">Parameter</td>
+    <td class="typeface">Type</td>
+  </tr>
+  <tr>
+    <td>waveform_id_select</td>
+    <td>Any</td>
+  </tr>
+</table>
+
 
 
 <span id='PostProcessModeSourceGeometry'></span>
@@ -106,19 +197,57 @@ class maxoptics_sdk.core.source.post_process_mode_source_typing.PostProcessModeS
 
 __Bases__: dict
 
-
-| Parameter  | Type                               |
-|------------|------------------------------------|
-| x          | float \| int \| FloatParameter \| FloatParameterExpression |
-| x_max      | float \| int \| FloatParameter \| FloatParameterExpression |
-| x_min      | float \| int \| FloatParameter \| FloatParameterExpression |
-| x_span     | float \| int \| FloatParameter \| FloatParameterExpression |
-| y          | float \| int \| FloatParameter \| FloatParameterExpression |
-| y_max      | float \| int \| FloatParameter \| FloatParameterExpression |
-| y_min      | float \| int \| FloatParameter \| FloatParameterExpression |
-| y_span     | float \| int \| FloatParameter \| FloatParameterExpression |
-| z          | float \| int \| FloatParameter \| FloatParameterExpression |
-| z_max      | float \| int \| FloatParameter \| FloatParameterExpression |
-| z_min      | float \| int \| FloatParameter \| FloatParameterExpression |
-| z_span     | float \| int \| FloatParameter \| FloatParameterExpression |
-
+<table class="custom-table">
+  <tr>
+    <td class="typeface">Parameter</td>
+    <td class="typeface">Type</td>
+  </tr>
+  <tr>
+    <td>x</td>
+    <td>float | int | FloatParameter | FloatParameterExpression</td>
+  </tr>
+  <tr>
+    <td>x_max</td>
+    <td>float | int | FloatParameter | FloatParameterExpression</td>
+  </tr>
+  <tr>
+    <td>x_min</td>
+    <td>float | int | FloatParameter | FloatParameterExpression</td>
+  </tr>
+  <tr>
+    <td>x_span</td>
+    <td>float | int | FloatParameter | FloatParameterExpression</td>
+  </tr>
+  <tr>
+    <td>y</td>
+    <td>float | int | FloatParameter | FloatParameterExpression</td>
+  </tr>
+  <tr>
+    <td>y_max</td>
+    <td>float | int | FloatParameter | FloatParameterExpression</td>
+  </tr>
+  <tr>
+    <td>y_min</td>
+    <td>float | int | FloatParameter | FloatParameterExpression</td>
+  </tr>
+  <tr>
+    <td>y_span</td>
+    <td>float | int | FloatParameter | FloatParameterExpression</td>
+  </tr>
+  <tr>
+    <td>z</td>
+    <td>float | int | FloatParameter | FloatParameterExpression</td>
+  </tr>
+  <tr>
+    <td>z_max</td>
+    <td>float | int | FloatParameter | FloatParameterExpression</td>
+  </tr>
+  <tr>
+    <td>z_min</td>
+    <td>float | int | FloatParameter | FloatParameterExpression</td>
+  </tr>
+  <tr>
+    <td>z_span</td>
+    <td>float | int | FloatParameter | FloatParameterExpression</td>
+  </tr>
+</table>

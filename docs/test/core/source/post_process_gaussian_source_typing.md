@@ -30,18 +30,53 @@ class maxoptics_sdk.core.source.post_process_gaussian_source_typing.PostProcessG
 __Bases__: dict
 
 
-| Parameter              | Type                               | Notes                                             |
-|------------------------|------------------------------------|---------------------------------------------------|
-| amplitude              | float \| int \| FloatParameter \| FloatParameterExpression |                                                  |
-| angle_phi              | float \| int \| FloatParameter \| FloatParameterExpression |                                                  |
-| angle_theta            | float \| int \| FloatParameter \| FloatParameterExpression |                                                  |
-| beam_settings          | [PostProcessGaussianSourceGeneralBeamSettings](#PostProcessGaussianSourceGeneralBeamSettings) |                                                  |
-| direction              | Literal['forward', 'backward']      |                                                  |
-| inject_axis            | Literal['x_axis', 'y_axis', 'z_axis', 'x', 'y', 'z'] | Selections are ['x_axis', 'y_axis', 'z_axis', 'x', 'y', 'z']. |
-| phase                  | float \| int \| FloatParameter \| FloatParameterExpression |                                                  |
-| polarization_angle     | float \| int \| FloatParameter \| FloatParameterExpression |                                                  |
-| rotation_offset        | float \| int \| FloatParameter \| FloatParameterExpression |                                                  |
-| waveform               | [PostProcessGaussianSourceGeneralWaveform](#PostProcessGaussianSourceGeneralWaveform) |                                                  |
+<table class="custom-table">
+  <tr>
+    <td class="typeface">Parameter</td>
+    <td class="typeface">Type</td>
+  </tr>
+  <tr>
+    <td>amplitude</td>
+    <td>float | int | FloatParameter | FloatParameterExpression</td>
+  </tr>
+  <tr>
+    <td>angle_phi</td>
+    <td>float | int | FloatParameter | FloatParameterExpression</td>
+  </tr>
+  <tr>
+    <td>angle_theta</td>
+    <td>float | int | FloatParameter | FloatParameterExpression</td>
+  </tr>
+  <tr>
+    <td>beam_settings</td>
+    <td><a href='#PostProcessGaussianSourceGeneralBeamSettings'>PostProcessGaussianSourceGeneralBeamSettings</a></td>
+  </tr>
+  <tr>
+    <td>direction</td>
+    <td>Literal['forward', 'backward']</td>
+  </tr>
+  <tr>
+    <td>inject_axis</td>
+    <td>Literal['x_axis', 'y_axis', 'z_axis', 'x', 'y', 'z']</td>
+  </tr>
+  <tr>
+    <td>phase</td>
+    <td>float | int | FloatParameter | FloatParameterExpression</td>
+  </tr>
+  <tr>
+    <td>polarization_angle</td>
+    <td>float | int | FloatParameter | FloatParameterExpression</td>
+  </tr>
+  <tr>
+    <td>rotation_offset</td>
+    <td>float | int | FloatParameter | FloatParameterExpression</td>
+  </tr>
+  <tr>
+    <td>waveform</td>
+    <td><a href='#PostProcessGaussianSourceGeneralWaveform'>PostProcessGaussianSourceGeneralWaveform</a></td>
+  </tr>
+</table>
+
 
 
 <span id='PostProcessGaussianSourceGeneralBeamSettings'></span>
@@ -54,16 +89,36 @@ class maxoptics_sdk.core.source.post_process_gaussian_source_typing.PostProcessG
 
 __Bases__: dict
 
-
-
-| Parameter              | Type                               | Notes                                             |
-|------------------------|------------------------------------|---------------------------------------------------|
-| beam_parameters        | Literal['waist_size_and_position', 'beam_size_and_divergence'] | Selections are ['waist_size_and_position', 'beam_size_and_divergence']. |
-| beam_radius            | float \| int \| FloatParameter \| FloatParameterExpression |                                                  |
-| calculation_method     | Literal['use_scalar_approximation', 'use_vector_approximation'] | Selections are ['use_scalar_approximation', 'use_vector_approximation']. |
-| distance_from_waist    | float \| int \| FloatParameter \| FloatParameterExpression |                                                  |
-| divergence_angle       | float \| int \| FloatParameter \| FloatParameterExpression |                                                  |
-| waist_radius           | float \| int \| FloatParameter \| FloatParameterExpression |                                                  |
+<table class="custom-table">
+  <tr>
+    <td class="typeface">Parameter</td>
+    <td class="typeface">Type</td>
+  </tr>
+  <tr>
+    <td>beam_parameters</td>
+    <td>Literal['waist_size_and_position', 'beam_size_and_divergence']</td>
+  </tr>
+  <tr>
+    <td>beam_radius</td>
+    <td>float | int | FloatParameter | FloatParameterExpression</td>
+  </tr>
+  <tr>
+    <td>calculation_method</td>
+    <td>Literal['use_scalar_approximation', 'use_vector_approximation']</td>
+  </tr>
+  <tr>
+    <td>distance_from_waist</td>
+    <td>float | int | FloatParameter | FloatParameterExpression</td>
+  </tr>
+  <tr>
+    <td>divergence_angle</td>
+    <td>float | int | FloatParameter | FloatParameterExpression</td>
+  </tr>
+  <tr>
+    <td>waist_radius</td>
+    <td>float | int | FloatParameter | FloatParameterExpression</td>
+  </tr>
+</table>
 
 
 <span id='PostProcessGaussianSourceGeneralWaveform'></span>
@@ -74,12 +129,20 @@ __Bases__: dict
 class maxoptics_sdk.core.source.post_process_gaussian_source_typing.PostProcessGaussianSourceGeneralWaveform(*args, **kwargs)
 ```
 
-Bases: dict
+__Bases__: dict
 
 
-| Parameter           | Type                               | Notes  |
-|---------------------|------------------------------------|--------|
-| waveform_id_select  | Waveform                           |        |
+<table class="custom-table">
+  <tr>
+    <td class="typeface">Parameters</td>
+    <td class="typeface">Explanation</td>
+  </tr>
+  <tr>
+    <td>waveform_id_select</td>
+    <td>Waveform</td>
+  </tr>
+</table>
+
 
 <span id='PostProcessGaussianSourceGeometry'></span>
 
@@ -93,18 +156,58 @@ __Bases__: dict
 
 
 
-| Parameter | Type                               | Notes                                             |
-|-----------|------------------------------------|---------------------------------------------------|
-| x         | float \| int \| FloatParameter \| FloatParameterExpression |                                                  |
-| x_max     | float \| int \| FloatParameter \| FloatParameterExpression |                                                  |
-| x_min     | float \| int \| FloatParameter \| FloatParameterExpression |                                                  |
-| x_span    | float \| int \| FloatParameter \| FloatParameterExpression |                                                  |
-| y         | float \| int \| FloatParameter \| FloatParameterExpression |                                                  |
-| y_max     | float \| int \| FloatParameter \| FloatParameterExpression |                                                  |
-| y_min     | float \| int \| FloatParameter \| FloatParameterExpression |                                                  |
-| y_span    | float \| int \| FloatParameter \| FloatParameterExpression |                                                  |
-| z         | float \| int \| FloatParameter \| FloatParameterExpression |                                                  |
-| z_max     | float \| int \| FloatParameter \| FloatParameterExpression |                                                  |
-| z_min     | float \| int \| FloatParameter \| FloatParameterExpression |                                                  |
-| z_span    | float \| int \| FloatParameter \| FloatParameterExpression |                                                  |
+<table class="custom-table">
+  <tr>
+    <td class="typeface">Parameter</td>
+    <td class="typeface">Type</td>
+  </tr>
+  <tr>
+    <td>x</td>
+    <td>float | int | FloatParameter | FloatParameterExpression</td>
+  </tr>
+  <tr>
+    <td>x_max</td>
+    <td>float | int | FloatParameter | FloatParameterExpression</td>
+  </tr>
+  <tr>
+    <td>x_min</td>
+    <td>float | int | FloatParameter | FloatParameterExpression</td>
+  </tr>
+  <tr>
+    <td>x_span</td>
+    <td>float | int | FloatParameter | FloatParameterExpression</td>
+  </tr>
+  <tr>
+    <td>y</td>
+    <td>float | int | FloatParameter | FloatParameterExpression</td>
+  </tr>
+  <tr>
+    <td>y_max</td>
+    <td>float | int | FloatParameter | FloatParameterExpression</td>
+  </tr>
+  <tr>
+    <td>y_min</td>
+    <td>float | int | FloatParameter | FloatParameterExpression</td>
+  </tr>
+  <tr>
+    <td>y_span</td>
+    <td>float | int | FloatParameter | FloatParameterExpression</td>
+  </tr>
+  <tr>
+    <td>z</td>
+    <td>float | int | FloatParameter | FloatParameterExpression</td>
+  </tr>
+  <tr>
+    <td>z_max</td>
+    <td>float | int | FloatParameter | FloatParameterExpression</td>
+  </tr>
+  <tr>
+    <td>z_min</td>
+    <td>float | int | FloatParameter | FloatParameterExpression</td>
+  </tr>
+  <tr>
+    <td>z_span</td>
+    <td>float | int | FloatParameter | FloatParameterExpression</td>
+  </tr>
+</table>
 

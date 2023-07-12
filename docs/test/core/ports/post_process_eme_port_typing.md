@@ -1,5 +1,9 @@
 # post_process_eme_port_typing
 
+
+
+<span id='PostProcessEmePort'></span>
+
 ## PostProcessEmePort
 ```py
 class 
@@ -7,8 +11,12 @@ maxoptics_sdk.core.ports.post_process_eme_port_typing.PostProcessEmePort(*args, 
 ```
 Bases: **dict**
 
-**eme_port:** *PostProcessEmePortEmePort*
-**geometry:** *PostProcessEmePortGeometry*
+**eme_port:** [PostProcessEmePortEmePort](#PostProcessEmePortEmePort)
+
+**geometry:** [PostProcessEmePortGeometry](#PostProcessEmePortGeometry)
+
+
+<span id='PostProcessEmePortEmePort'></span>
 
 ## PostProcessEmePortEmePort
 ```py 
@@ -17,9 +25,14 @@ maxoptics_sdk.core.ports.post_process_eme_port_typing.PostProcessEmePortEmePort(
 ```
 Bases: **dict**
 
-**advanced:** *PostProcessEmePortEmePortAdvanced*
-**bent_waveguide:** *PostProcessEmePortEmePortBentWaveguide*
+**advanced:** [PostProcessEmePortEmePortAdvanced](#PostProcessEmePortEmePortAdvanced)
+
+**bent_waveguide:** [PostProcessEmePortEmePortBentWaveguide](#PostProcessEmePortEmePortBentWaveguide)
+
 **general:** *PostProcessEmePortEmePortGeneral*
+
+
+<span id='PostProcessEmePortEmePortAdvanced'></span>
 
 ## PostProcessEmePortEmePortAdvanced
 ```py
@@ -32,6 +45,9 @@ Bases: **dict**
 **number_of_trial_modes:** *int*
 **offset:** *float | int | FloatParameter | FloatParameterExpression*
 
+
+<span id='PostProcessEmePortEmePortAdvancedModeRemoval'></span>
+
 ## PostProcessEmePortEmePortAdvancedModeRemoval
 ```py
 class 
@@ -40,6 +56,9 @@ maxoptics_sdk.core.ports.post_process_eme_port_typing.PostProcessEmePortEmePortA
 Bases: **dict**
 
 **threshold:** *float | int | FloatParameter | FloatParameterExpression*
+
+
+<span id='PostProcessEmePortEmePortBentWaveguide'></span>
 
 ## PostProcessEmePortEmePortBentWaveguide
 ```py
@@ -73,6 +92,10 @@ Bases: **dict**
 </table>
 <br/>
 
+
+<span id='## PostProcessEmePortEmePortGeneral
+'></span>
+
 ## PostProcessEmePortEmePortGeneral
 ```py
 class 
@@ -103,6 +126,9 @@ Bases: **dict**
   </tr>
 </table>
 <br/>
+
+
+<span id='PostProcessEmePortGeometry'></span>
 
 ## PostProcessEmePortGeometry
 ``` py

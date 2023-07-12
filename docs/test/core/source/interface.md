@@ -16,80 +16,371 @@ __Add a source to current project.__
 
 <!-- Here's the representation of the given parameters as a Markdown table: -->
 
-| Parameter | Description      |
-| --------- | ---------------- |
-| name      | Source name      |
-| type      | Source type      |
-| axis      | Source axis      |
-| property  | Source property  |
+<table class="custom-table">
+  <tr>
+    <td class="typeface">Parameters</td>
+    <td class="typeface">Explanation</td>
+  </tr>
+  <tr>
+    <td>name</td>
+    <td>Source name</td>
+  </tr>
+  <tr>
+    <td>type</td>
+    <td>Source type</td>
+  </tr>
+  <tr>
+    <td>axis</td>
+    <td>Source axis</td>
+  </tr>
+  <tr>
+    <td>property</td>
+    <td>Source property</td>
+  </tr>
+</table>
+
 
 
 ## MODE_SOURCE
 
-<!-- Here's the updated version of the table with the correct formatting: -->
-
-| Parameter                            | Default    | Type    | Notes                                                                                                                      |
-|:-------------------------------------|:-----------|:--------|:---------------------------------------------------------------------------------------------------------------------------|
-| general.inject_axis                  | x_axis     | string  | Selections are ['x_axis', 'y_axis', 'z_axis', 'x', 'y', 'z'].                                                              |
-| general.direction                    | forward    | string  | Selections are ['forward', 'backward'].                                                                                    |
-| general.amplitude                    | 1.0        | float   |                                                                                                                            |
-| general.phase                        | 0.0        | float   |                                                                                                                            |
-| general.mode_selection               |            | string  | Selections are ['fundamental', 'fundamental_TE', 'fundamental_TM', 'fundamental_TE_and_TM', 'user_select', 'user_import']. |
-| general.mode_removal.threshold       |            | float   |                                                                                                                            |
-| general.mode_index                   | 0          | integer |                                                                                                                            |
-| general.search                       | max_index  | string  | Selections are ['near_n', 'max_index'].                                                                                    |
-| general.n                            | 1.0        | float   |                                                                                                                            |
-| general.number_of_trial_modes        | 20         | integer |                                                                                                                            |
-| general.waveform.waveform_id_select  |            | any     |                                                                                                                            |
-| general.rotations.theta              | 0          | float   |                                                                                                                            |
-| general.rotations.phi                | 0          | float   |                                                                                                                            |
-| general.rotations.rotation_offset    | 0          | float   |                                                                                                                            |
-| geometry.x                           |            | float   |                                                                                                                            |
-| geometry.x_span                      |            | float   | Restrained by condition: >=0.                                                                                              |
-| geometry.x_min                       |            | float   |                                                                                                                            |
-| geometry.x_max                       |            | float   |                                                                                                                            |
-| geometry.y                           |            | float   |                                                                                                                            |
-| geometry.y_span                      |            | float   | Restrained by condition: >=0.                                                                                              |
-| geometry.y_min                       |            | float   |                                                                                                                            |
-| geometry.y_max                       |            | float   |                                                                                                                            |
-| geometry.z                           |            | float   |                                                                                                                            |
-| geometry.z_span                      |            | float   | Restrained by condition: >=0.                                                                                              |
-| geometry.z_min                       |            | float   |                                                                                                                            |
-| geometry.z_max                       |            | float   |                                                                                                                            |
+<table class="custom-table">
+  <tr>
+    <td class="typeface">Parameters</td>
+    <td class="typeface">default</td>
+    <td class="typeface">type</td>
+    <td class="typeface">notes</td>
+  </tr>
+  <tr>
+    <td>general.inject_axis</td>
+    <td>x_axis</td>
+    <td>string</td>
+    <td>Selections are ['x_axis', 'y_axis', 'z_axis', 'x', 'y', 'z'].</td>
+  </tr>
+  <tr>
+    <td>general.direction</td>
+    <td>forward</td>
+    <td>string</td>
+    <td>Selections are ['forward', 'backward'].</td>
+  </tr>
+  <tr>
+    <td>general.amplitude</td>
+    <td>1.0</td>
+    <td>float</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>general.phase</td>
+    <td>0.0</td>
+    <td>float</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>general.mode_selection</td>
+    <td></td>
+    <td>string</td>
+    <td>Selections are ['fundamental', 'fundamental_TE', 'fundamental_TM', 'fundamental_TE_and_TM', 'user_select', 'user_import'].</td>
+  </tr>
+  <tr>
+    <td>general.mode_removal.threshold</td>
+    <td></td>
+    <td>float</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>general.mode_index</td>
+    <td>0</td>
+    <td>integer</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>general.search</td>
+    <td>max_index</td>
+    <td>string</td>
+    <td>Selections are ['near_n', 'max_index'].</td>
+  </tr>
+  <tr>
+    <td>general.n</td>
+    <td>1.0</td>
+    <td>float</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>general.number_of_trial_modes</td>
+    <td>20</td>
+    <td>integer</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>general.waveform.waveform_id_select</td>
+    <td></td>
+    <td>any</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>general.rotations.theta</td>
+    <td>0</td>
+    <td>float</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>general.rotations.phi</td>
+    <td>0</td>
+    <td>float</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>general.rotations.rotation_offset</td>
+    <td>0</td>
+    <td>float</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>geometry.x</td>
+    <td></td>
+    <td>float</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>geometry.x_span</td>
+    <td></td>
+    <td>float</td>
+    <td>Restrained by condition: >=0.</td>
+  </tr>
+  <tr>
+    <td>geometry.x_min</td>
+    <td></td>
+    <td>float</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>geometry.x_max</td>
+    <td></td>
+    <td>float</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>geometry.y</td>
+    <td></td>
+    <td>float</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>geometry.y_span</td>
+    <td></td>
+    <td>float</td>
+    <td>Restrained by condition: >=0.</td>
+  </tr>
+  <tr>
+    <td>geometry.y_min</td>
+    <td></td>
+    <td>float</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>geometry.y_max</td>
+    <td></td>
+    <td>float</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>geometry.z</td>
+    <td></td>
+    <td>float</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>geometry.z_span</td>
+    <td></td>
+    <td>float</td>
+    <td>Restrained by condition: >=0.</td>
+  </tr>
+  <tr>
+    <td>geometry.z_min</td>
+    <td></td>
+    <td>float</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>geometry.z_max</td>
+    <td></td>
+    <td>float</td>
+    <td></td>
+  </tr>
+</table>
 
 
 
 ## GAUSSIAN_SOURCE
 
+<table class="custom-table">
+  <tr>
+    <td class="typeface">Parameters</td>
+    <td class="typeface">Default</td>
+    <td class="typeface">Type</td>
+    <td class="typeface">Notes</td>
+  </tr>
+  <tr>
+    <td>general.inject_axis</td>
+    <td>x_axis</td>
+    <td>string</td>
+    <td>Selections are ['x_axis', 'y_axis', 'z_axis', 'x', 'y', 'z'].</td>
+  </tr>
+  <tr>
+    <td>general.direction</td>
+    <td>forward</td>
+    <td>string</td>
+    <td>Selections are ['forward', 'backward'].</td>
+  </tr>
+  <tr>
+    <td>general.amplitude</td>
+    <td>1.0</td>
+    <td>float</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>general.phase</td>
+    <td>0.0</td>
+    <td>float</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>general.waveform.waveform_id_select</td>
+    <td></td>
+    <td>waveform</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>general.angle_theta</td>
+    <td>0</td>
+    <td>float</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>general.angle_phi</td>
+    <td>0</td>
+    <td>float</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>general.rotation_offset</td>
+    <td>0</td>
+    <td>float</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>general.polarization_angle</td>
+    <td>0</td>
+    <td>float</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>general.beam_settings.calculation_method</td>
+    <td>use_scalar_approximation</td>
+    <td>string</td>
+    <td>Selections are ['use_scalar_approximation', 'use_vector_approximation'].</td>
+  </tr>
+  <tr>
+    <td>general.beam_settings.beam_parameters</td>
+    <td>waist_size_and_position</td>
+    <td>string</td>
+    <td>Selections are ['waist_size_and_position', 'beam_size_and_divergence'].</td>
+  </tr>
+  <tr>
+    <td>general.beam_settings.waist_radius</td>
+    <td></td>
+    <td>float</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>general.beam_settings.distance_from_waist</td>
+    <td></td>
+    <td>float</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>general.beam_settings.beam_radius</td>
+    <td></td>
+    <td>float</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>general.beam_settings.divergence_angle</td>
+    <td></td>
+    <td>float</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>geometry.x</td>
+    <td></td>
+    <td>float</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>geometry.x_span</td>
+    <td></td>
+    <td>float</td>
+    <td>Restrained by condition: >=0.</td>
+  </tr>
+  <tr>
+    <td>geometry.x_min</td>
+    <td></td>
+    <td>float</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>geometry.x_max</td>
+    <td></td>
+    <td>float</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>geometry.y</td>
+    <td></td>
+    <td>float</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>geometry.y_span</td>
+    <td></td>
+    <td>float</td>
+    <td>Restrained by condition: >=0.</td>
+  </tr>
+  <tr>
+    <td>geometry.y_min</td>
+    <td></td>
+    <td>float</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>geometry.y_max</td>
+    <td></td>
+    <td>float</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>geometry.z</td>
+    <td></td>
+    <td>float</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>geometry.z_span</td>
+    <td></td>
+    <td>float</td>
+    <td>Restrained by condition: >=0.</td>
+  </tr>
+  <tr>
+    <td>geometry.z_min</td>
+    <td></td>
+    <td>float</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>geometry.z_max</td>
+    <td></td>
+    <td>float</td>
+    <td></td>
+  </tr>
+</table>
 
-
-| Parameter                            | Default                  | Type     | Notes                                                                    |
-|:-------------------------------------|:-------------------------|:---------|:-------------------------------------------------------------------------|
-| general.inject_axis                  | x_axis                   | string   | Selections are ['x_axis', 'y_axis', 'z_axis', 'x', 'y', 'z'].            |
-| general.direction                    | forward                  | string   | Selections are ['forward', 'backward'].                                  |
-| general.amplitude                    | 1.0                      | float    |                                                                          |
-| general.phase                        | 0.0                      | float    |                                                                          |
-| general.waveform.waveform_id_select  |                          | waveform |                                                                          |
-| general.angle_theta                  | 0                        | float    |                                                                          |
-| general.angle_phi                    | 0                        | float    |                                                                          |
-| general.rotation_offset              | 0                        | float    |                                                                          |
-| general.polarization_angle           | 0                        | float    |                                                                          |
-| general.beam_settings.calculation_method | use_scalar_approximation | string   | Selections are ['use_scalar_approximation', 'use_vector_approximation']. |
-| general.beam_settings.beam_parameters | waist_size_and_position  | string   | Selections are ['waist_size_and_position', 'beam_size_and_divergence'].  |
-| general.beam_settings.waist_radius   |                          | float    |                                                                          |
-| general.beam_settings.distance_from_waist |                          | float    |                                                                          |
-| general.beam_settings.beam_radius    |                          | float    |                                                                          |
-| general.beam_settings.divergence_angle |                          | float    |                                                                          |
-| geometry.x                           |                          | float    |                                                                          |
-| geometry.x_span                      |                          | float    | Restrained by condition: >=0.                                            |
-| geometry.x_min                       |                          | float    |                                                                          |
-| geometry.x_max                       |                          | float    |                                                                          |
-| geometry.y                           |                          | float    |                                                                          |
-| geometry.y_span                      |                          | float    | Restrained by condition: >=0.                                            |
-| geometry.y_min                       |                          | float    |                                                                          |
-| geometry.y_max                       |                          | float    |                                                                          |
-| geometry.z                           |                          | float    |                                                                          |
-| geometry.z_span                      |                          | float    | Restrained by condition: >=0.                                            |
-| geometry.z_min                       |                          | float    |                                                                          |
-| geometry.z_max                       |                          | float    |                                                                          |
 
