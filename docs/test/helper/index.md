@@ -13,8 +13,8 @@ Add timer prints for wrapped function.
 
 <table class="custom-table">
   <tr>
-    <td>Parameters</td>
-    <td>f-Function</td>
+    <td class="typeface">Parameters</td>
+    <td class="typeface">f-Function</td>
   </tr>
   <tr>
     <td>Returns</td>
@@ -41,8 +41,8 @@ Add path input path keyword-argument for wrapped function. Value is file’s dir
 
 <table class="custom-table">
   <tr>
-    <td>Parameters</td>
-    <td>f-Function</td>
+    <td class="typeface">Parameters</td>
+    <td class="typeface">f-Function</td>
   </tr>
   <tr>
     <td>Returns</td>
