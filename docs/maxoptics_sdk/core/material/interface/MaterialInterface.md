@@ -231,7 +231,7 @@ abstract add_nondispersion(*, `name`: str, `data`: List[Tuple[float, float]], `c
 
 <table class="custom-table">
   <tr>
-    <td class="typeface">Returns:&nbsp &nbsp;&nbsp;&nbsp;</td>
+    <td class="typeface">Returns:&nbsp; &nbsp;&nbsp;&nbsp;</td>
     <td class="typeface">No return.</td>
   </tr>
 </table>
