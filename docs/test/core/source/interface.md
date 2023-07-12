@@ -3,8 +3,10 @@
 
 ```py
 class maxoptics_sdk.core.source.interface.SourceInterface(*args, **kwargs)
-Bases: Protocol
 ```
+
+- Bases: __Protocol__
+
 ---
 abstract __add__(*, type: Literal['mode_source'], name: str, axis: Literal['x_forward', 'y_forward', 'z_forward', 'x_backward', 'y_backward', 'z_backward'], property: PostProcessModeSource)
 

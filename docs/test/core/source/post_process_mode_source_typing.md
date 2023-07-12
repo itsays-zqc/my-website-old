@@ -9,7 +9,7 @@
 class maxoptics_sdk.core.source.post_process_mode_source_typing.PostProcessModeSource(*args, **kwargs)
 ```
 
-__Bases__: dict
+- Bases: **dict**
 
 
 
@@ -41,7 +41,7 @@ __Bases__: dict
 class maxoptics_sdk.core.source.post_process_mode_source_typing.PostProcessModeSourceBentWaveguide(*args, **kwargs)
 ```
 
-__Bases__: dict
+- Bases: **dict**
 
 
 <table class="custom-table">
@@ -76,7 +76,7 @@ __Bases__: dict
 class maxoptics_sdk.core.source.post_process_mode_source_typing.PostProcessModeSourceGeneral(*args, **kwargs)
 ```
 
-__Bases__: dict
+- Bases: **dict**
 
 <table class="custom-table">
   <tr>
@@ -142,7 +142,7 @@ __Bases__: dict
 class maxoptics_sdk.core.source.post_process_mode_source_typing.PostProcessModeSourceGeneralModeRemoval(*args, **kwargs)¶
 ```
 
-__Bases__: dict
+- Bases: **dict**
 
 <table class="custom-table">
   <tr>
@@ -172,12 +172,12 @@ __Bases__: dict
 class maxoptics_sdk.core.source.post_process_mode_source_typing.PostProcessModeSourceGeneralWaveform(*args, **kwargs)
 ```
 
-__Bases__: dict
+- Bases: **dict**
 
 <table class="custom-table">
   <tr>
     <td class="typeface">Parameter</td>
-    <td class="typeface">Type</td>
+    <td class="typeface">Explanation</td>
   </tr>
   <tr>
     <td>waveform_id_select</td>
@@ -195,7 +195,7 @@ __Bases__: dict
 class maxoptics_sdk.core.source.post_process_mode_source_typing.PostProcessModeSourceGeometry(*args, **kwargs)
 ```
 
-__Bases__: dict
+- Bases: **dict**
 
 <table class="custom-table">
   <tr>

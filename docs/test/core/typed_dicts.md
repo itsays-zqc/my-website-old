@@ -4,13 +4,15 @@
 ```py
 class maxoptics_sdk.core.typed_dicts.BoundaryDict(*args, **kwargs)
 ```
-__Bases__: dict
+- Bases: **dict**
 
-<table>
+<!-- Description -->
+
+<table class="custom-table">
   <tr>
-    <td>Parameter</td>
-    <td>Type</td>
-    <td>Description</td>
+    <td class="typeface">Parameter</td>
+    <td class="typeface">Type</td>
+    <td class="typeface">Description</td>
   </tr>
   <tr>
     <td>pml_kappa</td>
@@ -71,7 +73,7 @@ __Bases__: dict
 class maxoptics_sdk.core.typed_dicts.FDEDict(*args, **kwargs)
 ```
 
-__Bases__: dict
+- Bases: **dict**
 
 <table>
   <tr>
@@ -107,7 +109,7 @@ __Bases__: dict
 class maxoptics_sdk.core.typed_dicts.GeometryDict(*args, **kwargs)
 ```
 
-**Bases**: dict
+- Bases: **dict**
 
 <table>
   <tr>
@@ -199,7 +201,7 @@ class maxoptics_sdk.core.typed_dicts.GeometryDict(*args, **kwargs)
 class maxoptics_sdk.core.typed_dicts.MaterialDict(*args, **kwargs)
 ```
 
-__Bases__: dict
+- Bases: **dict**
 
 <table>
   <tr>
