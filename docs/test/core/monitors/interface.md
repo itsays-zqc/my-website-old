@@ -46,8 +46,8 @@ abstract add(*, `type`: Literal['mode_expansion'], `name`: str, `property`: Post
     <td>Monitor name</td>
   </tr>
   <tr>
-    <td>type</td>
-    <td style={{width: '50rem'}}>Monitor type.
+    <td class="first-column">type</td>
+    <td class="second-column">Monitor type.
     </td>
   </tr>
   <tr>

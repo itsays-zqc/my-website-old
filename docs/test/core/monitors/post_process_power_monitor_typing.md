@@ -8,19 +8,18 @@ class maxoptics_sdk.core.monitors.post_process_power_monitor_typing.PostProcessP
 ```
 Bases: **dict**
 
-**advanced:** PostProcessPowerMonitorAdvanced
+**advanced:** *PostProcessPowerMonitorAdvanced*
 
-**general:** PostProcessPowerMonitorGeneral
+**general:** *PostProcessPowerMonitorGeneral*
 
-**geometry:** PostProcessPowerMonitorGeometry
+**geometry:** *PostProcessPowerMonitorGeometry*
 
-**mode_expansion:** PostProcessPowerMonitorModeExpansion
+**mode_expansion:** *PostProcessPowerMonitorModeExpansion*
 
 ## PostProcessPowerMonitorAdvanced
 
 ```py
-class 
-maxoptics_sdk.core.monitors.post_process_power_monitor_typing.PostProcessPowerMonitorAdvanced(*args, **kwargs)
+class maxoptics_sdk.core.monitors.post_process_power_monitor_typing.PostProcessPowerMonitorAdvanced(*args, **kwargs)
 ```
 
 Bases: **dict**
@@ -35,7 +34,7 @@ maxoptics_sdk.core.monitors.post_process_power_monitor_typing.PostProcessPowerMo
 
 Bases: **dict**
 
-**min_sampling_per_cycle:** int
+**min_sampling_per_cycle:** *int*
 
 ## PostProcessPowerMonitorGeneral
 ```py
@@ -50,8 +49,7 @@ Bases: **dict**
 ## PostProcessPowerMonitorGeneralFrequencyProfile
 
 ```py
-class 
-maxoptics_sdk.core.monitors.post_process_power_monitor_typing.PostProcessPowerMonitorGeneralFrequencyProfile(*args, **kwargs)
+class maxoptics_sdk.core.monitors.post_process_power_monitor_typing.PostProcessPowerMonitorGeneralFrequencyProfile(*args, **kwargs)
 ```
 Bases: **dict**
 
@@ -118,8 +116,7 @@ Bases: **dict**
 
 ## PostProcessPowerMonitorGeometry
 ```py
-class 
-maxoptics_sdk.core.monitors.post_process_power_monitor_typing.PostProcessPowerMonitorGeometry(*args, **kwargs)
+class maxoptics_sdk.core.monitors.post_process_power_monitor_typing.PostProcessPowerMonitorGeometry(*args, **kwargs)
 ```
 Bases: **dict**
 
@@ -186,8 +183,7 @@ Bases: **dict**
 
 ## PostProcessPowerMonitorModeExpansion
 ```py
-class 
-maxoptics_sdk.core.monitors.post_process_power_monitor_typing.PostProcessPowerMonitorModeExpansion(*args, **kwargs)
+class maxoptics_sdk.core.monitors.post_process_power_monitor_typing.PostProcessPowerMonitorModeExpansion(*args, **kwargs)
 ```
 Bases: **dict**
 
@@ -214,8 +210,7 @@ Bases: **dict**
 
 ## PostProcessPowerMonitorModeExpansionModeCalculation
 ```py
-class
- maxoptics_sdk.core.monitors.post_process_power_monitor_typing.PostProcessPowerMonitorModeExpansionModeCalculation(*args, **kwargs)
+class maxoptics_sdk.core.monitors.post_process_power_monitor_typing.PostProcessPowerMonitorModeExpansionModeCalculation(*args, **kwargs)
  ```
 Bases: **dict**
 
@@ -262,8 +257,7 @@ Bases: **dict**
 ## PostProcessPowerMonitorModeExpansionModeCalculationBentWaveguide
 
 ```py
-class 
-maxoptics_sdk.core.monitors.post_process_power_monitor_typing.PostProcessPowerMonitorModeExpansionModeCalculationBentWaveguide(*args, **kwargs)
+class maxoptics_sdk.core.monitors.post_process_power_monitor_typing.PostProcessPowerMonitorModeExpansionModeCalculationBentWaveguide(*args, **kwargs)
 ```
 Bases: **dict**
 
@@ -294,8 +288,7 @@ Bases: **dict**
 ## PostProcessPowerMonitorModeExpansionModeCalculationOverrideGlobalMonitorSetting
 
 ```py
-class 
-maxoptics_sdk.core.monitors.post_process_power_monitor_typing.PostProcessPowerMonitorModeExpansionModeCalculationOverrideGlobalMonitorSetting(*args, **kwargs)
+class maxoptics_sdk.core.monitors.post_process_power_monitor_typing.PostProcessPowerMonitorModeExpansionModeCalculationOverrideGlobalMonitorSetting(*args, **kwargs)
 ```
 Bases: **dict**
 

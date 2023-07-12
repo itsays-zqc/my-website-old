@@ -3,8 +3,7 @@
 ## PostProcessTimeMonitor
 
 ```py
-class 
-maxoptics_sdk.core.monitors.post_process_time_monitor_typing.PostProcessTimeMonitor(*args, **kwargs)
+class maxoptics_sdk.core.monitors.post_process_time_monitor_typing.PostProcessTimeMonitor(*args, **kwargs)
 ```
 Bases: **dict**
 
@@ -17,8 +16,7 @@ Bases: **dict**
 ## PostProcessTimeMonitorAdvanced
 
 ```py
-class 
-maxoptics_sdk.core.monitors.post_process_time_monitor_typing.PostProcessTimeMonitorAdvanced(*args, **kwargs)
+class maxoptics_sdk.core.monitors.post_process_time_monitor_typing.PostProcessTimeMonitorAdvanced(*args, **kwargs)
 ```
 Bases: **dict**
 
