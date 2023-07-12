@@ -179,6 +179,11 @@ const config = {
             label: 'Support',
             position: 'right',
           },
+          {
+            label:'blog',
+            to:'blog',
+            position:'right'
+          },
           
         ],
       },
