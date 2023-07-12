@@ -9,7 +9,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 const FeatureList = [
   {
-    title:'Frequently Asked Questions',
+    title:<a href='/my-website/docs/faq/'><font color='black'>Frequently Asked Questions</font></a>,
    
     Svg: require('@site/static/img/book.svg').default,
     
@@ -45,7 +45,9 @@ const FeatureList = [
     
   },
   {
-    title: 'Tutorials',
+    // title: 'Tutorials',
+    title:<a href='/my-website/docs/tutorial/material'><font color='black'>Tutorials</font></a>,
+
     Svg: require('@site/static/img/hat.svg').default,
     description: (
       <>
@@ -85,7 +87,10 @@ const FeatureList = [
   },
   
   {
-    title: 'Example Library',
+    // title: 'Example Library',
+    title:<a href='/my-website/docs/category/pic'><font color='black'>Example Library</font></a>,
+
+    to:'/docs/examples/Grating/',
     Svg: require('@site/static/img/document.svg').default,
     description: (
       <>
@@ -96,17 +101,17 @@ const FeatureList = [
         <hr style={{ margin: '0.25rem 0' }}/>
   
         <div style={{ textAlign: 'left' }}>
-        <a href="/my-website/docs/tutorial/mode/fdtd">2.Grating</a>
+        <a href="/my-website/docs/examples/Grating/">2.Grating</a>
         </div>
         <hr style={{ margin: '0.25rem 0' }}/>
 
         <div style={{ textAlign: 'left' }}>
-        <a href="/my-website/docs/tutorial/mode/eme">3.Metamaterial</a>
+        <a href="/my-website/docs/examples/Metamaterial/">3.Metamaterial</a>
         </div>
         <hr style={{ margin: '0.25rem 0' }}/>
 
         <div style={{ textAlign: 'left' }}>
-        <a href="/my-website/docs/tutorial/material">4.PD</a>
+        <a href="/my-website/docs/examples/PD/">4.PD</a>
         </div>
         <hr style={{ margin: '0.25rem 0' }}/>
 
@@ -116,7 +121,7 @@ const FeatureList = [
         {/* <hr style={{ margin: '0.25rem 0' }}/> */}
 
         <div style={{ textAlign: 'left' }}>
-        <a href="/my-website/docs/tutorial/mode/eme">6.MOD</a>
+        <a href="/my-website/docs/examples/MOD/">5.MOD</a>
         </div>
         <hr style={{ margin: '0.25rem 0' }}/>
 
@@ -128,13 +133,13 @@ const FeatureList = [
 
 
         <div style={{ textAlign: 'left' }}>
-        <a href="/my-website/docs/tutorial/t1">8.Lasers</a>
+        <a href="/my-website/docs/examples/Lasers/">6.Lasers</a>
         </div>
         <hr style={{ margin: '0.25rem 0' }}/>
 
         
         <div style={{ textAlign: 'left' }}>
-        <a href="/my-website/docs/tutorial/t1">9.Optical scattering and far-field radiation</a>
+        <a href="/my-website/docs/examples/Optical_scattering_and_far-field_radiation/">7.Optical scattering and far-field radiation</a>
         </div>
         <hr style={{ margin: '0.25rem 0' }}/>
        
@@ -144,7 +149,9 @@ const FeatureList = [
 
 
   {
-    title: 'How do I',
+    // title: 'How do I',
+    title:<a href='/my-website/docs/category/maxoptics_sdkall'><font color='black'>Max-Optics SDK</font></a>,
+
     Svg: require('@site/static/img/tool.svg').default,
     description: (
       <>
