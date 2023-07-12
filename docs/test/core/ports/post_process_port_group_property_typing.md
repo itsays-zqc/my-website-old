@@ -2,8 +2,7 @@
 
 ## PostProcessPortGroupProperty
 ```py
-class 
-maxoptics_sdk.core.ports.post_process_port_group_property_typing.PostProcessPortGroupProperty(*args, **kwargs)
+class maxoptics_sdk.core.ports.post_process_port_group_property_typing.PostProcessPortGroupProperty(*args, **kwargs)
 ```
 
 Bases: **dict**
@@ -11,12 +10,12 @@ Bases: **dict**
 <table class="custom-table">
   <tr>
     <td class="typeface">Parameters</td>
-    <td class="typeface">Explanation</td>
+    <td class="typeface">Type</td>
   </tr>
   
   <tr>
-    <td>calculate_group_delay</td>
-    <td>bool</td>
+    <td class="first-column">calculate_group_delay</td>
+    <td class="second-column">bool</td>
   </tr>
   <tr>
     <td>fractional_offset_for_group_delay</td>
