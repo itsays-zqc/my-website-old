@@ -60,7 +60,7 @@ If the selected value is not within the range of the mode index value, the neare
 
 - **Boundary conditions tab:** 
 
-!['Source4'](../../static/Source_.png )
+!['Source4'](../../static/Source0.png )
 
 In this section, you can set mode source simulation region’s boundary conditions and six types can be chosen: PEC, PML, PMC, Symmetric, Periodic and Anti-Symmetric. (Default: PEC)
 - **Geometry tab:** 
