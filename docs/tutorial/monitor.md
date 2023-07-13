@@ -1,8 +1,7 @@
-# Monitor
 ---
 sidebar_position: 2
 ---
-
+# Monitor
 ## Index Monitor
 
 - **Feature Description:** Index monitors store the values of n and k as functions of frequency/wavelength in a simulation. In future, the index monitor will also be able to record the temporal profiles of physical properties for nonlinear media.
