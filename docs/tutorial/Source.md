@@ -1,12 +1,12 @@
+# Source
 ---
 sidebar_position: 1
 ---
-# Source
 ## Mode Source:
 - **Feature Description:**
 The mode source is used to inject a guided mode into the simulation region in FDTD. You could add and set mode source here.
 - **General tab**
-!['Source1'](../../static/Source1.png)
+!['Source1'](../../static/img/tutorial/Source/Source1.png)
 
 1 ) ***Injection Axis:*** This field specifies the axis for the mode source propagation. Three options are available: “***X-Axis***”, “***Y-Axis***”, and “***Z-Axis***”.
 
@@ -27,13 +27,13 @@ The mode source is used to inject a guided mode into the simulation region in FD
 6 ) ***Mode selection:*** Defines whether to inject fundamental mode or other user-selected modes chosen via the "Select Mode" button. Currently, mode selection options are “Fundamental Mode”, “Fundamental TE Mode”, “Fundamental TM Mode”, “User Select” and “User Import”.
 
 **Works flow: User Select -> “Select Mode”** window:
-!['Source2'](../../static/Source2.png )
+!['Source2'](../../static/img/tutorial/Source/Source2.png )
 
 - **Modal analysis tab:**
 
 In this section you can set “Frequency”, “Wavelength”, “Number of Trial Modes”, “Search”, and also can set bent waveguide via selecting “Calculate Group Index” and “Bent Wave guide”.
 
-!['Source3'](../../static/Source3.png )
+!['Source3'](../../static/img/tutorial/Source/Source3.png )
 
 1) **Number of Trial Modes:** This specifies the number of modes to search for a fundamental mode. The modes eventually found by the solver may depend on that. If one uses a too small number, the expected modes could be missing. Usually, setting this number to 100 suffices to guarantee no physical modes would have been missed. However, users who are interested in higher order modes should set an even larger value, since in such cases more than 100 modes may be present.
 
@@ -46,7 +46,9 @@ In this section you can set “Frequency”, “Wavelength”, “Number of Tria
 If the selected value is not within the range of the mode index value, the nearest value from the user’s setting will be adopted instead for selecting the FDTD mode.
 
 3) ***Mesh Structure:*** User can view structure and material information about mesh. When click the button, result view will be shown, and attribute drop-down list includes: Index X, Index Y, Index Z.
-!['Source3'](../../static/Source3.png )
+
+!['Source4'](../../static/img/tutorial/Source/Source4.png )
+
 4) ***Plot area:*** The plot area where the simulation data is plotted.
 
 5) ***Mode list:*** Mode list where the “ID”, “Effective Index”, “Group Index”, “Wavelength”, “Loss”, and “TE Polarization Fraction” are shown. How many modes will be shown, will according to the “Number of Trail Modes” setting.
@@ -60,12 +62,12 @@ If the selected value is not within the range of the mode index value, the neare
 
 - **Boundary conditions tab:** 
 
-!['Source4'](../../static/Source0.png )
+!['Source5'](../../static/img/tutorial/Source/Source5.png )
 
 In this section, you can set mode source simulation region’s boundary conditions and six types can be chosen: PEC, PML, PMC, Symmetric, Periodic and Anti-Symmetric. (Default: PEC)
 - **Geometry tab:** 
 
-!['Source5'](../../static/Source4.png )
+!['Source6'](../../static/img/tutorial/Source/Source6.png )
 
 1) ***X，X Span/ Y, Y Span, Z/ Z span:*** The geometry tab contains options to change the size and location of the sources.
 
@@ -74,7 +76,7 @@ In this section, you can set mode source simulation region’s boundary conditio
 - **Feature Description:** The gaussian source is used to inject a gaussian source into the simulation region in FDTD. You could add and set gaussian source here.
 
 - **General tab:**
-!['Source6'](../../static/Source6.png )
+!['Source7'](../../static/img/tutorial/Source/Source7.png )
 
 1) ***Injection Axis:*** This field specifies the axis for the gaussian source propagation. Three options are available: “X-Axis”, “Y-Axis”, and “Z-Axis”.
 
@@ -110,6 +112,6 @@ The waveform information of “ID”, “Name”, “Center”, “Span”, “S
 6) ***Divergence Angle:*** This refers to the angle of radiation spreading into the far field as measured. Positive/Negative angles correspond to diverging/converging beams, respectively. The user can input the value within the range of (-90,90). The value can be editted if Beam Parameters=”Beam Size and Divergence”.
 
 - **Geometry tab**
-!['Source7'](../../static/Source7.png )
+!['Source8'](../../static/img/tutorial/Source/Source8.png )
 
-1 ) ***X，X Span/ Y, Y Span, Z/ Z span:*** The geometry tab contains options to change the size and location of the sources.
+1) ***X，X Span/ Y, Y Span, Z/ Z span:*** The geometry tab contains options to change the size and location of the sources.
