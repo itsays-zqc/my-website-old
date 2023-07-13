@@ -11,7 +11,7 @@ sidebar_position: 2
 
 !['monitor'](../../static/monitor_1.png)
 
-1 ) ***Monitor type:*** The monitor type and orientation, this option will control the availability of spatial settings below.
+1) ***Monitor type:*** The monitor type and orientation, this option will control the availability of spatial settings below.
 
 2) ***X, Y, Z:*** The center position of the simulation region.
 
