@@ -1,7 +1,7 @@
-# Source
 ---
 sidebar_position: 1
 ---
+# Source
 ## Mode Source:
 - **Feature Description:**
 The mode source is used to inject a guided mode into the simulation region in FDTD. You could add and set mode source here.
@@ -46,7 +46,7 @@ In this section you can set “Frequency”, “Wavelength”, “Number of Tria
 If the selected value is not within the range of the mode index value, the nearest value from the user’s setting will be adopted instead for selecting the FDTD mode.
 
 3) ***Mesh Structure:*** User can view structure and material information about mesh. When click the button, result view will be shown, and attribute drop-down list includes: Index X, Index Y, Index Z.
-
+!['Source3'](../../static/Source3.png )
 4) ***Plot area:*** The plot area where the simulation data is plotted.
 
 5) ***Mode list:*** Mode list where the “ID”, “Effective Index”, “Group Index”, “Wavelength”, “Loss”, and “TE Polarization Fraction” are shown. How many modes will be shown, will according to the “Number of Trail Modes” setting.
