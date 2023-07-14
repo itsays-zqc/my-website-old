@@ -90,3 +90,7 @@
 div.centered {
   text-align: center;
 }
+
+.menu{
+  overflow-x: scroll;
+}
