@@ -1,7 +1,8 @@
-# Monitor
 ---
 sidebar_position: 2
 ---
+
+# Monitor
 
 ## Index Monitor
 
