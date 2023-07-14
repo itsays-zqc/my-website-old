@@ -1,7 +1,7 @@
+# Port
 ---
 sidebar_position: 1
 ---
-# Port
 ## FDTD Port:
 - **Feature description:**
 Ports are usually viewed as a combination of mode source, field monitor and mode expansion monitor. Ports can be used either separately or together with the S-parameter sweep tool to compute the S-parameters for a device by means of the mode expansion method.
@@ -18,11 +18,12 @@ The mode of each port can be selected through “Mode Selection” in its “Mod
 
 3) **Waveform Name:**
 Waveform name is identified by **“Waveform ID”**.
-!['Port1'](../../static/Port1.png )
+!['Port1'](../../static/img/tutorial/Port/Port1.png )
+
 
 - **The Geometry tab of FDTD Port:**
 
-!['Port2'](../../static/Port2.png )
+!['Port1'](../../static/img/tutorial/Port/Port2.png)
 
 1) **X,Y,Z:**
 The center position of the simulation region.
@@ -41,7 +42,7 @@ X, Y, Z span of the simulation region.
 
 - **The Modal properties tab of FDTD port tab:**
 
-!['Port3'](../../static/Port3.png )
+!['Port3'](../../static/img/tutorial/Port/Port3.png )
 
 1)**Injection Axis:**
 This indicates the axis of propagation. The geometry parameters that will work under the "Geometry" tab may depend on this setting (For instance, if the incident wave is along the x-axis, the port object possesses accordingly a 2D x-normal geometry).
@@ -69,11 +70,11 @@ Selecting this option enables the bent waveguide solver to work with the followi
 
 **Mode Analysis window**
 
-!['Port4'](../../static/Port4.png )
+!['Port4'](../../static/img/tutorial/Port/Port4.png )
 
 **Frequency Analysis window**
 
-!['Port5'](../../static/Port5.png)
+!['Port5'](../../static/img/tutorial/Port/Port5.png)
 
 1)**Offset:** An offset can be endowed to the plane upon which the modes are computed. This guarantees that monitors placed at an angle do not interfere with unexpected structures.
 
@@ -87,13 +88,13 @@ Selecting this option enables the bent waveguide solver to work with the followi
 
 - **Select Mode tab:**
 
-!['Port6'](../../static/Port6.png)
+!['Port6'](../../static/img/tutorial/Port/Port6.png)
 
 3.***User import:*** Import arbitrary source fields into EME ports. It is possible to use a custom field profile from a .mat file, .datx file or .zbf file as the source in an EME simulation. The field profile data can be from another simulation. To set this as a port mode, open the Edit EME port tab, select “User import” under mode selection and click on “Import Field”.
 
 
-!['Port7'](../../static/Port7.png)
+!['Port7'](../../static/img/tutorial/Port/Port7.png)
 
 Click the “Click to upload” button, select a generated custom field profile, if you has imported several profiles in the right section, you can specify one of them from right section, then the custom field profile has been imported successfully. Finally, click the “OK” button to save the custom profile.
 
-!['Port8'](../../static/Port8.png)
+!['Port8'](../../static/img/tutorial/Port/Port8.png)
