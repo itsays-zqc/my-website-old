@@ -1,14 +1,15 @@
+# Monitor
 ---
 sidebar_position: 2
 ---
-# Monitor
+
 ## Index Monitor
 
 - **Feature Description:** Index monitors store the values of n and k as functions of frequency/wavelength in a simulation. In future, the index monitor will also be able to record the temporal profiles of physical properties for nonlinear media.
 
 - **Geometry tab:**
 
-!['monitor'](../../static/monitor_1.png)
+!['monitor1'](../../static/img/tutorial/monitor/monitor_1.png)
 
 1) ***Monitor type:*** The monitor type and orientation, this option will control the availability of spatial settings below.
 
@@ -24,15 +25,18 @@ sidebar_position: 2
 
 7) ***Index Preview:*** allows user to run the index monitor individually via right-clicking the “Index Preview” menu in the object tree.
 
-!['monitor_2'](../../static/monitor_2.png)
+!['monitor_2'](../../static/img/tutorial/monitor/monitor_2.png)
 
 ## Frequency-domain field and power monitor
 - **Feature Description:**
 Frequency domain field monitors work in the frequency domain and extract the field profiles across some spatial regions of the FDTD simulation.
 
+- **Notes:**
+Before adding the Frequency-domain field and power monitor, Mode Source must be added.
+
 - **General tab:**
 
-!['monitor_3'](../../static/monitor_3.png)
+!['monitor_3'](../../static/img/tutorial/monitor/monitor_3.png)
 
 1 ) ***Override Global Options:*** This is a toggle for overriding the global monitor settings. Checking this option enables the user to specify the frequency spans and number of points at which frequency-domain data will be collected. Otherwise the following options should be specified from the global monitor settings.
 
@@ -42,9 +46,9 @@ Frequency domain field monitors work in the frequency domain and extract the fie
 4 ) ***Frequency Points:*** Sets to choose the number of frequency points at which to record data. (Default: 5)
 
 
-- **General Tab**
+- **Geometry Tab**
 
-!['monitor_4'](../../static/monitor_4.png)
+!['monitor_4'](../../static/img/tutorial/monitor/monitor_4.png)
 
 1 )	***Monitor Type:*** The monitor type and orientation, this option will control the available of spatial setting below, ***Point, Linear X/Y/Z, 2D X-Normal/2D Y-Normal/2D Z-Normal, 3D*** are included. ( Default: 2D X-normal)
 
@@ -61,7 +65,7 @@ Frequency domain field monitors work in the frequency domain and extract the fie
 
 - **Data to Record tab:**
 
-!['monitor_5'](../../static/monitor_5.png)
+!['monitor_5'](../../static/img/tutorial/monitor/monitor_5.png)
 
 1 )	***Fields & Poynting vector and power:*** Output quantities EX, EY, EZ, HX, HY, HZ, PX, PY, PZ: The user can select from the field components (EX, EY, EZ, HX, HY, HZ) or the Poynting vector (PX, PY, PZ) those ones he/she wishes to measure. For 3D simulations, only part of the components are non-vanishing (i.e., for TE simulations only EX, EY, and HZ will make sense). However to facilitate fast switches between TE and TM simulations, all the field quantities will remain active.(2D simulation is inavailable at present).
 
@@ -69,7 +73,7 @@ Frequency domain field monitors work in the frequency domain and extract the fie
 
 - **Advanced tab:**
 
-!['monitor_6'](../../static/monitor_6.png)
+!['monitor_6'](../../static/img/tutorial/monitor/monitor_6-1.png)
 
 1 ) **Sampling Frequency**
 
@@ -85,7 +89,7 @@ Frequency domain field monitors work in the frequency domain and extract the fie
 
 - **Mode Expansion tab:**
 
-!['monitor_7'](../../static/monitor_7.png)
+!['monitor_7'](../../static/img/tutorial/monitor/monitor_7.png)
 
 **Feature Description:** The user can use the Mode expansion monitor simulation objects to extract the fractional amount of power transmitted into any mode(s) of a non-absorbing waveguide or fiber. The Mode Expansion tab contains two main sections. The "Mode calculation" section allows you to select a mode (or a set of modes) to expand the input profile. The "Monitors for Expansion" section allows you to choose a field profile from an arbitrary monitor in the simulation to expand.
 
@@ -129,13 +133,19 @@ Frequency domain field monitors work in the frequency domain and extract the fie
 
 **Work flow: Result view-> Power monitor->Calculate-> Far Filed Settings-> OK**
 
+- **Select Frequency**
+
+!['monitor_8'](../../static/img/tutorial/monitor/monitor_8.png)
+
+
+
 1 )	***Frequency:*** allows user to select the frequency based on the power monitor calculation results to project.
 
 2 )	***Wavelength:*** allows user to select the wavelength based on the power monitor calculation results to project.
 
 Click the “Far Failed Setting” button from the bottom left corner of the Select Frequency window an additional window will pop out.
 
-!['monitor_8'](../../static/monitor_8.png)
+!['monitor_9'](../../static/img/tutorial/monitor/monitor_9.png)
 
 - **General Tab:**
  
@@ -151,7 +161,7 @@ After clicking the “OK ” button, the visualizer window will show up, user ca
 
 - **Standard plot visualizer:**
 
-!['monitor_9'](../../static/monitor_9.png)
+!['monitor_10'](../../static/img/tutorial/monitor/monitor_10.png)
 
 1. ***Drawing:*** Drawing the far fields (Default:Standard Plot)
 
@@ -159,7 +169,7 @@ After clicking the “OK ” button, the visualizer window will show up, user ca
 
 3. ***Mesh Grid:*** Mesh grid display settings
 
-!['monitor_10'](../../static/monitor_10.png)
+!['monitor_11'](../../static/img/tutorial/monitor/monitor_11.png)
 
 4. ***Attribute:*** Allow users to choose the attribute their interested in to plot, includes E, H, Energy density, Ex, Ey, Ez, Hx, and Hy. (Default: E)
  
@@ -169,7 +179,7 @@ After clicking the “OK ” button, the visualizer window will show up, user ca
 
 7. ***Data List:*** The result data of far field projection will be loaded here after running the far field projection.
 
-!['monitor_11'](../../static/monitor_11.png)
+!['monitor_12'](../../static/img/tutorial/monitor/monitor_12.png)
 
 ->***Name:*** The FDTD far field name.
 
@@ -177,7 +187,7 @@ After clicking the “OK ” button, the visualizer window will show up, user ca
 
 ->***View Data:*** Allows user to view the data of far field , after pressing the button a FDTD Far Field data table will pop out.
 
-!['monitor_12'](../../static/monitor_12.png)
+!['monitor_13'](../../static/img/tutorial/monitor/monitor_13.png)
 
 1. ***Add:*** Add the far field result to plot.
 
@@ -189,7 +199,7 @@ After clicking the “OK ” button, the visualizer window will show up, user ca
 
 - **Polar Plot Visualizer**
 
-!['monitor_13'](../../static/monitor_13.png)
+!['monitor_14'](../../static/img/tutorial/monitor/monitor_14.png)
 
 ### Field time monitor
 
@@ -197,7 +207,7 @@ After clicking the “OK ” button, the visualizer window will show up, user ca
 
 - **General Tab:**
 
-!['monitor_14'](../../static/monitor_14.png)
+!['monitor_15'](../../static/img/tutorial/monitor/monitor_15.png)
 
 The general tab for the time domain monitor includes options to edit the amount of data, and time period over which data is collected.
 
@@ -211,7 +221,7 @@ The general tab for the time domain monitor includes options to edit the amount 
 
 - **Geometry tab:**
 
-!['monitor_15'](../../static/monitor15.png)
+!['monitor_16'](../../static/img/tutorial/monitor/monitor_16.png)
 
 1 )	***Monitor Type:*** The monitor type and orientation, this option will control the available of spatial setting below , “Point”, “Linear X”, “Linear Y”, “Linear Z”, “2D X-Normal”, “2D Y-Normal”, “2D Z-Normal”,3D are included. (Default: Point)
 
@@ -227,13 +237,13 @@ The general tab for the time domain monitor includes options to edit the amount 
 
 - **Data to Record tab:**
 
-!['monitor_16'](../../static/monitor_16.png)
+!['monitor_17'](../../static/img/tutorial/monitor/monitor_17.png)
 
 1 )	***Fields & Poynting vector and power:*** Output quantities EX, EY, EZ, HX, HY, HZ, PX, PY, PZ: The user can select from the field components (EX, EY, EZ, HX, HY, HZ) or the Poynting vector (PX, PY, PZ) those ones he/she wishes to measure. For 3D simulations, only part of the components are non-vanishing (i.e., for TE simulations only EX, EY, and HZ will make sense). However to facilitate fast switches between TE and TM simulations, all the field quantities will remain active.(2D simulation is not available)
 
 - **Advanced tab:**
 
-!['monitor_17'](../../static/monitor_17.png)
+!['monitor_18'](../../static/img/tutorial/monitor/monitor_18.png)
 
 Sampling rate:
 1 )	***Min Sampling Per Cycle:*** This parameter indicates the realistic minimum amount of samplings in each optical cycle. Default value is 10.
@@ -242,19 +252,19 @@ Sampling rate:
 
 3 )	***Down Sample Time:*** This specifies the time for step down sampling.
 
-!['monitor_17'](../../static/monitor_17.png)
-
 ### EME Profile Monitor
 
 - **Feature description:** EME profile monitors work in the frequency domain to extract field profiles from the simulation results produced by an EME solver over some spatial regions.
 
 - **Geometry tab:**
-!['monitor_20'](../../static/monitor_20.png)
+
+!['monitor_19'](../../static/img/tutorial/monitor/monitor_19.png)
 
 
 1 )	***Monitor Type:*** This option specifies the monitor type and orientation, and will affect the availability of the spatial settings below.
 
 2 )	***X, Y, Z:*** The center position of the simulation region.
+
 3 )	***X Min, X Max:*** X min, X max position.
 
 4 )	***Y Min, Y Max:*** Y min, Y max position.
@@ -273,7 +283,7 @@ Sampling rate:
 
 - **Frequency power tab:**
 
-!['monitor_18'](../../static/monitor_18.png)
+!['monitor_20'](../../static/img/tutorial/monitor/monitor_20.png)
 
 1 )	***Sample Spacing:*** The parameter determines how the sample frequency/wavelength will be selected, currently the option is “uniform”.
 
@@ -289,7 +299,7 @@ Sampling rate:
 
 - **Advanced tab:**
 
-!['monitor_19'](../../static/monitor_19.png)
+!['monitor_21'](../../static/img/tutorial/monitor/monitor_21.png)
 
 
 1 )	***Min Sampling Per Cycle:*** This parameter suggests the realistic minimum amount of samplings for each optical cycle. Default value is 2 (the Nyqusit limit) for sake of the optimum efficiency.
