@@ -1,6 +1,5 @@
-# PostProcessPortGroupProperty
+# post_process_port_group_property_typing
 
-## PostProcessPortGroupProperty
 ```py
 class maxoptics_sdk.core.ports.post_process_port_group_property_typing.PostProcessPortGroupProperty(*args, **kwargs)
 ```

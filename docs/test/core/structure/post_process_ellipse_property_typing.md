@@ -8,11 +8,11 @@ class maxoptics_sdk.core.structure.post_process_elipse_property_typing.PostProce
 
 ### Parameters and Returns
 
-<table>
+<table class="custom-table">
     <tr>
         <th>Parameter</th>
         <th>Type</th>
-        <th>Description</th>
+        <th>Description &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
     </tr>
     <tr>
         <td>geometry</td>
@@ -34,6 +34,7 @@ class maxoptics_sdk.core.structure.post_process_elipse_property_typing.PostProce
     <td class="fourth-column">No return.</td>
   </tr>
 </table>
+<br/> 
 
 ```py
 class maxoptics_sdk.core.structure.post_process_elipse_property_typing.PostProcessEllipsePropertyGeometry(*args, **kwargs)
@@ -41,7 +42,7 @@ class maxoptics_sdk.core.structure.post_process_elipse_property_typing.PostProce
 
 - Bases: **Protocol**
 ### Parameters and Returns
-<table>
+<table class="custom-table">
     <tr>
         <th>Parameter</th>
         <th>Type</th>
@@ -119,11 +120,11 @@ class maxoptics_sdk.core.structure.post_process_elipse_property_typing.PostProce
 - Bases: **Protocol**
 
 ### Parameters and Returns
-<table>
+<table class="custom-table">
     <tr>
         <th>Parameter</th>
         <th>Type</th>
-        <th>Description</th>
+        <th>Description&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
     </tr>
     <tr>
         <td>material</td>

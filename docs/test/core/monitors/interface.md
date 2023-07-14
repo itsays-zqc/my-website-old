@@ -1,3 +1,6 @@
+---
+sidebar_position: 1
+---
 # MonitorInterface
 
 # maxoptics_sdk.core.monitors.interface module

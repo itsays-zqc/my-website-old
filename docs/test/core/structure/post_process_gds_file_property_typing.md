@@ -8,10 +8,10 @@ class maxoptics_sdk.core.structure.post_process_gds_file_property_typing.PostPro
 
 ### Parameters and Returns
 
-<table>
+<table class="custom-table">
     <tr>
         <th>Property</th>
-        <th>Type</th>
+        <th>Type &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
     </tr>
     <tr>
         <td>general</td>
@@ -26,6 +26,7 @@ class maxoptics_sdk.core.structure.post_process_gds_file_property_typing.PostPro
         <td>PostProcessGdsFilePropertyMaterial</td>
     </tr>
 </table>
+
 <br/> 
 <table class="custom-table">
   <tr>
@@ -33,6 +34,7 @@ class maxoptics_sdk.core.structure.post_process_gds_file_property_typing.PostPro
     <td class="fourth-column">No return.</td>
   </tr>
 </table>
+<br/> 
 
 ```py
 class maxoptics_sdk.core.structure.post_process_gds_file_property_typing.PostProcessGdsFilePropertyGeneral(*args, **kwargs)
@@ -41,7 +43,7 @@ class maxoptics_sdk.core.structure.post_process_gds_file_property_typing.PostPro
 - Bases: **Protocol**
 
 
-<table>
+<table class="custom-table">
     <tr>
         <th>Parameter</th>
         <th>Type</th>
@@ -71,6 +73,7 @@ class maxoptics_sdk.core.structure.post_process_gds_file_property_typing.PostPro
     <td class="fourth-column">No return.</td>
   </tr>
 </table>
+<br/> 
 
 ```py
 class maxoptics_sdk.core.structure.post_process_gds_file_property_typing.PostProcessGdsFilePropertyGeometry(*args, **kwargs)
@@ -79,7 +82,7 @@ class maxoptics_sdk.core.structure.post_process_gds_file_property_typing.PostPro
 - Bases: **Protocol**
 
 
-<table>
+<table class="custom-table">
     <tr>
         <th>Parameter</th>
         <th>Type</th>
