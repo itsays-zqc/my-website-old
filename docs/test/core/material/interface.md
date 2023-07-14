@@ -1,6 +1,3 @@
----
-sidebar_position: 1
----
 # interface
 
 # maxoptics_sdk.core.material.interface module
