@@ -73,7 +73,7 @@ Before adding the Frequency-domain field and power monitor, Mode Source must be 
 
 - **Advanced tab:**
 
-!['monitor_6'](../../static/img/tutorial/monitor/monitor_6-1.png)
+!['monitor_6'](../../static/img/tutorial/monitor/monitor_6.png)
 
 1 ) **Sampling Frequency**
 
