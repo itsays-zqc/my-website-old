@@ -121,7 +121,7 @@ Before adding the Frequency-domain field and power monitor, Mode Source must be 
 	Location: Loaction of the bent waveguide. (at Simulation Center by default)
  
 5 )	***Rotations:***
-->***Theta:***This refers to the angle of propagation measured by degrees, with respect to the incident axis of the source in a 3D simulation. In a 2D simulation, it is the angle of propagation measured by degrees revolved around the global Z-axis in compliance with the right-hand rule, that is, the angle of propagation in the XY plane.
+->***Theta:*** This refers to the angle of propagation measured by degrees, with respect to the incident axis of the source in a 3D simulation. In a 2D simulation, it is the angle of propagation measured by degrees revolved around the global Z-axis in compliance with the right-hand rule, that is, the angle of propagation in the XY plane.
 
 ->***Phi:*** This refers to the angle of propagation measured by degrees revolved around the incident axis of the source in compliance with the right-hand rule in a 3D simulation. In a 2D simulation, this value does not take effect.
 
