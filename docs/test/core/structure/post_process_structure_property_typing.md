@@ -4,11 +4,11 @@
 class maxoptics_sdk.core.structure.post_process_structure_property_typing.PostProcessStructureProperty(*args, **kwargs)
 ```
 
-- Bases: **Protocol**
+Bases: **Protocol**
 
 ### Parameters and Returns
 
-<table>
+<table class="custom-table">
     <tr>
         <th>Parameter</th>
         <th>Type</th>

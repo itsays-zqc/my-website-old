@@ -28,8 +28,7 @@ Bases: **dict**
 
 ## PostProcessPowerMonitorAdvancedSamplingFrequency
 ```py
-class 
-maxoptics_sdk.core.monitors.post_process_power_monitor_typing.PostProcessPowerMonitorAdvancedSamplingFrequency(*args, **kwargs)
+class maxoptics_sdk.core.monitors.post_process_power_monitor_typing.PostProcessPowerMonitorAdvancedSamplingFrequency(*args, **kwargs)
 ```
 
 Bases: **dict**
@@ -60,8 +59,8 @@ Bases: **dict**
   </tr>
 
   <tr>
-    <td>frequency_center</td>
-    <td>float | int | FloatParameter | FloatParameterExpression</td>
+    <td class="first-column">frequency_center</td>
+    <td class="second-column">float | int | FloatParameter | FloatParameterExpression</td>
   </tr>
   <tr>
     <td>frequency_max</td>
@@ -127,8 +126,8 @@ Bases: **dict**
   </tr>
 
   <tr>
-    <td>monitor_type</td>
-    <td>Literal['point', 'linear_x', 'linear_y', 'linear_z', '2d_x_normal', '2d_y_normal', '2d_z_normal', '3d']</td>
+    <td class="first-column">monitor_type</td>
+    <td class="second-column">Literal['point', 'linear_x', 'linear_y', 'linear_z', '2d_x_normal', '2d_y_normal', '2d_z_normal', '3d']</td>
   </tr>
   <tr>
     <td>x</td>
@@ -194,8 +193,8 @@ Bases: **dict**
   </tr>
 
   <tr>
-    <td>direction</td>
-    <td>Literal['positive', 'negative']</td>
+    <td class="first-column">direction</td>
+    <td class="second-column">Literal['positive', 'negative']</td>
   </tr>
   <tr>
     <td>enable</td>
@@ -221,8 +220,8 @@ Bases: **dict**
   </tr>
 
   <tr>
-    <td>bent_waveguide</td>
-    <td>PostProcessPowerMonitorModeExpansionModeCalculationBentWaveguide</td>
+    <td class="first-column">bent_waveguide</td>
+    <td class="second-column">PostProcessPowerMonitorModeExpansionModeCalculationBentWaveguide</td>
   </tr>
   <tr>
     <td>mode_index</td>
@@ -268,8 +267,8 @@ Bases: **dict**
   </tr>
 
   <tr>
-    <td>bent_waveguide</td>
-    <td>bool</td>
+    <td class="first-column">bent_waveguide</td>
+    <td class="second-column">bool</td>
   </tr>
   <tr>
     <td>location</td>
@@ -295,12 +294,12 @@ Bases: **dict**
 <table class="custom-table">
   <tr>
     <td class="typeface">Parameters</td>
-    <td class="typeface">Explanation</td>
+    <td class="typeface">Type</td>
   </tr>
   
   <tr>
-    <td>frequency_center</td>
-    <td>float | int | FloatParameter | FloatParameterExpression</td>
+    <td class="first-column">frequency_center</td>
+    <td class="second-column">float | int | FloatParameter | FloatParameterExpression</td>
   </tr>
   <tr>
     <td>frequency_max</td>

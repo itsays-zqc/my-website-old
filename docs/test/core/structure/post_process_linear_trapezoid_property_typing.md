@@ -4,16 +4,16 @@
 class maxoptics_sdk.core.post_process_linear_trapezoid_property_typing.PostProcessLinearTrapezoidProperty(*args, **kwargs)
 ```
 
-- Bases: **Protocol**
+Bases: **Protocol**
 
 ### Usage
 
 ### Parameters and Returns
 
-<table>
+<table class="custom-table">
     <tr>
-        <th>Property</th>
-        <th>Type</th>
+        <th class="first-column">Property</th>
+        <th class="second-column">Type</th>
     </tr>
     <tr>
         <td>geometry</td>
@@ -33,12 +33,15 @@ class maxoptics_sdk.core.post_process_linear_trapezoid_property_typing.PostProce
   </tr>
 </table>
 
+<br/>
+
 ```py
 class maxoptics_sdk.core.post_process_linear_trapezoid_property_typing.PostProcessLinearTrapezoidPropertyGeometry(*args, **kwargs)
 ```
 
-- Bases: **Protocol**
-<table>
+Bases: **Protocol**
+  
+<table class="custom-table">
     <tr>
         <th>Parameter</th>
         <th>Type</th>
@@ -137,18 +140,19 @@ class maxoptics_sdk.core.post_process_linear_trapezoid_property_typing.PostProce
     <td class="fourth-column">No return.</td>
   </tr>
 </table>
+<br/>
 
 ```py
 class maxoptics_sdk.core.post_process_linear_trapezoid_property_typing.PostProcessLinearTrapezoidPropertyMaterial(*args, **kwargs)
 ```
 
-- Bases: **Protocol**
+Bases: **Protocol**
 
-<table>
+<table class="custom-table">
     <tr>
         <th>Parameter</th>
         <th>Type</th>
-        <th>Description</th>
+        <th>Description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
     </tr>
     <tr>
         <td>material</td>

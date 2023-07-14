@@ -19,12 +19,12 @@ Bases: **dict**
 <table class="custom-table">
   <tr>
     <td class="typeface">Parameters</td>
-    <td class="typeface">Explanation</td>
+    <td class="typeface">Type</td>
   </tr>
 
   <tr>
-    <td>monitor_type</td>
-    <td>Literal['2d_x_normal', '2d_y_normal', '2d_z_normal', 'x', 'y', 'z']</td>
+    <td class="first-column">monitor_type</td>
+    <td class="second-column">Literal['2d_x_normal', '2d_y_normal', '2d_z_normal', 'x', 'y', 'z']</td>
   </tr>
   <tr>
     <td>x</td>

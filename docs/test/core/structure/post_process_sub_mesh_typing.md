@@ -4,18 +4,18 @@
 class maxoptics_sdk.core.structure.mesh_typing._MeshGeneral(*args, **kwargs)
 ```
 
-- Bases: **Dict**
+Bases: **Dict**
 
 ### Parameters and Returns
 
-<table>
+<table class="custom-table">
     <tr>
         <th>Parameter</th>
         <th>Unit</th>
     </tr>
     <tr>
-        <td>dx</td>
-        <td>um</td>
+        <td class="third-column">dx</td>
+        <td class="fourth-column">um</td>
     </tr>
     <tr>
         <td>dy</td>
@@ -46,14 +46,14 @@ class maxoptics_sdk.core.structure.mesh_typing.StructureMeshPropertyDict(*args, 
 
 ### Parameters and Returns
 
-<table>
+<table class="custom-table">
     <tr>
         <th>Parameter</th>
         <th>Type</th>
     </tr>
     <tr>
-        <td>general</td>
-        <td>_MeshGeneral</td>
+        <td class="third-column">general</td>
+        <td class="fourth-column">_MeshGeneral</td>
     </tr>
     <tr>
         <td>geometry</td>
@@ -72,10 +72,10 @@ class maxoptics_sdk.core.structure.mesh_typing.StructureMeshPropertyDict(*args, 
 class maxoptics_sdk.core.structure.mesh_typing._MeshGeneralActive(*args, **kwargs)
 ```
 
-- Bases: **Dict**
+Bases: **Dict**
 
 ### Parameters and Returns
-<table>
+<table class="custom-table">
     <tr>
         <th>Parameter</th>
         <th>Type</th>
@@ -89,7 +89,7 @@ class maxoptics_sdk.core.structure.mesh_typing._MeshGeneralActive(*args, **kwarg
     <tr>
         <td>x_span</td>
         <td>Union[float, int]</td>
-        <td>MUST be filled, check: >=0</td>
+        <td>MUST be filled, check: >=0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
     </tr>
     <tr>
         <td>y</td>
@@ -125,22 +125,24 @@ class maxoptics_sdk.core.structure.mesh_typing._MeshGeneralActive(*args, **kwarg
   </tr>
 </table>
 
+<br/>
+
 ```py
 class maxoptics_sdk.core.structure.mesh_typing.StructureMeshPropertyDictActive(*args, **kwargs)
 ```
 
-- Bases: **Dict**
+Bases: **Dict**
 
 ### Parameters and Returns
 
-<table>
+<table class="custom-table">
     <tr>
         <th>Parameter</th>
         <th>Type</th>
     </tr>
     <tr>
-        <td>geometry</td>
-        <td>_MeshGeneralActive</td>
+        <td class="third-column">geometry</td>
+        <td class="fourth-column">_MeshGeneralActive</td>
     </tr>
 </table>
 <br/> 

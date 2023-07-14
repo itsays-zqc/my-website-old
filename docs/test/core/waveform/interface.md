@@ -36,6 +36,9 @@ Add a project waveform.
   </tr>
 </table>
 
+<br/>
+
+
 ```py
 wv = pj.Waveform()
 wv.add(name=waveform_name, wavelength_center=wavelength, wavelength_span=0.1)

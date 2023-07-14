@@ -4,18 +4,18 @@
 class maxoptics_sdk.core.structure.post_process_terrace_property_typing.PostProcessTerraceProperty(*args, **kwargs)
 ```
 
-- Bases: **Protocol**
+Bases: **Protocol**
 
 ### Parameters and Returns
 
-<table>
+<table class="custom-table">
     <tr>
         <th>Parameter</th>
         <th>Type</th>
     </tr>
     <tr>
-        <td>geometry</td>
-        <td>PostProcessTerracePropertyGeometry</td>
+        <td class="third-column">geometry</td>
+        <td class="fourth-column">PostProcessTerracePropertyGeometry</td>
     </tr>
     <tr>
         <td>material</td>
@@ -35,13 +35,13 @@ class maxoptics_sdk.core.structure.post_process_terrace_property_typing.PostProc
 class maxoptics_sdk.core.structure.post_process_terrace_property_typing.PostProcessTerracePropertyGeometry(*args, **kwargs)
 ```
 
-- Bases: **Protocol**
+Bases: **Protocol**
 
-<table>
+<table class="custom-table">
     <tr>
         <th>Parameter</th>
         <th>Type</th>
-        <th>Description</th>
+        <th>Description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
     </tr>
     <tr>
         <td>bottom_length</td>
@@ -126,21 +126,22 @@ class maxoptics_sdk.core.structure.post_process_terrace_property_typing.PostProc
     <td class="fourth-column">No return.</td>
   </tr>
 </table>
+<br/>
 
 ```py
 class maxoptics_sdk.core.structure.post_process_terrace_property_typing.PostProcessTerracePropertyMaterial(*args, **kwargs)
 ```
 
-- Bases: **Protocol**
+Bases: **Protocol**
 
-<table>
+<table class="custom-table">
     <tr>
         <th>Parameter</th>
         <th>Type</th>
     </tr>
     <tr>
-        <td>geometry</td>
-        <td>PostProcessTerracePropertyGeometry</td>
+        <td class="third-column">geometry</td>
+        <td class="fourth-column">PostProcessTerracePropertyGeometry</td>
     </tr>
     <tr>
         <td>material</td>

@@ -4,18 +4,18 @@
 class maxoptics_sdk.core.struture.post_process_rectangle_property_typing.PostProcessRectangleProperty(*args, **kwargs)
 ```
 
-- Bases: **Dict**
+Bases: **Dict**
 
 ### Parameters and Returns
 
-<table>
+<table class="custom-table">
     <tr>
         <th>Property</th>
         <th>Type</th>
     </tr>
     <tr>
-        <td>geometry</td>
-        <td>PostProcessRectanglePropertyGeometry</td>
+        <td class="third-column">geometry</td>
+        <td class="fourth-column">PostProcessRectanglePropertyGeometry</td>
     </tr>
     <tr>
         <td>material</td>
@@ -30,20 +30,21 @@ class maxoptics_sdk.core.struture.post_process_rectangle_property_typing.PostPro
     <td class="fourth-column">No return.</td>
   </tr>
 </table>
+<br/>
 
 ```py
 class maxoptics_sdk.core.struture.post_process_rectangle_property_typing.PostProcessRectanglePropertyGeometry(*args, **kwargs)
 ```
 
-- Bases: **Protocol**
+Bases: **Protocol**
 
 ### Parameters and Returns
 
-<table>
+<table class="custom-table">
     <tr>
         <th>Parameter</th>
         <th>Type</th>
-        <th>Description</th>
+        <th>Description&nbsp;</th>
     </tr>
     <tr>
         <td>rotate_x</td>
@@ -128,20 +129,21 @@ class maxoptics_sdk.core.struture.post_process_rectangle_property_typing.PostPro
     <td class="fourth-column">No return.</td>
   </tr>
 </table>
+<br/>
 
 ```py
 class maxoptics_sdk.core.struture.post_process_rectangle_property_typing.PostProcessRectanglePropertyMaterial(*args, **kwargs)
 ```
 
-- Bases: **Protocol**
+Bases: **Protocol**
 
 ### Parameters and Returns
 
-<table>
+<table class="custom-table">
     <tr>
         <th>Parameter</th>
         <th>Type</th>
-        <th>Description</th>
+        <th>Description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
     </tr>
     <tr>
         <td>material</td>

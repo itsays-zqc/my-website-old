@@ -4,15 +4,15 @@
 class maxoptics_sdk.core.structure.post_process_triangle_property_typing.PostProcessRectanglePropertyMaterial(*args, **kwargs)
 ```
 
-- Bases: **Protocol**
+Bases: **Protocol**
 
 ### Parameters and Returns
 
-<table>
+<table class="custom-table">
     <tr>
         <th>Parameter</th>
         <th>Type</th>
-        <th>Description</th>
+        <th>Description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
     </tr>
     <tr>
         <td>material</td>
@@ -32,15 +32,16 @@ class maxoptics_sdk.core.structure.post_process_triangle_property_typing.PostPro
     <td class="fourth-column">No return.</td>
   </tr>
 </table>
+<br/>
 
 ```py
 class maxoptics_sdk.core.structure.post_process_triangle_property_typing.PostProcessRectanglePropertyGeometry(*args, **kwargs)
 ```
-- Bases: **Protocol**
+Bases: **Protocol**
 
 ### Parameters and Returns
 
-<table>
+<table class="custom-table">
     <tr>
         <th>Parameter</th>
         <th>Type</th>
@@ -129,23 +130,24 @@ class maxoptics_sdk.core.structure.post_process_triangle_property_typing.PostPro
     <td class="fourth-column">No return.</td>
   </tr>
 </table>
+<br/>
 
 ```py
 class maxoptics_sdk.core.structure.post_process_triangle_property_typing.PostProcessRectangleProperty(*args, **kwargs)
 ```
 
-- Bases: **Protocol**
+Bases: **Protocol**
 
 ### Parameters and Returns
 
-<table>
+<table class="custom-table">
     <tr>
         <th>Property</th>
         <th>Type</th>
     </tr>
     <tr>
-        <td>geometry</td>
-        <td>PostProcessTrianglePropertyGeometry</td>
+        <td class="third-column">geometry</td>
+        <td class="fourth-column">PostProcessTrianglePropertyGeometry</td>
     </tr>
     <tr>
         <td>material</td>

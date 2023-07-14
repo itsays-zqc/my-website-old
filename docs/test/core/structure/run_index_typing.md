@@ -18,10 +18,14 @@ class maxoptics_sdk.core.structure.run_index_typing.RunIndexGeometry(*args, **kw
 ```
 Bases: **dict**
 
-<table>
+<table class="custom-table">
+   <tr>
+    <th>Parameter</th>
+    <th>Type</th>
+  </tr>
   <tr>
-    <th>monitor_type</th>
-    <td>Literal['2d_x_normal', '2d_y_normal', '2d_z_normal']</td>
+    <td class="third-column">monitor_type</td>
+    <td class="fourth-column">Literal['2d_x_normal', '2d_y_normal', '2d_z_normal']</td>
   </tr>
   <tr>
     <th>x</th>

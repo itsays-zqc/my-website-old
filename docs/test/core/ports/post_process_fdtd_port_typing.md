@@ -211,7 +211,7 @@ class maxoptics_sdk.core.ports.post_process_fdtd_port_typing.PostProcessFdtdPort
     <td class="typeface">Type</td>
   </tr>
   <tr>
-    <td>threshold</td>
-    <td>float | int | FloatParameter | FloatParameterExpression</td>
+    <td class="first-column">threshold</td>
+    <td class="second-column">float | int | FloatParameter | FloatParameterExpression</td>
   </tr>
 </table>
