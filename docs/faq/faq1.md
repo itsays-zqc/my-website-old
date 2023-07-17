@@ -2,12 +2,12 @@
 sidebar_position: 2
 ---
 
-
-# 1. How to install Max-Optics GUI
+# How to install Max-Optics
+## 1. How to install Max-Optics GUI
 
 Max-Optics Studio Local Passive Software Installation
 
-## 1) Open the Installation Package
+### 1) Open the Installation Package
 
 Find the Setup.exe package, double-click to open the MOPassive-x.x.x.x+build.xxxxxxxx-setup
 installation package.
@@ -22,7 +22,7 @@ Check the contents and click "I Accept The Agreement" item, then click "Next".
 
 !['install3'](../../static/img/faq/install3.png )
 
-## 2) Select Destination Location
+### 2) Select Destination Location
 
 User can custom destination location by pressing “Browse...” button , or just use the auto-default
 location, then press the “Next” button.
@@ -30,7 +30,7 @@ location, then press the “Next” button.
 !['install4'](../../static/img/faq/install4.png )
 
 
-## 3) Select Start Menu Folder & Create a Shortcut
+### 3) Select Start Menu Folder & Create a Shortcut
 
 In the "Select Start Menu Folder" window, users can either click the "Next" button directly or
 customize the location for shortcuts by clicking the "Browse..." button.
@@ -43,38 +43,38 @@ users can simply uncheck the option and click the "Next" button directly.
 
 !['install6'](../../static/img/faq/install6.png )
 
-## 4) Ready to Install
+### 4) Ready to Install
 
 In the "Ready to Install" window, click the "Install" button to proceed with the installation.
 !['install7'](../../static/img/faq/install7.png )
 
-## 5) Installing
+### 5) Installing
 
 Please wait, until installation is complete.
 
 !['install8'](../../static/img/faq/install8.png )
 
-## 6) Restart
+### 6) Restart
 
 Check either the “yes, restart the computer now” or “No, I will restart the computer later” to invoke
 the software. Then press “Finish” button.
 
 !['install9'](../../static/img/faq/install9.png )
 
-## 7) Complete
+### 7) Complete
 
 Once the installation is complete, the user can find a shortcut to the software on their desktop.
 
 !['install10'](../../static/img/faq/install10.png )
 
-##  Notes:
+###  Notes:
 User can double click the shortcut to invoke the software;
 
 User also can double click a .passive file to open the software automatically
 
-# 2. How to install Max-Optics Python SDK
+## 2. How to install Max-Optics Python SDK
 
-## 1) Python Environment Prepare
+### 1) Python Environment Prepare
 
 通过以下命令, 确保本地环境`Python`版本为`3.8.x`
 
@@ -82,7 +82,7 @@ User also can double click a .passive file to open the software automatically
 python --version
 ```
 
-## 2) Copy handover
+### 2) Copy handover
 
 目录结构如下
 
@@ -158,7 +158,7 @@ python --version
 
 `wheels`为安装`AIO`所需的所有所有依赖
 
-## 3) Check/Modify settings.json config of VSCode
+### 3) Check/Modify settings.json config of VSCode
 
 `python.defaultInterpreterPath`为本地环境中的`python`运行时地址, 请根据本地环境确认或修改
 
@@ -166,12 +166,12 @@ python --version
 
 `python.analysis.typeCheckingMode`为是否开启类型开关, 默认为`basic`
 
-## 4) Open handover directory
+### 4) Open handover directory
 
 !['install11'](../../static/img/faq/install11.png)
 !['install12'](../../static/img/faq/install12.png)
 
-## 5) Create PIP
+### 5) Create PIP
 
 若为首次安装, 即未创建`Python`虚拟环境, 则通过`Create PIP`任务进行创建
 
@@ -182,13 +182,13 @@ VSCode会自动打开终端进行AIO SDK的安装, 安装结束后, 按任意键
 
 !['install15'](../../static/img/faq/install15.png)
 
-## 6) Update PIP
+### 6) Update PIP
 
 若收到新的安装文件, 则将安装文件`xxx.whl`保存至`wheels`文件夹, 同时修改`requirements.txt`中的版本, 然后执行`VSCode`的`Update PIP`任务
 
 !['install16'](../../static/img/faq/install16.png)
 
-## 7) handbook
+### 7) handbook
 
 在`VSCode`中打开一个终端, 此时会激活`.venv_maxoptics`虚拟环境, 通过输入如下命令可进行手册查看
 
@@ -200,7 +200,7 @@ mo.sdk doc
 
 !['install18'](../../static/img/faq/install18.png)
 
-## 8) Copy examples
+### 8) Copy examples
    
 在`VSCode`中打开一个终端, 此时会激活`.venv_maxoptics`虚拟环境, 通过输入如下命令可进行`examples`拷贝
 
@@ -216,13 +216,13 @@ mo.sdk init -n examples
 
 !['install20'](../../static/img/faq/install20.png)
 
-## 9) Run File
+### 9) Run File
 
 打开脚本样例中的一个`py`文件, 在终端中运行`Run File`任务可执行脚本
 
 !['install21'](../../static/img/faq/install21.png)
 
-## 10) MaxOptics License Instruction
+### 10) MaxOptics License Instruction
 
 授权设置终端 [MaxOptics SDK__SetLocalServer.exe](../../MaxOpticsSDK__SetLocalServer.exe)
 
