@@ -21,4 +21,8 @@ Shanghai Max-Optics Information Technology Co.,Ltd was established in August 201
 The company's business focuses on 5G, optical communication, optoelectronic sensing, optical computing, industrial IoT, and defense security. It mainly covers two major businesses: electromagnetic field simulation and measurement. The electromagnetic simulation business includes simulation design software for passive/active optoelectronic chips and systems, optoelectronic chip simulation design services, and microwave/radio frequency antenna simulation design services. The electromagnetic field measurement business includes optoelectronic device measurement and parameter extraction platforms. The microwave millimeter wave measurement business mainly includes 5G NR OTA testing systems, planar/cylindrical/spherical near-field and far-field antenna testing systems. The company is customer-oriented, starting from the direct needs of customers, and completes turnkey projects that cover customized design, manufacturing, development, and delivery of automated measurement equipment hardware and software. It also provides value-added services for electromagnetic field design and measurement analysis.
 </div>
 
+这是一个行内公式： <InlineMath math="E=mc^2" />
+
+这是一个块级公式：
+
 <BlockMath math="\sum_{i=1}^{n} i = \frac{n(n+1)}{2}" />

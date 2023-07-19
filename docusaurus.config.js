@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  // plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
+  // plugins: [require.resolve("@cmfcmf/docusaurus-search-local")]
 
   // or, if you want to specify options:
 
@@ -23,7 +23,7 @@ const config = {
     require.resolve('docusaurus-lunr-search') ,
     require.resolve('./plugins/katex.js'),
   // {
-  //   position: 'left',
+  //   position: 'left',x
   // },
  ],
 
