@@ -21,6 +21,7 @@ const config = {
   // ],
   plugins: [
     require.resolve('docusaurus-lunr-search') ,
+    require.resolve('./plugins/katex.js'),
   // {
   //   position: 'left',
   // },
