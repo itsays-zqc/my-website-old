@@ -20,15 +20,21 @@ The company's business focuses on 5G, optical communication, optoelectronic sens
 </div>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 这是一个行内公式： <InlineMath math="E=mc^2" />
 
 这是一个块级公式：
 
 <BlockMath math="\sum_{i=1}^{n} i = \frac{n(n+1)}{2}" />
 =======
+=======
+>>>>>>> parent of 0aace96b6 (增加了react-katex组件用以支持latex公式)
 <!-- | 曼光     | 曼光     | 曼光科技     |
 | ------- | ------- | ------- |
 | 单元格1 | 单元格2 | 单元格3 |
 | 单元格4 | 单元格5 | 单元格6 |
  -->
+<<<<<<< HEAD
+>>>>>>> parent of 0aace96b6 (增加了react-katex组件用以支持latex公式)
+=======
 >>>>>>> parent of 0aace96b6 (增加了react-katex组件用以支持latex公式)
